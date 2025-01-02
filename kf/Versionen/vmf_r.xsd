@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="www.dglab.uni-jena.de/vmf/r" vc:maxVersion="1.1" vc:minVersion="1.0" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:r="www.dglab.uni-jena.de/vmf/r" xmlns="www.dglab.uni-jena.de/vmf/r">
+
+<xs:attribute name="ana" type="r:ana"/>
+
+<xs:simpleType name="ana">
+<xs:restriction base="xs:normalizedString">
+
+<xs:enumeration value="0"/>
+<xs:enumeration value="-"/>
+<xs:enumeration value="+"/>
+<xs:enumeration value="*"/>
+
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="www.dglab.uni-jena.de/vmf/h" vc:maxVersion="1.1" vc:minVersion="1.0" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:h="www.dglab.uni-jena.de/vmf/h">
+
+<xs:attribute name="ana" type="h:ana"><xs:annotation><xs:documentation><p>HD - Held</p><p>OB - Objekt</p><p>AN - Antagonist</p><p>ST - Stifter</p><p>HF - Helfer</p><p>ZM - Zaubermittel</p><p>FH - Falscher Held</p><p>HO - Herr des Objektes</p><p>AG - Auftraggeber</p><p>VB - Verbindende Person</p><p>RC - Rächender</p></xs:documentation></xs:annotation></xs:attribute>
+<xs:simpleType name="ana">
+<xs:restriction base="xs:normalizedString">
+<!--<xs:restriction base="xs:normalizedString">
+<xs:pattern value="[HDOBANSTFZMAGVBRC_0]{1,11}"></xs:pattern>-->
+<xs:enumeration value=""/>
+<xs:enumeration value="HD"/>
+<xs:enumeration value="OB"/>
+<xs:enumeration value="AN"/>
+<xs:enumeration value="ST"/>
+<xs:enumeration value="HF"/>
+<xs:enumeration value="ZM"/>
+<xs:enumeration value="FH"/>
+<xs:enumeration value="HO"/>
+<xs:enumeration value="AG"/>
+<xs:enumeration value="VB"/>
+<xs:enumeration value="RC"/>
+
+<xs:enumeration value="HD_OB"/>
+<xs:enumeration value="HD_OB_ST"/>
+<xs:enumeration value="HD_OB_AN"/>
+<xs:enumeration value="HD_OB_HF"/>
+<xs:enumeration value="HD_OB_ZM"/>
+<xs:enumeration value="HD_OB_FH"/>
+<xs:enumeration value="HD_OB_HO"/>
+<xs:enumeration value="HD_OB_AG"/>
+<xs:enumeration value="HD_OB_VB"/>
+<xs:enumeration value="HD_OB_RC"/>
+
+<xs:enumeration value="HD_AN"/>
+<xs:enumeration value="HD_AN_ST"/>
+<xs:enumeration value="HD_AN_HF"/>
+<xs:enumeration value="HD_AN_ZM"/>
+<xs:enumeration value="HD_AN_FH"/>
+<xs:enumeration value="HD_AN_HO"/>
+<xs:enumeration value="HD_AN_AG"/>
+<xs:enumeration value="HD_AN_VB"/>
+<xs:enumeration value="HD_AN_RC"/>
+
+<xs:enumeration value="HD_OB_AN_ST"/>
+<xs:enumeration value="HD_OB_AN_HF"/>
+<xs:enumeration value="HD_OB_AN_ZM"/>
+<xs:enumeration value="HD_OB_AN_FH"/>
+<xs:enumeration value="HD_OB_AN_HO"/>
+<xs:enumeration value="HD_OB_AN_AG"/>
+<xs:enumeration value="HD_OB_AN_VB"/>
+<xs:enumeration value="HD_OB_AN_RC"/>
+<xs:enumeration value="HD_OB_ST_HF"/>
+<xs:enumeration value="HD_OB_ST_ZM"/>
+<xs:enumeration value="HD_OB_ST_FH"/>
+<xs:enumeration value="HD_OB_ST_HO"/>
+<xs:enumeration value="HD_OB_ST_AG"/>
+<xs:enumeration value="HD_OB_ST_VB"/>
+<xs:enumeration value="HD_OB_ST_RC"/>
+<xs:enumeration value="HD_OB_HF_ZM"/>
+<xs:enumeration value="HD_OB_HF_FH"/>
+<xs:enumeration value="HD_OB_HF_HO"/>
+<xs:enumeration value="HD_OB_HF_AG"/>
+<xs:enumeration value="HD_OB_HF_VB"/>
+<xs:enumeration value="HD_OB_HF_RC"/>
+<xs:enumeration value="HD_OB_ZM_FH"/>
+<xs:enumeration value="HD_OB_ZM_HO"/>
+<xs:enumeration value="HD_OB_ZM_AG"/>
+<xs:enumeration value="HD_OB_ZM_VB"/>
+<xs:enumeration value="HD_OB_ZM_RC"/>
+<xs:enumeration value="HD_OB_FH_HO"/>
+<xs:enumeration value="HD_OB_FH_AG"/>
+<xs:enumeration value="HD_OB_FH_VB"/>
+<xs:enumeration value="HD_OB_FH_RC"/>
+<xs:enumeration value="HD_OB_HO_AG"/>
+<xs:enumeration value="HD_OB_HO_VB"/>
+<xs:enumeration value="HD_OB_HO_RC"/>
+<xs:enumeration value="HD_OB_VB_RC"/>
+
+<xs:enumeration value="HD_AN_ST_HF"/>
+<xs:enumeration value="HD_AN_ST_ZM"/>
+<xs:enumeration value="HD_AN_ST_FH"/>
+<xs:enumeration value="HD_AN_ST_HO"/>
+<xs:enumeration value="HD_AN_ST_AG"/>
+<xs:enumeration value="HD_AN_ST_VB"/>
+<xs:enumeration value="HD_AN_ST_RC"/>
+<xs:enumeration value="HD_AN_HF_ZM"/>
+<xs:enumeration value="HD_AN_HF_FH"/>
+<xs:enumeration value="HD_AN_HF_HO"/>
+<xs:enumeration value="HD_AN_HF_AG"/>
+<xs:enumeration value="HD_AN_HF_VB"/>
+<xs:enumeration value="HD_AN_HF_RC"/>
+<xs:enumeration value="HD_AN_ZM_FH"/>
+<xs:enumeration value="HD_AN_ZM_HO"/>
+<xs:enumeration value="HD_AN_ZM_AG"/>
+<xs:enumeration value="HD_AN_ZM_VB"/>
+<xs:enumeration value="HD_AN_ZM_RC"/>
+<xs:enumeration value="HD_AN_FH_HO"/>
+<xs:enumeration value="HD_AN_FH_AG"/>
+<xs:enumeration value="HD_AN_FH_VB"/>
+<xs:enumeration value="HD_AN_FH_RC"/>
+<xs:enumeration value="HD_AN_HO_AG"/>
+<xs:enumeration value="HD_AN_HO_VB"/>
+<xs:enumeration value="HD_AN_HO_RC"/>
+<xs:enumeration value="HD_AN_AG_VB"/>
+<xs:enumeration value="HD_AN_AG_RC"/>
+<xs:enumeration value="HD_AN_VB_RC"/>
+
+<xs:enumeration value="HD_ST"/>
+<xs:enumeration value="HD_ST_HF"/>
+<xs:enumeration value="HD_ST_HF_ZM"/>
+<xs:enumeration value="HD_ST_HF_FH"/>
+<xs:enumeration value="HD_ST_HF_HO"/>
+<xs:enumeration value="HD_ST_HF_AG"/>
+<xs:enumeration value="HD_ST_HF_VB"/>
+<xs:enumeration value="HD_ST_HF_RC"/>
+
+<xs:enumeration value="HD_ST_ZM"/>
+<xs:enumeration value="HD_ST_ZM_FH"/>
+<xs:enumeration value="HD_ST_ZM_HO"/>
+<xs:enumeration value="HD_ST_ZM_AG"/>
+<xs:enumeration value="HD_ST_ZM_VB"/>
+<xs:enumeration value="HD_ST_ZM_RC"/>
+
+<xs:enumeration value="HD_ST_FH"/>
+<xs:enumeration value="HD_ST_FH_HO"/>
+<xs:enumeration value="HD_ST_FH_AG"/>
+<xs:enumeration value="HD_ST_FH_VB"/>
+<xs:enumeration value="HD_ST_FH_RC"/>
+
+<xs:enumeration value="HD_ST_HO"/>
+<xs:enumeration value="HD_ST_HO_AG"/>
+<xs:enumeration value="HD_ST_HO_VB"/>
+<xs:enumeration value="HD_ST_HO_RC"/>
+
+<xs:enumeration value="HD_ST_AG"/>
+<xs:enumeration value="HD_ST_AG_VB"/>
+<xs:enumeration value="HD_ST_AG_VB"/>
+
+<xs:enumeration value="HD_ST_VB"/>
+<xs:enumeration value="HD_ST_VB_RC"/>
+
+<xs:enumeration value="HD_ST_RC"/>
+
+
+
+<xs:enumeration value="HD_HF"/>
+<xs:enumeration value="HD_HF_ZM"/>
+<xs:enumeration value="HD_HF_ZM_FH"/>
+<xs:enumeration value="HD_HF_ZM_HO"/>
+<xs:enumeration value="HD_HF_ZM_AG"/>
+<xs:enumeration value="HD_HF_ZM_VB"/>
+<xs:enumeration value="HD_HF_ZM_RC"/>
+
+<xs:enumeration value="HD_HF_FH"/>
+<xs:enumeration value="HD_HF_FH_HO"/>
+<xs:enumeration value="HD_HF_FH_AG"/>
+<xs:enumeration value="HD_HF_FH_VB"/>
+<xs:enumeration value="HD_HF_FH_RC"/>
+
+<xs:enumeration value="HD_HF_HO"/>
+<xs:enumeration value="HD_HF_HO_AG"/>
+<xs:enumeration value="HD_HF_HO_VB"/>
+<xs:enumeration value="HD_HF_HO_RC"/>
+
+<xs:enumeration value="HD_HF_AG"/>
+<xs:enumeration value="HD_HF_AG_VB"/>
+<xs:enumeration value="HD_HF_AG_RC"/>
+
+<xs:enumeration value="HD_HF_VB"/>
+<xs:enumeration value="HD_HF_VB_RC"/>
+
+<xs:enumeration value="HD_HF_RC"/>
+
+<xs:enumeration value="HD_ZM"/>
+<xs:enumeration value="HD_ZM_FH"/>
+<xs:enumeration value="HD_ZM_FH_HO"/>
+<xs:enumeration value="HD_ZM_FH_AG"/>
+<xs:enumeration value="HD_ZM_FH_VB"/>
+<xs:enumeration value="HD_ZM_FH_RC"/>
+
+<xs:enumeration value="HD_ZM_HO"/>
+<xs:enumeration value="HD_ZM_HO_AG"/>
+<xs:enumeration value="HD_ZM_HO_VB"/>
+<xs:enumeration value="HD_ZM_HO_RC"/>
+
+<xs:enumeration value="HD_ZM_AG"/>
+<xs:enumeration value="HD_ZM_AG_VB"/>
+<xs:enumeration value="HD_ZM_AG_RC"/>
+
+<xs:enumeration value="HD_ZM_VB"/>
+<xs:enumeration value="HD_ZM_VB_RC"/>
+
+<xs:enumeration value="HD_ZM_RC"/>
+
+<xs:enumeration value="HD_FH"/>
+<xs:enumeration value="HD_FH_HO"/>
+<xs:enumeration value="HD_FH_HO_AG"/>
+<xs:enumeration value="HD_FH_HO_VB"/>
+<xs:enumeration value="HD_FH_HO_RC"/>
+
+<xs:enumeration value="HD_FH_AG"/>
+<xs:enumeration value="HD_FH_AG_VB"/>
+<xs:enumeration value="HD_FH_AG_RV"/>
+
+<xs:enumeration value="HD_FH_VB"/>
+<xs:enumeration value="HD_FH_VB_RC"/>
+
+<xs:enumeration value="HD_FH_RC"/>
+
+<xs:enumeration value="HD_HO"/>
+<xs:enumeration value="HD_HO_AG"/>
+<xs:enumeration value="HD_HO_AG_VB"/>
+<xs:enumeration value="HD_HO_AG_RC"/>
+
+<xs:enumeration value="HD_HO_VB"/>
+<xs:enumeration value="HD_HO_VB_RC"/>
+
+<xs:enumeration value="HD_HO_RC"/>
+
+<xs:enumeration value="HD_AG"/>
+<xs:enumeration value="HD_AG_VB"/>
+<xs:enumeration value="HD_AG_VB_RC"/>
+
+<xs:enumeration value="HD_AG_RC"/>
+
+<xs:enumeration value="HD_VB"/>
+<xs:enumeration value="HD_VB_RC"/>
+<xs:enumeration value="HD_RC"/>
+
+<xs:enumeration value="OB_AN"/>
+<xs:enumeration value="OB_AN_ST"/>
+<xs:enumeration value="OB_AN_ST_HF"/>
+<xs:enumeration value="OB_AN_ST_ZM"/>
+<xs:enumeration value="OB_AN_ST_FH"/>
+<xs:enumeration value="OB_AN_ST_HO"/>
+<xs:enumeration value="OB_AN_ST_AG"/>
+<xs:enumeration value="OB_AN_ST_VB"/>
+<xs:enumeration value="OB_AN_ST_RC"/>
+
+<xs:enumeration value="OB_AN_HF"/>
+<xs:enumeration value="OB_AN_HF_ZM"/>
+<xs:enumeration value="OB_AN_HF_FH"/>
+<xs:enumeration value="OB_AN_HF_HO"/>
+<xs:enumeration value="OB_AN_HF_AG"/>
+<xs:enumeration value="OB_AN_HF_VB"/>
+<xs:enumeration value="OB_AN_HF_RC"/>
+
+<xs:enumeration value="OB_AN_ZM"/>
+<xs:enumeration value="OB_AN_ZM_FH"/>
+<xs:enumeration value="OB_AN_ZM_HO"/>
+<xs:enumeration value="OB_AN_ZM_AG"/>
+<xs:enumeration value="OB_AN_ZM_VB"/>
+<xs:enumeration value="OB_AN_ZM_RC"/>
+
+<xs:enumeration value="OB_AN_FH"/>
+<xs:enumeration value="OB_AN_FH_HO"/>
+<xs:enumeration value="OB_AN_FH_AG"/>
+<xs:enumeration value="OB_AN_FH_VB"/>
+<xs:enumeration value="OB_AN_FH_RC"/>
+
+<xs:enumeration value="OB_AN_HO"/>
+<xs:enumeration value="OB_AN_HO_AG"/>
+<xs:enumeration value="OB_AN_HO_VB"/>
+<xs:enumeration value="OB_AN_HO_RC"/>
+
+<xs:enumeration value="OB_AN_AG"/>
+<xs:enumeration value="OB_AN_AG_VB"/>
+<xs:enumeration value="OB_AN_AG_RC"/>
+
+<xs:enumeration value="OB_AN_VB"/>
+<xs:enumeration value="OB_AN_VB_RC"/>
+
+<xs:enumeration value="OB_AN_RC"/>
+
+
+
+<xs:enumeration value="OB_ST"/>
+<xs:enumeration value="OB_ST_HF"/>
+<xs:enumeration value="OB_ST_ZM"/>
+<xs:enumeration value="OB_ST_FH"/>
+<xs:enumeration value="OB_ST_HO"/>
+<xs:enumeration value="OB_ST_AG"/>
+<xs:enumeration value="OB_ST_VB"/>
+<xs:enumeration value="OB_ST_RC"/>
+
+<xs:enumeration value="OB_HF"/>
+<xs:enumeration value="OB_HF_ZM"/>
+<xs:enumeration value="OB_HF_FH"/>
+<xs:enumeration value="OB_HF_HO"/>
+<xs:enumeration value="OB_HF_AG"/>
+<xs:enumeration value="OB_HF_VB"/>
+<xs:enumeration value="OB_HF_RC"/>
+
+<xs:enumeration value="OB_ZM"/>
+<xs:enumeration value="OB_ZM_FH"/>
+<xs:enumeration value="OB_ZM_HO"/>
+<xs:enumeration value="OB_ZM_AG"/>
+<xs:enumeration value="OB_ZM_VB"/>
+<xs:enumeration value="OB_ZM_RC"/>
+
+<xs:enumeration value="OB_FH"/>
+<xs:enumeration value="OB_FH_HO"/>
+<xs:enumeration value="OB_FH_AG"/>
+<xs:enumeration value="OB_FH_VB"/>
+<xs:enumeration value="OB_FH_RC"/>
+
+<xs:enumeration value="OB_HO"/>
+<xs:enumeration value="OB_HO_AG"/>
+<xs:enumeration value="OB_HO_VB"/>
+<xs:enumeration value="OB_HO_RC"/>
+
+<xs:enumeration value="OB_AG"/>
+<xs:enumeration value="OB_AG_VB"/>
+<xs:enumeration value="OB_AG_RC"/>
+
+<xs:enumeration value="OB_VB"/>
+<xs:enumeration value="OB_VB_RC"/>
+
+<xs:enumeration value="OB_RC"/>
+
+<xs:enumeration value="AN_ST"/>
+<xs:enumeration value="AN_ST_HF"/>
+<xs:enumeration value="AN_ST_ZM"/>
+<xs:enumeration value="AN_ST_FH"/>
+<xs:enumeration value="AN_ST_HO"/>
+<xs:enumeration value="AN_ST_AG"/>
+<xs:enumeration value="AN_ST_VB"/>
+<xs:enumeration value="AN_ST_RC"/>
+
+<xs:enumeration value="AN_HF"/>
+<xs:enumeration value="AN_HF_ZM"/>
+<xs:enumeration value="AN_HF_FH"/>
+<xs:enumeration value="AN_HF_HO"/>
+<xs:enumeration value="AN_HF_AG"/>
+<xs:enumeration value="AN_HF_VB"/>
+<xs:enumeration value="AN_HF_RC"/>
+
+<xs:enumeration value="AN_ZM"/>
+<xs:enumeration value="AN_ZM_FH"/>
+<xs:enumeration value="AN_ZM_HO"/>
+<xs:enumeration value="AN_ZM_AG"/>
+<xs:enumeration value="AN_ZM_VB"/>
+<xs:enumeration value="AN_ZM_RC"/>
+
+<xs:enumeration value="AN_FH"/>
+<xs:enumeration value="AN_FH_HO"/>
+<xs:enumeration value="AN_FH_AG"/>
+<xs:enumeration value="AN_FH_VB"/>
+<xs:enumeration value="AN_FH_RC"/>
+
+<xs:enumeration value="AN_HO"/>
+<xs:enumeration value="AN_HO_AG"/>
+<xs:enumeration value="AN_HO_VB"/>
+<xs:enumeration value="AN_HO_RC"/>
+
+<xs:enumeration value="AN_AG"/>
+<xs:enumeration value="AN_AG_VB"/>
+<xs:enumeration value="AN_AG_RC"/>
+
+<xs:enumeration value="AN_VB"/>
+<xs:enumeration value="AN_VB_RC"/>
+
+<xs:enumeration value="AN_RC"/>
+
+<xs:enumeration value="ST_HF"/>
+<xs:enumeration value="ST_HF_ZM"/>
+<xs:enumeration value="ST_HF_FH"/>
+<xs:enumeration value="ST_HF_HO"/>
+<xs:enumeration value="ST_HF_AG"/>
+<xs:enumeration value="ST_HF_VB"/>
+<xs:enumeration value="ST_HF_RC"/>
+
+<xs:enumeration value="ST_ZM"/>
+<xs:enumeration value="ST_ZM_FH"/>
+<xs:enumeration value="ST_ZM_HO"/>
+<xs:enumeration value="ST_ZM_AG"/>
+<xs:enumeration value="ST_ZM_VB"/>
+<xs:enumeration value="ST_ZM_RC"/>
+
+<xs:enumeration value="ST_FH"/>
+<xs:enumeration value="ST_FH_HO"/>
+<xs:enumeration value="ST_FH_AG"/>
+<xs:enumeration value="ST_FH_VB"/>
+<xs:enumeration value="ST_FH_RC"/>
+
+<xs:enumeration value="ST_HO"/>
+<xs:enumeration value="ST_HO_AG"/>
+<xs:enumeration value="ST_HO_VB"/>
+<xs:enumeration value="ST_HO_RC"/>
+
+<xs:enumeration value="ST_AG"/>
+<xs:enumeration value="ST_AG_VB"/>
+<xs:enumeration value="ST_AG_RC"/>
+
+<xs:enumeration value="ST_VB"/>
+<xs:enumeration value="ST_VB_RC"/>
+
+<xs:enumeration value="ST_RC"/>
+
+<xs:enumeration value="HF_ZM"/>
+<xs:enumeration value="HF_ZM_FH"/>
+<xs:enumeration value="HF_ZM_HO"/>
+<xs:enumeration value="HF_ZM_AG"/>
+<xs:enumeration value="HF_ZM_VB"/>
+<xs:enumeration value="HF_ZM_RC"/>
+
+<xs:enumeration value="HF_FH"/>
+<xs:enumeration value="HF_FH_HO"/>
+<xs:enumeration value="HF_FH_AG"/>
+<xs:enumeration value="HF_FH_VB"/>
+<xs:enumeration value="HF_FH_RC"/>
+
+<xs:enumeration value="HF_HO"/>
+<xs:enumeration value="HF_HO_AG"/>
+<xs:enumeration value="HF_HO_VB"/>
+<xs:enumeration value="HF_HO_RC"/>
+
+<xs:enumeration value="HF_AG"/>
+<xs:enumeration value="HF_AG_VB"/>
+<xs:enumeration value="HF_AG_RC"/>
+
+<xs:enumeration value="HF_VB"/>
+<xs:enumeration value="HF_VB_RC"/>
+
+<xs:enumeration value="HF_RC"/>
+
+<xs:enumeration value="ZM_FH"/>
+<xs:enumeration value="ZM_FH_HO"/>
+<xs:enumeration value="ZM_FH_AG"/>
+<xs:enumeration value="ZM_FH_VB"/>
+<xs:enumeration value="ZM_FH_RC"/>
+
+<xs:enumeration value="ZM_HO"/>
+<xs:enumeration value="ZM_HO_AG"/>
+<xs:enumeration value="ZM_HO_VB"/>
+<xs:enumeration value="ZM_HO_RC"/>
+
+<xs:enumeration value="ZM_AG"/>
+<xs:enumeration value="ZM_AG_VB"/>
+<xs:enumeration value="ZM_AG_RC"/>
+
+<xs:enumeration value="ZM_VB"/>
+<xs:enumeration value="ZM_VB_RC"/>
+
+<xs:enumeration value="ZM_RC"/>
+
+<xs:enumeration value="FH_HO"/>
+<xs:enumeration value="FH_HO_AG"/>
+<xs:enumeration value="FH_HO_VB"/>
+<xs:enumeration value="FH_HO_RC"/>
+
+<xs:enumeration value="FH_AG"/>
+<xs:enumeration value="FH_AG_VB"/>
+<xs:enumeration value="FH_AG_RC"/>
+
+<xs:enumeration value="FH_VB"/>
+<xs:enumeration value="FH_VB_RC"/>
+<xs:enumeration value="FH_RC"/>
+
+<xs:enumeration value="HO_AG"/>
+<xs:enumeration value="HO_AG_VB"/>
+<xs:enumeration value="HO_AG_RC"/>
+
+<xs:enumeration value="HO_VB"/>
+<xs:enumeration value="HO_VB_RC"/>
+
+<xs:enumeration value="HO_RC"/>
+
+<xs:enumeration value="AG_VB"/>
+<xs:enumeration value="AG_VB_RC"/>
+
+<xs:enumeration value="AG_RC"/>
+
+<xs:enumeration value="VB_RC"/>
+
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>

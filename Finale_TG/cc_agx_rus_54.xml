@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title xml:lang="deu">Agul Folklore</title>
+    <title xml:lang="eng">Agulische Folklore</title>
+    <author key="gnd:133557154">
+     <persName>
+      <forename>Elguja</forename>
+      <surname>Dadunashvili</surname>
+     </persName>
+    </author>
+    <author>
+     <persName key="gnd:1154734161">
+      <forename>Diana</forename>
+      <surname>Forker</surname>
+     </persName>
+    </author>
+    <respStmt>
+     <resp>Annotated according to the ATU system</resp>
+     <name>
+      <persName key="gnd:133557154">
+       <forename>Elguja</forename>
+       <surname>Dadunashvili</surname>
+      </persName>
+     </name>
+    </respStmt>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>
+     <name key="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+    </publisher>
+    <pubPlace>
+     <genName corresp="https://www.geonames.org/2895044/jena.html">Jena</genName>
+    </pubPlace>
+    <date>2024</date>
+    <distributor>
+     <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+     <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+    </distributor>
+    <availability>
+     <p>
+      <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+     </p>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <biblFull>
+     <titleStmt>
+      <title xml:lang="rus">Агулзский языкъ. Граматический очеркъ, тексты, сборникъ агульскихъ слобъ съ русскумъ къ нему указателемъ</title>
+      <author key="gnd:116138696">
+       <persName>
+        <forename>Adolf</forename>
+        <surname>Dirr</surname>
+       </persName>
+      </author>
+      <respStmt>
+       <resp/>
+       <name/>
+      </respStmt>
+     </titleStmt>
+     <extent>
+      <measure unit="words"/>
+      <measure unit="pages"/>
+     </extent>
+     <publicationStmt>
+      <publisher>
+       <name>СМОМПК; Сборникъ матеріалов для описанія мѣстностей и племенъ Кавказа</name>
+       <geogName>Tbilisi</geogName>
+      </publisher>
+      <distributor>
+       <persName>
+        <surname/>
+       </persName>
+      </distributor>
+      <date when="1907">1907</date>
+      <availability>
+       <p> </p>
+      </availability>
+     </publicationStmt>
+    </biblFull>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language ident="rus">
+     <index indexName="iso639-3"/>
+     <ref target="http://www-01.sil.org/iso639-3/codes.asp"/>
+    </language>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term type="writingSystem">utf-8</term>
+    </keywords>
+    <keywords scheme="http://uri.gbv.de/terminology/bk/">
+     <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+     <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+    </keywords>
+   </textClass>
+   <creation>
+    <placeName>
+     <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+     <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+     <district/>
+     <settlement/>
+    </placeName>
+    <date notAfter="1906">1906</date>
+   </creation>
+   <particDesc>
+    <person role="speaker">
+     <persName>
+      <forename> </forename>
+      <surname> </surname>
+     </persName>
+     <age/>
+     <birth>
+      <date/>
+      <placeName>
+       <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+       <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+       <district/>
+       <settlement/>
+      </placeName>
+     </birth>
+    </person>
+    <person role="researcher">
+     <persName key="gnd:116138696">
+      <forename>Adolf</forename>
+      <surname>Dirr</surname>
+     </persName>
+    </person>
+    <person role="translator">
+     <persName key="gnd:116138696">
+      <forename>Adolf</forename>
+      <surname>Dirr</surname>
+     </persName>
+    </person>
+   </particDesc>
+  </profileDesc>
+  <revisionDesc>
+   <listChange>
+    <change>Text recognized by OCR has been corrected by ChatGPT.</change>
+   </listChange>
+  </revisionDesc>
+ </teiHeader>
+ <text xml:id="cc_agx_rus_54">
+  <body>
+   <head>
+    <pb n="71"/>1.</head>
+   <p>Был голод в Дагестане. В это время жила-была лисица, которой нечего было есть. "Вот," думала лисица, "что мне здесь делать? Пойду лучше в Ширван." Она отправилась в дорогу. На пути встретился волк, который спросил ее: "Куда ты?" — "В Ширван!" — "Зачем?" спросил волк снова. "Ого," сказала лисица, "там бараны есть без пастухов; сколько хочешь, бери, гуляй: никто не мешает. Я иду туда, есть, пить, гулять." — "Я тоже пойду с тобой!" сказал волк. Встретили они котера. Котер спросил: "Куда вы?" — "Мы в Ширван." — "Что там?" спросил котер снова: "Там? Там есть трава, такая высокая трава, что не стоит нагибаться: стоя можно есть." — "Хорошо, я тоже пойду с вами!" сказал котер.</p>
+   <p>Когда они приблизились к Ширвану, они поднялись на холм. "Ого," сказала лисица, "до Ширвана еще 10 суток, что нам делать теперь? Надо съесть младшего из нас; скажите каждый, сколько кому лет." — "Я," сказал волк; "родился во время пророка Ноя." — "Врешь," сказала лисица, "но от этого тебе пользы не будет! Что касается меня, я была уже взрослой, когда Бог создал человека." А котер сказал: "Я не знаю, сколько мне лет. Но посмотрите, на подкове моей задней ноги мой хозяин написал год моего рождения." — "Я не могу," сказала лисица, "я плохо вижу: смотри ты, волк!" Волк подошел, но когда он хотел посмотреть, котер ударил его ногой так сильно, что тот упал, потеряв сознание. "А что, не говорила ли я тебе, что бесполезно лгать?" сказала лисица. Волк около. Потом лисица обратилась к котеру: "Вот все эти дикие места пусть будут твои, а тело этого волка мое!"</p>
+  </body>
+ </text>
+</TEI>

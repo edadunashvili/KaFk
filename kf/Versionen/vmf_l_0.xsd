@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="www.dglab.uni-jena.de/vmf/l" vc:maxVersion="1.1" vc:minVersion="1.0" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:l="www.dglab.uni-jena.de/vmf/l">
+
+<xs:attribute name="ana" type="l:ana"/>
+<xs:simpleType name="ana">
+<xs:restriction base="xs:normalizedString">
+
+<xs:enumeration value="fEn_a_"/>
+<xs:enumeration value="fAn_a_"/>
+<xs:enumeration value="0"/>
+<!--b_AUSGANGSITUATION-->
+<!--<xs:enumeration value="cb_Fernliebe"/>
+<xs:enumeration value="cb_Fernliebe:Durch_das_Bild"/>
+<xs:enumeration value="cb_Fernliebe:Durch_die_Fluch"/>
+<xs:enumeration value="cb_Fernliebe:Durch_den_Traum"/>
+<xs:enumeration value="cb_Fernliebe:Durch_die_Versprechung"/>
+<xs:enumeration value="cb_Fernliebe:Durch_die_Mundpropaganda"/>-->
+
+<xs:enumeration value="cc_Aussetzen_der_Kinder"/>
+
+<xs:enumeration value="cd_einfache_Geburt_des_HD"/>
+
+<xs:enumeration value="ce_conzeptia_magica"/>
+<xs:enumeration value="ce_conzeptia_magica:Mittel:suchen"/>
+<xs:enumeration value="ce_conzeptia_magica:nachvollziehen"/>
+<xs:enumeration value="ce_conzeptia_magica:Mittel:beschaffen"/>
+<xs:enumeration value="ce_conzeptia_magica:Mittel:in_die_Haende_gefallen"/>
+<xs:enumeration value="ce_conzeptia_magica:Mittel:in_unwissentlich_annehmen"/>
+<xs:enumeration value="ce_conzeptia_magica:Schwangerschaft:Maenliche"/>
+<xs:enumeration value="ce_conzeptia_magica:Schwangerschaft:sachliche"/>
+<xs:enumeration value="ce_conzeptia_magica:Schwangerschaft:mehreren_Wesen"/>
+<xs:enumeration value="ce_conzeptia_magica:Geburt:mit_Einmischung"/>
+
+<xs:enumeration value="cf_Grundloese_Aufbruch_des_HD"/>
+
+<!--c_PROFITIEREN-->
+<xs:enumeration value="db_Bedingung"/>
+<xs:enumeration value="db_Bedingung:Forderung:Nachtwache"></xs:enumeration>
+<xs:enumeration value="db_Bedingung:Forderung:Tabu:Tuer_zu_oeffnen"></xs:enumeration>
+<xs:enumeration value="db_Bedingung:Forderung:Tabu:Haus_zu_verlassen"></xs:enumeration>
+<xs:enumeration value="db_Bedingung:Bedarf:an_zu_schlichten"></xs:enumeration>
+<xs:enumeration value="db_Bedingung:Notlage:Todesgefahr"></xs:enumeration>
+<xs:enumeration value="db_Bedingung:Notlage:Hungersnot"></xs:enumeration>
+<xs:enumeration value="db_Bedingung:durch_VB_der_AN_zur_ST-Rolle_bezwingen:Ort_des_Lebenskraftes_verraten_lassen"/>
+<xs:enumeration value="db_Bedingung:durch_VB_der_AN_zur_ST-Rolle_bezwingen:Ort_des_Pferdes_verraten_lassen"/>
+<xs:enumeration value="db_Bedingung:durch_VB_der_AN_zur_ST-Rolle_bezwingen:im_Vorfeld_VB_als_HF_gewinnen"/>
+<xs:enumeration value="db_Bedingung:Ungewollt_helfen:Provokation:die_zur_Wegweisung_fuehrt"/>
+<xs:enumeration value="db_Bedingung:Ungewollt_helfen:Provokation:die_zur_Wegweisung_fuehrt"/>
+<xs:enumeration value="db_Bedingung:Manipulation:Erwerben_eines_HF_durch_den_Missbrauch_des_Gewoehheitsrechtes"/>
+<xs:enumeration value="db_Bedingung:Symphatie:Erwerben_eines_HF_aufgrund_des_guten_Verhaltens"/>
+<xs:enumeration value="db_Bedingung:Gegenleistung_fordern:alte_HF_neu_besuchen"/>
+<xs:enumeration value="db_Bedingung:Gegenleistung_fordern:alte_HF_neu_besuchen:auf_das_Protokol_achten"/>
+
+
+<xs:enumeration value="ej_Kriseverfolgung:nach_der_Schaedigung:Ertfuehrung_des_OB:Zwischenstationen_bei_den_HF"><xs:annotation><xs:documentation>als alternativ gilt die Raumverwaltung mit Transformation</xs:documentation></xs:annotation></xs:enumeration>
+
+<!--<xs:enumeration value="dc_Bedingungdverfolgung"><xs:annotation><xs:documentation>kommt dann vor, falls die Bedinung nicht gleich mit dem Empfang bzw. Ignoranz fortgesetzt wird </xs:documentation></xs:annotation></xs:enumeration>-->
+<!--<xs:enumeration value="dc_Bedingungdverfolgung:Treffen"></xs:enumeration>-->
+
+<xs:enumeration value="dd_Bedingungsvermittlung"/>
+<!--Jedes Wechseln von Protagonisten löst eine neue Funktion aus. Bedingung zwischen ST und dem HD/FH ist eine (Testament) und Treffen mit dem Pferd bei der Wache das andere Bedingung - Empfang. 
+Empfang heißt es wenn entwas entgegengenommen wird das für die Verstärkunkung als Vorrat dient und nicht das war benutzt wird um konkretes Ziel zu erreichen-->
+
+
+<!--e_LEISTEN-->
+<xs:enumeration value="ec_Krisevermittlung"/>
+<xs:enumeration value="ec_Krisevermittlung:Erforschung:der_verhuelte_Krise"/>
+<xs:enumeration value="ec_Krisevermittlung:Erforschung:der_verhuelte_Krise:durch_den_Folter"/>
+<xs:enumeration value="ec_Krisevermittlung:Hinweis:auf_das_fehlende_OB:durch_die_Fluch"/>
+<xs:enumeration value="ec_Krisevermittlung:Hinweis:auf_das_fehlende_OB:durch_die_Ueberlieferung"/>
+<xs:enumeration value="ec_Krisevermittlung:Auftrag:gegen_den_Raub"/>
+<xs:enumeration value="ec_Krisevermittlung:Auftrag:Fehlendes_OB_holen"/>
+<xs:enumeration value="ec_Krisevermittlung:Geschichte:Raub"/>
+<xs:enumeration value="ec_Krisevermittlung:Auftrag:Erpressung_abzuwenden"/>
+
+<xs:enumeration value="ec_Krisevermittlung:Berichtet:b:Maenschliche_Opfergabe_mit_Wassermangel"/>
+<xs:enumeration value="ec_Krisevermittlung:Berichtet:b:Maenschlichen_Opfergabe_ohne_Wassermangel"/>
+<xs:enumeration value="ec_Krisevermittlung:Berichtet:b:Wassermangel_ohne_maenschliche_Opfergabe"/>
+<xs:enumeration value="ec_Krisevermittlung:Erkennen:des_Fehlens_des_für_den_Sieg_notwendiges_ZM_oder_HF"/><!--idR wird nicht artikuliert, das ist deshalb nicht als Bedingung und damit als PROFITIEREN zu definieren, weil für das Hinkriegen des gesuchten Dinges die Lebenskräfte vergeben werden-->
+
+
+<xs:enumeration value="ee_Aufgabe_erteilen"/> 
+<xs:enumeration value="ee_Aufgabe_erteilen:Heiratsaufgaben"/> 
+<xs:enumeration value="ee_Aufgabe_erteilen:Bescherungsprobe"/> 
+
+
+
+<!--<xs:enumeration value="eg_Provokation"/><!-\- soll eine der Verfolgung sein -\->-->
+
+<!--<xs:enumeration value="eh_Auftragverfolgung"/> <!-\- ist dasselbe Bedingungsverfolgung oder Kriseverfolgung-\->-->
+
+<xs:enumeration value="ei_Aufgabeverfolgung"/>
+<xs:enumeration value="ei_Aufgabeverfolgung:ringen"/>
+<xs:enumeration value="ei_Aufgabeverfolgung:hutten"/>
+<xs:enumeration value="ei_Aufgabeverfolgung:errichten"/>
+<xs:enumeration value="ei_Aufgabeverfolgung:anbauen"/>
+<xs:enumeration value="ei_Aufgabeverfolgung:wettspiel"/>
+<xs:enumeration value="ei_Aufgabeverfolgung:verstecken"/>
+
+<xs:enumeration value="ej_Kriseverfolgung"><xs:annotation><xs:documentation>wenn zwischen dem Krise und Kampf noch etwas eintritt</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ej_Kriseverfolgung:nach:der_Schaedigung:Erpressung:der_HD_geht_und_nimmt_das_Wasser_bevor_er_den_AN_besiegt"/>
+<xs:enumeration value="ej_Kriseverfolgung:nach_der_Schaedigung:Toetung"/>
+<xs:enumeration value="ej_Kriseverfolgung:nach_der_Schaedigung:Ertfuehrung_des_OB"/>
+<xs:enumeration value="ej_Kriseverfolgung:nach_der_Schaedigung:Entwendung_fremder_Heldentat"/>
+<xs:enumeration value="ej_Kriseverfolgung:nach_der_Schaedigung:Zuruecklassung"/>
+<xs:enumeration value="ej_Kriseverfolgung:nach_der_Mangelsituation:fehlendes_OB"/>
+
+
+<xs:enumeration value="ek_Kampf"><xs:annotation><xs:documentation>mit oder ohne Hilfe von HF</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="ek_x____Kampf:durch_den_Koerperkraft"/>
+<xs:enumeration value="ek_x____Kampf:durch_die_Waffe"/>
+<xs:enumeration value="ek_x____Kampf:durch_die_Transformation"/>
+<xs:enumeration value="ek_x____Kampf:durch_den_Betrueg"/>
+<xs:enumeration value="ek_x____Kampf:durch_den_Wettkampf"/>
+<xs:enumeration value="ek_x____Kampf:durch_einen_rohen_Gegenstand"/>
+<xs:enumeration value="ek_x____Kampf:durch_das_Pferderennen"/>
+
+<xs:enumeration value="el_Raumverwaltung"/>
+<xs:enumeration value="el_Raumverwaltung:Transformation:Der_HD_bekommt_eine_andere_Gestallt"/>
+<xs:enumeration value="el_Raumverwaltung:Flug:Der_HD_futtert_den_HF_mit_eigenem_Fleisch"></xs:enumeration>
+<xs:enumeration value="el_Raumverwaltung:Flug:Der_HF_heilt_die_Wunde_ohne_dabei_das_Heilmittel_zu_bekommen"></xs:enumeration>
+<xs:enumeration value="el_Raumverwaltung:Flug:Der_HF_gibt_dem_HD_das_Heilmittel"></xs:enumeration>
+<xs:enumeration value="el_Raumverwaltung:Tragen:Der_HD_laesst_dem_AN_tragen"></xs:enumeration>
+<xs:enumeration value="el_Raumverwaltung:Ziehen:Der_HD_laesst_den_FH_ziehen"></xs:enumeration>
+<xs:enumeration value="el_Raumverwaltung:Klettern"></xs:enumeration>
+<xs:enumeration value="el_Raumverwaltung:Runterlassen"></xs:enumeration>
+
+<xs:enumeration value="em_Identitaetsprobe_Ueberfuehrung"/>
+<xs:enumeration value="en_Sondierung"/>
+<xs:enumeration value="eo_Staerkedemonstrierung"/>
+<xs:enumeration value="eo_Misstaten_des_FH"/>
+<!--g_Empfang-->
+<xs:enumeration value="fc_Empfang"/>
+<xs:enumeration value="fc_Empfang:ZM:Information:ueber_den_Aufbewartsortes"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Information:direkte_Wegweisung"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Faehigkeit:in_ein_anderes_Wesen_umzuwandeln"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Gegenstand:Waffe"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Gegenstand:Heilmittel"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Gegenstand:Wuenschstein"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Gegenstand:Schale_mit_Faehigkeit_Schatz_zu_erzeugen"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Gegenstand:Flugzeug"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Gegenstand:Fahrzeug"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:ZM:Gegenstand:Tarnmittel"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:HF:Wesen:der_dem_HD_begleitet:Pferd"></xs:enumeration>
+<xs:enumeration value="fc_Empfang:HF:Wesen:der_abgerufen_werden_kann:Pferd"></xs:enumeration>
+
+<!--i_Ignoranz-->
+<xs:enumeration value="gc_Ignoranz"/>
+
+<!--k_Erringen-->
+<xs:enumeration value="hc_Erringen"/>
+<xs:enumeration value="hc_Erringen:Wiederbelebung"/>
+<xs:enumeration value="hc_Erringen:Sieg_ueber_den_AN"/>
+<xs:enumeration value="hc_Kriseliquidierung:Freikauf"/>
+<xs:enumeration value="hc_Kriseliquidierung:Wiederbelebung"/>
+<xs:enumeration value="hc_Kriseliquidierung:Entlarvung_des_Verbrechens"/>
+
+<!--n_Misslingen-->
+<xs:enumeration value="ic_Misslingen"/>
+<xs:enumeration value="ic_Scheitern_bei_der_Verleumdung"/>
+
+<!--p_Krise-->
+<xs:enumeration value="jb_Schaedigung"><xs:annotation><xs:documentation>Wenn das kein Ergebniss von Misslingen oder Ignoranz ist</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="jb_Schaedigung:Heimtueckische_Vereinbarung"></xs:enumeration>
+<xs:enumeration value="jb_Schaedigung:Selbstschaedigung:die_aeltere_brueder_werden_versklavt"></xs:enumeration>
+<xs:enumeration value="jb_x___Unstillbarkeit"/>
+<xs:enumeration value="jb_x___wird_getoetet"/> 
+<xs:enumeration value="jd_x___wird_versteinert"/>
+<xs:enumeration value="jb_x___wird_ins_Tier_umgewandelt"/>
+<xs:enumeration value="jb_x___Raub_Entfuehrung"/>
+<xs:enumeration value="jb_x___Demutigung"/>
+<xs:enumeration value="jb_x___Verstuemeln"/>
+<xs:enumeration value="jb_x___Betrug"/>
+<xs:enumeration value="jb_x___wird_ertappt_erwischt"/>
+<xs:enumeration value="jb_x___Zurueckgelassen"/>
+<xs:enumeration value="jb_x___Schweigegebot"/>
+<xs:enumeration value="jb_x___Fremde_Heldentat_entwenden"/>
+<xs:enumeration value="jb_x___Runterfallen"/>
+
+<xs:enumeration value="jc_Mangel"><xs:annotation><xs:documentation>Wenn das kein Ergebniss von Misslingen oder Ignoranz darstellt ist</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="jc_Mangel:Wegen_der_Fernliebe_in_Ohnmacht_fallen"></xs:enumeration>
+
+<xs:enumeration value="kb_Finale"></xs:enumeration>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>

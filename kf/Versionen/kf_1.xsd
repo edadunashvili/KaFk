@@ -1,0 +1,1220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="www.dglab.uni-jena.de/kf" vc:maxVersion="1.1" vc:minVersion="1.0" xmlns:kf="www.dglab.uni-jena.de/kf" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:attribute name="ana" type="kf:ana"/>
+<xs:simpleType name="ana">
+<xs:restriction base="xs:normalizedString">
+
+<xs:enumeration value="0"/>
+<xs:enumeration value="z"/>
+
+<xs:enumeration value="eUND_a_"/>
+<xs:enumeration value="fEn_a_"/>
+<xs:enumeration value="fAn_a_"/>
+
+<xs:enumeration value="mDEM_c_deus_ex_machina"/>
+
+<!--diese Verteilung mit den Zifer gilt für das Zeigen der Clusterbeziehungen-->
+<!--Scheitern beim Kampf oder Verfolgung bedeutet eine neue Schädigung, der nächste Zug öffnet-->
+
+<!--aCoM-->
+<xs:enumeration value="aCoM_conceptia_magica"/>
+<xs:enumeration value="eCoM_cc_Spannung"/>
+<xs:enumeration value="eCoM_cc_a____Hindernis auf dem Weg der Früchtbarkeit"/>
+<xs:enumeration value="eCoM_cf_Spannung"/>
+<xs:enumeration value="eCoM_cf_a____Interaktion mit der künftigen ST"/>
+<xs:enumeration value="eCoM_ci_Spannung"/>
+<xs:enumeration value="eCoM_ci_a____Ungewöhnliche Schwangerschaft"/>
+<xs:enumeration value="eCoM_fc_Vermittlung"/>
+<xs:enumeration value="eCoM_fc_a____Verlust des Nachkommens wird nachvollzogen"/>
+<xs:enumeration value="eCoM_ic_Loesung"/>
+<xs:enumeration value="eCoM_ic_a____Empfang des ZM"/>
+<xs:enumeration value="eCoM_if_Loesung"/>
+<xs:enumeration value="eCoM_if_a____Befrüchtug"/>
+<xs:enumeration value="eCoM_ii_Loesung"/>
+<xs:enumeration value="eCoM_ii_a____Geburt"/>
+<xs:enumeration value="eCoM_il_Loesung"/>
+<xs:enumeration value="eCoM_il_a____Geburt mit Einmischun der helfenden Person"/>
+<xs:enumeration value="eCoM_lc_Misserfolg"/>
+<xs:enumeration value="eCoM_oc_Zwischenhandlung"/>
+<xs:enumeration value="eCoM_rc_Raumverwaltung"/>
+<xs:enumeration value="eCoM_rc_a____Künftiger Elter geht auf die Suche des Mittels"/>
+<xs:enumeration value="eCoM_uc_Markierung"/>
+<xs:enumeration value="eCoM_xc_Abschluss"/>
+<!--a300-->
+<xs:enumeration value="a300_Der_Drachentoeter"/>
+<xs:enumeration value="e_cc_Spannung"/>
+_a____Die brutale Macht erpresst die Stadt"/>
+_a____Der FH  bringt den HD um"/>
+_a____Der FH  bezwingt das OB ihn als HD auszugeben"/>
+_a____Vor der Sieg (der HD erkundigt sich über die Zaubereigenschaften des Schwertes)
+_a____Nach der Tötung des HD (Die Tiere treffen bei der Suche nach der Heilmitel andere ST)"/>
+_a____Der HD kehrt in die Stadt zurück und zieht die Aufmerksamkeit auf sich"/>
+_a____Nach dem Sieg will der HD unbemerkt bleiben"/>
+_a____Der FH behauptet der HD zu sein"/>
+
+<xs:enumeration value="e_fc_Vermittlung"/>
+<xs:enumeration value="e_fc_a____Der HD wird über die Not informiert"/>
+<xs:enumeration value="e_ic_Loesung"/>
+<xs:enumeration value="e_ic_a____Der HD zieht das Zauberschwert"/>
+<xs:enumeration value="e_ic_a____Der HD besiegt den AN"/>
+_a____Die Quelle ist frei und/oder das OB kehrt zurück"/>
+_a____Der HF holt das Wiederbelebungsmittel"/>
+_a____Der getötete HD wird wiederbelebt"/>
+_a____Der HD wird gesucht ins Palast gebracht und wird erkannt"/>
+_a____Der HD kommt ins Palast und wird erkannt"/>
+_a____Bekommt z.B. ein Zaubergegenstand vom König"/>
+_a____Der FH wird bestraft"/>
+_a____Der HD wird belohnt oder verdankt"/>
+_a____Der HD heiratet das OB"/>
+<xs:enumeration value="e_lc_Misserfolg"/>
+<xs:enumeration value="e_oc_Zwischenhndlung"/>
+<xs:enumeration value="e_rc_Raumverwaltung"/>
+_a____Nach dem Sieg mit dem AN: Richtungen AG, VB, anderswohin"/>
+_a____Der HD verlässt den Ort des Kampfes"/>
+_a____Am Ende der Heldentat im Unterweltreich"/>
+_a____Der HD fliegt auf dem Rücken des Vogels"/>
+_a____Der HD wird mit Hilfe eines ZM nach oben gebracht"/>
+<xs:enumeration value="e_uc_Markierung"/>
+_a____Das OB markiert den HD"/>
+_a____Der HD nimmt die Körperteile des AN mit"/>
+<xs:enumeration value="e_xc_Abschluss"/>
+
+
+<!--a301-->
+<xs:enumeration value="a301_Die_drei_geraubten_Prinzesinnen"/>
+<xs:enumeration value="e301_bc_Ausgangssituation"/>
+<xs:enumeration value="e301_cc_Krise"/>
+<xs:enumeration value="e301_cc_a____Das OB wird geraubt"/>
+<xs:enumeration value="e301_cf_Krise"/>
+<xs:enumeration value="e301_cf_a____Der HD wird zurückgelassen"/>
+<xs:enumeration value="e301_dc_Vermittlung"/>
+<xs:enumeration value="e301_dc_a____der HD wird über den Raub informiert"/>
+<xs:enumeration value="e301_df_Vermittlung"/>
+<xs:enumeration value="e301_df_a____der HD erfährt erst nach der Liquidierung über den gelöste Krise"/>
+<xs:enumeration value="e301_di_Vermittlung"/>
+<xs:enumeration value="e301_di_a____Das OB warnt den HD vor dem Verrat"/>Interaktion die vom HD ignoriert wird Versaeumnis
+<xs:enumeration value="e301_ec_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e301_ec_a____Der HD bricht auf zur Suche der geraubten Frau"/>
+<xs:enumeration value="e301_fc_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e301_fc_a____Der Dieb der Äpfeln wird überwacht"/>
+<xs:enumeration value="e301_ff_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e301_ff_a____Der künftiger Wegweiser stört beim Kochen, oder fordert das Essen"/>
+<xs:enumeration value="e301_fi_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e301_fi_a____Das OB sagt dem HD dass das Ungeheuer nur mit seiner eigenen Waffe zu töten ist"/>
+<xs:enumeration value="e301_fl_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e301_fl_a____Das OB teilt dem HD die Rückkehrungsmöglichkeit mit"/>
+
+<xs:enumeration value="e301_gc_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e301_gc_a____Der verletzte Dieb führt den HD zum geraubten OB"/>
+<xs:enumeration value="e301_gf_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e301_gf_a____Unterwegs findet  der HD (hat bereits) die Weggefährten (FH)"/>
+<xs:enumeration value="e301_gi_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e301_gi_a____Die VB/der AN, der beim Kochen stört, zeigt den Weg"/>
+<xs:enumeration value="e301_gl_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e301_gl_a____Der HD benutzt das Schwert von Ungeheuer"/>
+<xs:enumeration value="e301_hc_Versaeumnis"/>
+<xs:enumeration value="e301_hc_a____Die Brüder können den Dieb nicht erwischen"/>
+<xs:enumeration value="e301_hf_Versaeumnis"/>
+<xs:enumeration value="e301_hf_a____Die VB/der AN, der beim Kochen stört, überführt die FH"/>
+<xs:enumeration value="e301_hi_Versaeumnis"/>
+<xs:enumeration value="e301_hi_a____Beim Entkommen des Unholdswohnsitzes (Der HD greift ein falsches Transportmittel zu)"/>
+<xs:enumeration value="e301_ia_a____Der HD kommt aus dem fremden Landauf dem Rücken des Vogels=a300"/>
+<xs:enumeration value="e301_ic_Raumverwaltung"/>
+<xs:enumeration value="e301_ic_a____Der HD steigt in den Abgrung hinab"/>
+<xs:enumeration value="e301_if_Raumverwaltung"/>
+<xs:enumeration value="e301_if_a____Das OB wird hochgezogen"/>
+<xs:enumeration value="e301_jc_Spannung"/>
+<xs:enumeration value="e301_kc_Misserfolg"/>
+<xs:enumeration value="e301_lc_Erfolg"/>
+<xs:enumeration value="e301_lc_a____Der HD besiegt den AN"/>
+<xs:enumeration value="e301_mc_Markierung"/>
+<xs:enumeration value="e301_mc_a____Das OB gibt dem HD ein Tuch oder Juwelier"/>
+<xs:enumeration value="e301_nc_Liquidierung"/>
+<xs:enumeration value="e301_nc_a____Das OB ist befreit"/>
+<xs:enumeration value="e301_oc_Verfolgung"/>
+<xs:enumeration value="e301_pc_Rettung"/>
+<xs:enumeration value="e301_qc_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e301_sc_a____Der HD trifft verschiedenee Personen"/>
+<xs:enumeration value="e301_sc_a____Der HD erkundigt sich über die Hocchzeit"/>
+<xs:enumeration value="e301_sc_a____Der HD arbeitet bei einem Juwelier"/>
+<xs:enumeration value="e301_sc_a____Der HD erregt das Interesse oder Macht Sondierung der Lage"/>
+<xs:enumeration value="e301_rc_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e301_tc_a____Der FH will das OB an sich reißen"/>
+<xs:enumeration value="e301_sc_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e301_uc_a____Der HD zeigt sich öffen"/>
+<xs:enumeration value="e301_uc_a____Der HD kommt in die Hochzeit"/>
+<xs:enumeration value="e301_tc_Transfiguration"/>
+<xs:enumeration value="e301_uc_Strafe"/>
+<xs:enumeration value="e301_wc_a____Der HD bestraft den FH"/>
+<xs:enumeration value="e301_vc_Belohnung"/>
+<xs:enumeration value="e301_wc_Hochzeit"/>
+<xs:enumeration value="e301_wc_a____Der HD heiratet das OB"/>
+<xs:enumeration value="e301_xc_Familienzusammenfuehrung"/>
+<xs:enumeration value="e301_xc_a____Der HD kehrt das OB seinem AG zurück"/>
+<!--a302-->
+<xs:enumeration value="a302_Herz_des_Unholds_im_Ei"/>
+<xs:enumeration value="e302_bb_Ausgangssituation"/>
+<xs:enumeration value="e302_cb_Krise"/>
+<xs:enumeration value="e302_cb_a____Die Frau wird vom unsterblichen Unhold geraubt"/>
+<xs:enumeration value="e302_cb_a____Frauenraub von anderen AN werden nicht als a302 bezeichnet"/>
+<xs:enumeration value="e302_da_Vermittlung"/>
+<xs:enumeration value="e302_da_a____wird a550_Vogel_Pferd_und_Königstochter erwartet"/>
+<xs:enumeration value="e302_db_Vermittlung"/>
+<xs:enumeration value="e302_db_a____Der HD wird beauftragt die Frau zu holen die von unsterblichen Ungeheur geraubt wurde"/>
+<xs:enumeration value="e302_eb_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e302_eb_a____Der HD geht auf die Suche"/>
+<xs:enumeration value="e302_fa_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e302_fa_a____wird a554_Dankbare_Tiere erwartet"/>
+<xs:enumeration value="e302_fb_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e302_fb_a____Das OB fungiert als ST es wird beauftragt den Aufbewartsort der Seele auszuspionieren"/>
+<xs:enumeration value="e302_ga_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e302_ga_a____wird a554_Dankbare_Tiere erwartet"/>
+<xs:enumeration value="e302_gb_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e302_gb_a____Als ZM gilt die Information über den Ort"/>
+<xs:enumeration value="e302_hb_Versaeumnis"/>
+<xs:enumeration value="e302_hb_a____Das OB fällt auf das Betrugsmanöver herein"/>
+<xs:enumeration value="e302_ib_Raumverwaltung"/>
+<xs:enumeration value="e302_ib_a____Der HD kletert auf das Haar der Frau und kommt in den Turm"/>
+<xs:enumeration value="e302_ib_a____Der HD übernimmt die Gestalt von Tieren"/>
+<xs:enumeration value="e302_ic_Raumverwaltung"/>
+<xs:enumeration value="e302_ic_a____Der HD lässt den geschwächten AN das OB tragen"/>
+<xs:enumeration value="e302_jb_Spannung"/>
+<xs:enumeration value="e302_jb_a____Trifft dann zu, wenn nach der Beginn des Kampfes noch etwas vorkommt"/>
+<xs:enumeration value="e302_kb_Misserfolg"/>
+<xs:enumeration value="e302_kb_a____Der HD scheitert beim ersten Versuch"/>
+<xs:enumeration value="e302_lb_Erfolg"/>
+<xs:enumeration value="e302_lb_a____Der HD kämpft gegen das Seelentier"/>
+<xs:enumeration value="e302_mb_Markierung"/>
+<xs:enumeration value="e302_nb_Liquidierung"/>
+<xs:enumeration value="e302_nb_a____Der HD befreit das OB"/>
+<xs:enumeration value="e302_ob_Verfolgung"/>
+<xs:enumeration value="e302_pb_Rettung"/>
+<xs:enumeration value="e302_qb_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e302_ra_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e302_ta_a____wird a550_Vogel_Pferd_und_Königstochter erwartet"/>
+<xs:enumeration value="e302_sb_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e302_tb_Transfiguration"/>
+<xs:enumeration value="e302_ub_Strafe"/>
+<xs:enumeration value="e302_vb_Belohnung"/>
+<xs:enumeration value="e302_wb_Hochzeit"/>
+<xs:enumeration value="e302_yb_a____Der HD heiratet das OB"/>
+<xs:enumeration value="e302_xb_Familienzusammenfuehrung"/>
+<xs:enumeration value="e302_zb_a____Der HD kehrt das OB dem AG zurück"/>
+<!--a303-->
+<xs:enumeration value="a303_Die_zwei_Brueder"/>
+<xs:enumeration value="e303_ba_Ausgangssituation"/>
+<xs:enumeration value="e303_ba_a____wird eCoM_conceptia_magica erwartet"/>
+<xs:enumeration value="e303_bb_Ausgangssituation"/>
+<xs:enumeration value="e303_cb_Krise"/>
+<xs:enumeration value="e303_cb_a____Die Zwilingsbrüder sind  großgeworden"/>
+<xs:enumeration value="e303_cc_Krise"/>
+<xs:enumeration value="e303_cc_a____Dem HD fehlt die Frau=unterscheidet sich von erwarteten a300_Der_Drachentöter, und a554_Dankbare_Tiere"/>
+<xs:enumeration value="e303_cd_Krise"/>
+<xs:enumeration value="e303_cd_a____Der HD wir vom AN versteinert=k_Misserfolg"/>
+<xs:enumeration value="e303_ce_Krise"/>
+<xs:enumeration value="e303_ce_a____Der HD tötet den HF"/>
+<xs:enumeration value="e303_cf_Krise"/>
+<xs:enumeration value="e303_cf_a____Der HD beschuldigt den HF"/>
+<xs:enumeration value="e303_db_Vermittlung"/>
+<xs:enumeration value="e303_db_a____Die Zwilingsbrüder artikulieren ihre Wünsch"/>
+<xs:enumeration value="e303_dc_Vermittlung"/>
+<xs:enumeration value="e303_dc_a____Der HD erkundigt sich über die Brautwerbung"/>
+<xs:enumeration value="e303_dd_Vermittlung"/>
+<xs:enumeration value="e303_dd_a____Jagdlust wird geäußert"/>
+<xs:enumeration value="e303_de_Vermittlung"/>
+<xs:enumeration value="e303_de_a____Das Lebenszeichen meldet sich"/>
+<xs:enumeration value="e303_df_Vermittlung"/>
+<xs:enumeration value="e303_df_a____Im Gesprech mit dem OB erfährt die Unschuldigkeit seines Bruders"/>
+<xs:enumeration value="e303_eb_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e303_eb_a____Der HD meldet sich als Freier"/>
+<xs:enumeration value="e303_ec_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e303_ec_a____Der HD ignoriert die Warnung"/>
+<xs:enumeration value="e303_ed_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e303_ed_a____Der HF verlässt das Haus und kommt zur Schwägerin"/>
+<xs:enumeration value="e303_fb_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e303_fb_a____Schwägerin hält den HF für ihren Mann, er legt das Schwert zwischen ihr und sich"/>
+<xs:enumeration value="e303_fc_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e303_fc_a____Der Trifft vor Ort mit dem ST"/>
+<xs:enumeration value="e303_gb_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e303_gb_a____Der HD erfährt über das letzten Jagdrute seinen Bruders"/>
+<xs:enumeration value="e303_gc_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e303_gc_a____Der HF berücksichtigt den Rat"/>
+<xs:enumeration value="e303_gd_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e303_gd_a____Der HD oder das OB beschafft ein Heilmittel"/>
+<xs:enumeration value="e303_hb_Versaeumnis"/>
+<xs:enumeration value="e303_hb_a____Der HD achtet nicht auf den Rat des ST"/>
+<xs:enumeration value="e303_ib_Raumverwaltung"/>
+<xs:enumeration value="e303_jb_Spannung"/>
+<xs:enumeration value="e303_kb_Misserfolg"/>
+<xs:enumeration value="e303_kb_a____Der HD wird versteinert"/>
+<xs:enumeration value="e303_lb_Erfolg"/>
+<xs:enumeration value="e303_lb_a____Der HD besteht die Freierprobe und heiratet die Frau==unterscheidet sich von erwarteten a300_Der_Drachentöter, und a554_Dankbare_Tiere"/>
+<xs:enumeration value="e303_lc_Erfolg"/>
+<xs:enumeration value="e303_lc_a____Der HF besiegt den AN"/>
+<xs:enumeration value="e303_mb_Markierung"/>
+<xs:enumeration value="e303_nb_Liquidierung"/>
+<xs:enumeration value="e303_nb_a____Der HF lässt den AN den HD wiederbeleben"/>
+<xs:enumeration value="e303_nc_Liquidierung"/>
+<xs:enumeration value="e303_nc_a____Der HD oder das OB erwecken den todgeschlagenen HF"/>
+<xs:enumeration value="e303_nd_Liquidierung"/>
+<xs:enumeration value="e303_nd_a____Der HF beweist seine Unschuldigkeit"/>
+<xs:enumeration value="e303_ne_Liquidierung"/>
+<xs:enumeration value="e303_ne_a____Der HF erlöst und heiratet den ST"/>
+<xs:enumeration value="e303_ob_Verfolgung"/>
+<xs:enumeration value="e303_pb_Rettung"/>
+<xs:enumeration value="e303_qb_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e303_rb_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e303_sb_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e303_tb_Transfiguration"/>
+<xs:enumeration value="e303_ub_Strafe"/>
+<xs:enumeration value="e303_vb_Belohnung"/>
+<xs:enumeration value="e303_wb_Hochzeit"/>
+<xs:enumeration value="e303_xb_Familienzusammenfuehrung"/>
+<!---->
+<xs:enumeration value="a303A_Breder_suchen_Schwestern"/>
+<xs:enumeration value="e303A_c_Eingangssituation_bis_zum_Aufbruch_zur_Freierprobewanderung"/>
+<xs:enumeration value="e303A_e_Vom_Verlassen_des_Hauses_bis_zum_Verschwinden_der_Brueder"/>
+<xs:enumeration value="e303A_g_Von_der_Erkuendigung_bis_zum_Aufbruch_des_HD"/>
+<xs:enumeration value="e303A_ga____erfartet_die_e554_"/>
+<xs:enumeration value="e303A_i_Vom_Aufbruch_bis_zum_Erreichen_des_Reisezieles"/>
+<xs:enumeration value="e303A_ia____erfartet die e302 in diesem Fall wird die e303A_i_ausgesetzt"/>
+<xs:enumeration value="e303A_k_Von_der_Befreiung_der_Brueder_bis_zum_neuen_Abenteuer_bzw_Rueckkehr"/>
+<xs:enumeration value="e303A_m_Rueckkehr"/>
+<!---->
+<xs:enumeration value="a304_Der_gelernte_Jaeger"/>
+<!---->
+<xs:enumeration value="a305_Drachenblut_als_Heilmittel"/>
+<!---->
+<xs:enumeration value="a306_Die_zertanzten_Schuhe"/>
+<!---->
+<xs:enumeration value="a307_Prinzessin_im_Sarg"/>
+<!---->
+<xs:enumeration value="a310_Jungfrau_im_Turm"/>
+<!---->
+<xs:enumeration value="a311_Maedchenmoerder"/>
+<!---->
+<xs:enumeration value="a312_Maedchenmoerder"/>
+<!---->
+<xs:enumeration value="a312D_Erbsensohn"/>
+<xs:enumeration value="e312D_c_eingangssituation_bis_zum_verschwinden_der_geschwister"/>
+<xs:enumeration value="312D_ca____erwartet_die_eCoM"/>
+<xs:enumeration value="e312D_e_von_der_erkuendigung_bis_zum_aufbruch_des_HD_"/>
+<xs:enumeration value="e312D_ea____erwartet_die_554"/>
+<xs:enumeration value="e312D_g_vom_aufbruch_bis_zur_Auseinandersetzung_mit_dem_AN"/>
+<xs:enumeration value="e312D_i_Aufgabenstellung"/>
+<xs:enumeration value="e312D_k_Aufgabenloesung"/>
+<xs:enumeration value="e312D_m_Aufgabenstellung_mit_der_Aufhebung"/>
+<xs:enumeration value="e312D_ma___ gilt_als_erweitere_version_der_episode_e707_o_aufgabenloesung"/>
+<xs:enumeration value="e312D_o_rueckkehr_und_verrat_von_der_seite_der_befreiten"/>
+<xs:enumeration value="e312D_q_vom_ueberwinden_der_hindernisse_bis_rueckkehr_des_HD"/>
+<!---->
+<xs:enumeration value="a313_Magische_Flucht"/>
+<xs:enumeration value="e313_c_der_HD_geriet_an_AN_bis_zur_flucht"/>
+<xs:enumeration value="e313_e_die_magische_flucht_durch_hintergeworfene_sachen"/>
+<xs:enumeration value="e313_g_die_magische_flucht_mit_menschlicher_metamorphose"/>
+<xs:enumeration value="a314_Goldener"/>
+<xs:enumeration value="a314A_Hirt_und_die_drei_Riesen"/>
+<!---->
+<xs:enumeration value="a315_Die_treulose_Schwester"/>
+<xs:enumeration value="e315_c_eingangssituation_bis_zum_beginn_eines_neuen_alltags"/>
+<xs:enumeration value="e315_e_erster_kontakt_mit_AN_bis_zum_ersten_auftrag"/>
+<xs:enumeration value="e315_g_der_erste_auftrag"/>
+<xs:enumeration value="e315_i_die_loesung_des_ersten_auftrages"/>
+<xs:enumeration value="e315_k_forlezter_auftrag"/>
+<xs:enumeration value="e315_m_die_loesung_des_vorlezten_auftrages"/>
+<xs:enumeration value="e315_o_der_letzte_auftrag"/>
+<xs:enumeration value="e315_q_die_loesung_des_lezten_auftrages"/>
+<xs:enumeration value="e315_s_oeffener_konflikt_sieg_und_strafe"/>
+<!---->
+<xs:enumeration value="a315A_Die_menschenfressende_Schwester"/>
+<!---->
+<xs:enumeration value="a316_Nixe_im_Teich"/>
+<!---->
+<xs:enumeration value="a317_Der_himmelhohe_Baum"/>
+<!---->
+<xs:enumeration value="a318_Das_aegyptische_Bruedermaerchen"/>
+<!---->
+<xs:enumeration value="a321_Augen_der_Blinden_zurueckgebracht"/>
+<!---->
+<xs:enumeration value="a325_Zauberer_und_Schueler"/>
+<!---->
+<xs:enumeration value="a326_Fuerchten_lernen"/>
+<!---->
+<xs:enumeration value="a327A_Haensel_und_Gretel"/>
+<xs:enumeration value="e327A_c_vom_aussetzen_der_kinder_bis_zum_treffen_mit_dem_AN"/>
+<xs:enumeration value="e327A_e_entkommen_aus_der_gefahr"/>
+<xs:enumeration value="e327A_g_entkommen_aus_der_letzten_gefahr"/>
+<xs:enumeration value="e327A_g____platzhalter_für_die_e313_"/>
+<!---->
+<xs:enumeration value="327B_Daeumling_und_Menschenfresser"/>
+<!---->
+<xs:enumeration value="a327C_Junge_im_Sack_der_Hexe"/>
+<!---->
+<xs:enumeration value="a328_Corvetto"/>
+
+<!--a329-->
+<xs:enumeration value="a329_Versteckwette"/>
+<xs:enumeration value="e_bb_Ausgangssituation"/>
+<xs:enumeration value="e329_cb_Krise"/>
+<xs:enumeration value="e329_cb_a____Der Krise kommt aus anderem Typ (a531)"/>
+<xs:enumeration value="e329_cb_a____Der HD ist single"/>
+<xs:enumeration value="e329_db_Vermittlung"/>
+<xs:enumeration value="e329_db_a____Die Voraussetzungen werden verkundet"/>
+<xs:enumeration value="e329_eb_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e329_eb_a____Der HD bewirbt sich um die Braut"/>
+<xs:enumeration value="e329_ec_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e329_ec_a____Der FH bewirbt sich um die Braut"/>
+<xs:enumeration value="e329_fb_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e329_fb_a____wird a554_Dankbare_Tiere erwartet"/>
+<xs:enumeration value="e329_gb_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e329_gb_a____wird a554_Dankbare_Tiere erwartet"/>
+<xs:enumeration value="e329_hb_Versaeumnis"/>
+<xs:enumeration value="e329_ia_Raumverwaltung"/>
+<xs:enumeration value="e329_ia_a____Nach dem Sieg kehrt HD je nach der Kombination zum AG zurück"/>
+<xs:enumeration value="e329_ib_Raumverwaltung"/>
+<xs:enumeration value="e329_ia_a____Der HD bewegt sich mit Hilfe des HF"/>
+<xs:enumeration value="e329_jb_Spannung"/>
+<xs:enumeration value="e329_kb_Misserfolg"/>
+<xs:enumeration value="e329_kb_a____Der Versteckte HD wird gefunden"/>
+<xs:enumeration value="e329_kc_Misserfolg"/>
+<xs:enumeration value="e329_kc_a____Der Versteckte FH wird gefunden"/>
+<xs:enumeration value="e329_lb_Erfolg"/>
+<xs:enumeration value="e329_kb_a____Der Versteckte kann nicht gefunden werden"/>
+<xs:enumeration value="e329_mb_Markierung"/>
+<xs:enumeration value="e329_nb_Liquidierung"/>
+<xs:enumeration value="e329_nb_a____Das OB ist gewonnen"/>
+<xs:enumeration value="e329_ob_Verfolgung"/>
+<xs:enumeration value="e329_pb_Rettung"/>
+<xs:enumeration value="e329_qb_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e329_rb_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e329_sb_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e329_tb_Transfiguration"/>
+<xs:enumeration value="e329_ub_Strafe"/>
+<xs:enumeration value="e329_vb_Belohnung"/>
+<xs:enumeration value="e329_wb_Hochzeit"/>
+<xs:enumeration value="e329_yb_a____Der HD heiratet das OB"/>
+<xs:enumeration value="e329_xb_Familienzusammenfuehrung"/>
+<!---->
+<xs:enumeration value="a330_Schmied_und_Teufel"/>
+<!---->
+<xs:enumeration value="a331_Geist_im_Glas"/>
+<!---->
+<xs:enumeration value="a332_Gevatter_Tod"/>
+<!---->
+<xs:enumeration value="a333_Rotkaeppchen"/>
+<!---->
+<xs:enumeration value="a334_Haushalt_der_Hexe"/>
+<!---->
+<xs:enumeration value="a361_Baerenhaeuter"/>
+<!---->
+<xs:enumeration value="a363_Vampir"/>
+<!---->
+<xs:enumeration value="a365_Lenore"/>
+<!---->
+<xs:enumeration value="a366_Mann_vom_Galgen"/>
+<!---->
+<xs:enumeration value="a400_Mann_auf_der_Suche_nach_der_verlorenen_Frau"/>
+<!---->
+<xs:enumeration value="a402_Maus_als_Braut"/>
+<!---->
+<xs:enumeration value="a403_Die_schwarze_und_die_weisse_Braut"/>
+<!---->
+<xs:enumeration value="a405_Jorinde_und_Joringel"/>
+<!---->
+<xs:enumeration value="a407_Blumenmaedchen"/>
+<!---->
+<xs:enumeration value="a408_Die_drei_Orangen"/>
+<!---->
+<xs:enumeration value="a409_Wolfsmaedchen"/>
+<!---->
+<xs:enumeration value="a410_Schlafende_Schoenheit"/>
+<!---->
+<xs:enumeration value="a425_Amor_und_Psyche"/>
+<!---->
+<xs:enumeration value="e425_c_provokation_zum_brautwerbung"/>
+<!---->
+<xs:enumeration value="e425_e_lauf_der_brautwerbung"/>
+<!---->
+<xs:enumeration value="e425_g_hochzeit_und_das_gemeinsame_leben"/>
+<!---->
+<xs:enumeration value="e425_i_tabubruch_und_die_konsequenzen"/>
+<!---->
+<xs:enumeration value="e425_k_leistung_der_frau"/>
+<!---->
+<xs:enumeration value="e425_m_rettung_und_das_neue_leben"/>
+<!---->
+<xs:enumeration value="e425_ma____erwartet_die_e313_die_"/>
+<!---->
+<xs:enumeration value="a426_Maedchen_und_Baer"/>
+<!---->
+<xs:enumeration value="a431_Haus_im_Walde"/>
+<!---->
+<xs:enumeration value="a432_Prinz_als_Vogel"/>
+<!---->
+<xs:enumeration value="a433B_Koenig_Lindwurm"/>
+<!---->
+<xs:enumeration value="a440_Froschkoenig"/>
+<!---->
+<xs:enumeration value="a449_Sidi_Numan"/>
+<!---->
+<xs:enumeration value="a450_Bruederchen_und_Schwesterchen"/>
+<!---->
+<xs:enumeration value="a451_Maedchen_sucht_seine_Brueder"/>
+<!---->
+<xs:enumeration value="a460_Reise_zu_Gott"/>
+<!---->
+<xs:enumeration value="a461_Drei_Haare_vom_Bart_des_Teufels"/>
+<!---->
+<xs:enumeration value="a465_Mann_wird_wegen_seiner_schoenen_Frau_verfolgt"/>
+<!---->
+<xs:enumeration value="a470_Freunde_in_Leben_und_Tod"/>
+<!---->
+<xs:enumeration value="a470A_Don_Juan"/>
+<!---->
+<xs:enumeration value="a470B_Land_der_Unsterblichkeit"/>
+<!---->
+<xs:enumeration value="a471A_Moench_und_Voeglein"/>
+<!--a475-->
+<!--(1) Begegnung mit dem Jenseitigen. (1.1) Aus freien Stücken akzeptiert ein ->• Soldat (Knecht, Holzfäller, Bauer), meistens aus Geldmangel, das oftmals befristete (sieben Jahre) Arbeitsangebot eines -» Fremden oder des -> Teufels, häufig ohne konkrete Vereinbarung einer Entlohnung, aber mit bestimmten Verpflichtungen. (1.2) Der unbedachte Fluch von Vater oder Mutter, der Teufel möge das überaus gefräßige Kind holen, wird Wirklichkeit. (2) Dienst in der Hölle unter Einhaltung bestimmter Auflagen (-» Tabuvorstellungen). (2.1) Dort hat der H. das Feuer unter den Kesseln, auch in Abwesenheit seines Auftraggebers, aufrechtzuerhalten, (2.2) darf nicht in die Kessel sehen, (2.3) ein bestimmtes Zimmer nicht betreten, (2.4) sich nicht säubern: muß Haare und Bart wachsen lassen (fast ausschließlich KHM 100 und Derivate), (2.5) muß Tiere versorgen. (3) Tabuüberschreitung. (3.1) Trotz des Verbots blickt er aus Neugierde in die Kessel, sieht dort ehemalige Vorgesetzte (hartherzige Gutsherrn, unfreundliche Verwandte) als Sünder büßen und legt Feuer nach, (3.2) erlöst die seiner Meinung nach zu Unrecht dort befindlichen Armen Seelen bzw. die in Tiere verwandelten Sünder. (3.3) Der Teufel entdeckt die Tabuverletzung, entläßt den H. ohne Strafe (weil er Feuer nachgelegt hat), (3.3.1) gibt ihm zum Dank einen Sack voll Kohlen (Müll, Späne) mit, die sich in Gold verwandeln; (3.3.2) der H. erbittet — öfter auf Rat eines Erlösten/Tieres — vom Dämon etwas Unscheinbares wie ein zerschlissenes Kleidungsstück, das allerdings wunderbare Eigenschaften hat. (3.4) Mit Hilfe der Zaubergabe (auch eines Tieres) entfernt sich der H. aus der Hölle. (4) Heimkehr des H.s. (4.1) Ein Wirt gewährt dem finster aussehenden H. Quartier, nachdem jener das Gold bzw. seinen Zaubergegenstand vorgezeigt hat, und bestiehlt danach den H. Mit Hilfe des Teufels gewinnt der H. sein Eigentum zurück. (4.2) Der H. erhält als Wettgewinn die Tochter des Verlierers zugesprochen oder (4.3) erwirbt als Spielmann die Gunst des Königs, heiratet dessen Tochter und erhält das Königreich.-->
+<xs:enumeration value="a475_Hoellenheizer"/>
+<xs:enumeration value="e475_bb_Ausgangssituation"/>
+<xs:enumeration value="e475_cb_Krise"/>
+<xs:enumeration value="e475_cb_a____Der HD geritt unter der Gewalt des AN"/>
+<xs:enumeration value="e475_cc_Krise"/>
+<xs:enumeration value="e475_cc_a____Dem HD wird den Lohn entwendet"/>
+<xs:enumeration value="e475_db_Vermittlung"/>
+<xs:enumeration value="e475_db_Der HD muss der Vorschrift folgen"/>
+<xs:enumeration value="e475_eb_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e475_fb_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e475_fb_a____Der HD begnädigt die quällende Person"/>
+<xs:enumeration value="e475_fc_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e475_fc_a____Die Töchter des Teufels verliebt sich in den HD"/>
+<xs:enumeration value="e475_gb_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e475_gb_a____Der HD wird von der begnädigten belohnt"/>
+<xs:enumeration value="e475_gc_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e475_gc_a____Der HD erhält die Ratschläge vom HF"/>
+<xs:enumeration value="e475_gd_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e475_gd_a____Der HD holt die Hilfe, den Rat vom AN"/>
+<xs:enumeration value="e475_hb_Versaeumnis"/>
+<xs:enumeration value="e475_ib_Raumverwaltung"/>
+<xs:enumeration value="e475_ib_a____Der HD flieht vom AN"/>
+<xs:enumeration value="e475_ic_Raumverwaltung"/>
+<xs:enumeration value="e475_ic_a____Der HD kehrt nach hause zurück"/>
+<xs:enumeration value="e475_jb_Spannung"/>
+<xs:enumeration value="e475_kb_Misserfolg"/>
+<xs:enumeration value="e475_lb_Erfolg"/>
+<xs:enumeration value="e475_lb_a____Der HD gewinnt die Wette"/>
+<xs:enumeration value="e475_mb_Markierung"/>
+<xs:enumeration value="e475_nb_Liquidierung"/>
+<xs:enumeration value="e475_nb_a____Der HD wird entlassen"/>
+<xs:enumeration value="e475_nc_Liquidierung"/>
+<xs:enumeration value="e475_nc_a____Der HD gewinnt seinen Lohn zurück"/>
+<xs:enumeration value="e475_ob_Verfolgung"/>
+<xs:enumeration value="e475_pb_Rettung"/>
+<xs:enumeration value="e475_qb_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e475_rb_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e475_sb_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e475_tb_Transfiguration"/>
+<xs:enumeration value="e475_ub_Strafe"/>
+<xs:enumeration value="e475_vb_Belohnung"/>
+<xs:enumeration value="e475_vb_Belohnung"/>
+<xs:enumeration value="e475_wb_Hochzeit"/>
+<xs:enumeration value="e475_xb_Familienzusammenfuehrung"/>
+<!---->
+<xs:enumeration value="a480_Das_gute_und_das_schlechte_Maedchen"/>
+<!---->
+<xs:enumeration value="a505_Dankbarer_Toter"/>
+<!---->
+<xs:enumeration value="a510A_Cinderella"/>
+<!---->
+<xs:enumeration value="a513A_Sechse_kommen_durch_die_Welt"/>
+<xs:enumeration value="e513A_b_Aufbruch_zur_Freierprobewanderung_bis_zur_Begegnug_der_kuenftigen_Weggefaehrten"/>
+<xs:enumeration value="e513A_c_begegnung_mit_dem_kuenftigen_weggefaehrter_bis_zum_erreichen_des_reiseziels"/>
+<xs:enumeration value="e513A_e_aufgabenstellung"/>
+<xs:enumeration value="e513A_g_aufgabenloesung"/>
+<xs:enumeration value="e513A_g_aufgabenloesung"/>
+<xs:enumeration value="e513A_i_aufgabenloesung_mit_der_aufhebung"/>
+<xs:enumeration value="e513A_ia____gilt_als_erweiterte_version_der_episode_e513A_i_aufgabenloesung"/>
+<xs:enumeration value="e513A_k_Nach_der_Aufloesung_der_letzte_Aufgabe_bis_zum_Ende_der_Geschichte"/>
+<xs:enumeration value="e513A_ka____Der_HD_verabschiedet_sich_von_den_Weggefaerten"/>
+
+<!--a516-->
+<xs:enumeration value="a516_Der_treue_Johannes"/>
+<xs:enumeration value="e516_ba_a____erwartet 931"/>
+<xs:enumeration value="e516_ba_a____erwartet eCoM"/>
+<xs:enumeration value="e516_bc_Ausgangssituation"/>
+<xs:enumeration value="e516_cc_Krise"/>
+<xs:enumeration value="e516_cc_a____Fernliebe"/>
+<xs:enumeration value="e516_cf_Krise"/>
+<xs:enumeration value="e516_cf_a____Der HF wird versteinert"/>
+<xs:enumeration value="e516_ci_Krise"/>
+<xs:enumeration value="e516_ci_a____Die Kinder werden geschlachtet"/>
+<xs:enumeration value="e516_dc_Vermittlung"/>
+<xs:enumeration value="e516_dc_a____Der HF erfährt über die Sehnsucht des HD"/>
+<xs:enumeration value="e516_df_Vermittlung"/>
+<xs:enumeration value="e516_df_a____Der HF erfährt über den Kindermord"/>
+<xs:enumeration value="e516_ec_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e516_ec_a____Der HF forscht den Grund für die Traurigkeit des HD"/>
+<xs:enumeration value="e516_ef_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e516_ef_a____Der HF bittet den König  um die Ausrüstung"/>
+<xs:enumeration value="e516_ei_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e516_ei_a____Das Paar trauert über den HF"/>
+<xs:enumeration value="e516_el_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e516_el_a____Das HF erinnert sich an das beschaffene ZM"/>
+<xs:enumeration value="e516_eo_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e516_eo_a____Das HF geht auf die Suche der Lösung"/>
+<xs:enumeration value="e516_fa_a____erwartet die a854_Der_goldene_Bock"/>
+<xs:enumeration value="e516_fc_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e516_fc_a____Treffen mit den Ratgeber"/>
+<xs:enumeration value="e516_gc_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e516_gc_a____Empfang folgt vor der Lösung der schwierigen Aufgaben"/>
+<xs:enumeration value="e516_gf_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e516_gf_a____Empfang folgt auf dem Weg zur Brautwerbung"/>
+<xs:enumeration value="e516_gi_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e516_gi_a____Empfang folgt bei der Rückkehr"/>
+<xs:enumeration value="e516_gl_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e516_gl_a____Empfang folgt vor der Tötung der Kinder"/>
+<xs:enumeration value="e516_go_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e516_go_a____Empfang folgt nach der Tötung der Kinder"/>
+<xs:enumeration value="e516_hc_Versaeumnis"/>
+<xs:enumeration value="e516_ic_Raumverwaltung"/>
+<xs:enumeration value="e516_ic_a____Auf dem Weg zum OB"/>
+<xs:enumeration value="e516_if_Raumverwaltung"/>
+<xs:enumeration value="e516_if_a_Der HD und der HF kehren zurück und nemmen das OB mit"/>
+<xs:enumeration value="e516_ja_a____zwischen Spannung und Hilfe kommt  die Interaktion oder Empfang vor"/>
+<xs:enumeration value="e516_jc_Spannung"/>
+<xs:enumeration value="e516_jc_a____Der HO stellt Aufgaben"/>
+<xs:enumeration value="e516_kc_Misserfolg"/>
+<xs:enumeration value="e516_kc_a____Der HF wird Stein (gilt als e516_c?_Krise)"/>
+<xs:enumeration value="e516_la_a____erwartet a854_Der_goldene_Bock"/>
+<xs:enumeration value="e516_lc_Erfolg"/>
+<xs:enumeration value="e516_lc_a____Bei der Brautwerbung bzw. Brautentführung"/>
+<xs:enumeration value="e516_mc_Markierung"/>
+<xs:enumeration value="e516_nc_Liquidierung"/>
+<xs:enumeration value="e516_nc_a____Gewinnung der Braut"/>
+<xs:enumeration value="e516_nf_Liquidierung"/>
+<xs:enumeration value="e516_nf_a____Wiederbelebung des HF"/>
+<xs:enumeration value="e516_ni_Liquidierung"/>
+<xs:enumeration value="e516_ni_a____Wiederbelebung der Kinder"/>
+<xs:enumeration value="e516_nl_Liquidierung"/>
+<xs:enumeration value="e516_nl_a____ Erlosung der Schicksalskunder"/>
+<xs:enumeration value="e516_oc_Verfolgung"/>
+<xs:enumeration value="e516_oc_a____Dem HD und dem OB dröhen Todesgefahren"/>
+<xs:enumeration value="e516_pc_Rettung"/>
+<xs:enumeration value="e516_pc_a____Abbwendung der Todesgefahren"/>
+<xs:enumeration value="e516_qc_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e516_rc_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e516_sc_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e516_tc_Transfiguration"/>
+<xs:enumeration value="e516_uc_Strafe"/>
+<xs:enumeration value="e516_vc_Belohnung"/>
+<xs:enumeration value="e516_wc_Hochzeit"/>
+<xs:enumeration value="e516_wc_a____Der HF heiratet den ST"/>
+<xs:enumeration value="e516_xc_Familienzusammenfuehrung"/>
+<xs:enumeration value="e516_xc_a____Der HD das OB und die Kinder sind zusammen"/>
+<!---->
+<xs:enumeration value="a517_Prophezeiung_kuenftiger_Hoheit"/>
+<xs:enumeration value="e517_0b_Ausgangssituation"/>
+<xs:enumeration value="e517_0d_Vermittlung"/>
+<xs:enumeration value="e517_0c_a____Der HD muss die Hoheit erreichen"/>
+<xs:enumeration value="e517_0e_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e517_0e_a____Der HD wird vertrieben"/>
+<xs:enumeration value="e517_0f_Abreise_Zeitvergehen"/>
+<xs:enumeration value="e517_1d_Vermittlung"/>
+<xs:enumeration value="e517_1d_a____Dem HD wird mitgeteilt dass  der König Hilfe braucht"/>
+<xs:enumeration value="e517_1l_Erfolg"/>
+<xs:enumeration value="e517_1m_a____Der HD lösst die Aufgabe aus"/>
+<xs:enumeration value="e517_1p_Liquidierung"/>
+<xs:enumeration value="e517_1yb_Hochzeit"/>
+<xs:enumeration value="e517_0p_Liquidierung"/>
+<xs:enumeration value="e517_0p_a____Der HD bestellt seine Eltern zu sich"/>
+<!---->
+
+<xs:enumeration value="a519_Heldenjungfrau"/>
+<xs:enumeration value="e519_e_eingangssituation_bis_zu_erkundigung_ueber_die_heiratsbedingungen_des_OB"/>
+<!-- a530 -->
+<!--(1) Erwerb der Zauberpferde durch Wachehalten: (1.1) Vom Feld (Heuschober, Garten) eines Vaters mit drei Söhnen wird die Ernte gestohlen. Die Söhne halten jeweils in drei Nächten nacheinander Wache. Die beiden älteren schlafen ein (laufen vor Angst weg), der jüngste (1.1.1) fangt (u.a. mit Hilfe von Maus, Frosch, altem Männlein) drei Zauberpferde und gibt sie gegen das Versprechen zukünftiger Hilfe frei, (1.1.2) läßt sich von Riesen im Heuballen zu deren Schloß tragen, tötet die Riesen und findet Schätze (dienstbare Geister) und drei Pferde. (1.2) Der sterbende Vater bestimmt, daß die Söhne nach seinem Tod (ein Jahr später) in drei aufeinanderfolgenden Nächten am Grab (in der Kirche am Sarg) wachen (beten) sollen (-» Grabwache). Die älteren Söhne lassen sich aus Gleichgültigkeit (Angst) durch ihren jüngsten Bruder vertreten. Vom Vater (im Kampf mit erscheinenden Geistern) erhält der Jüngste dreimal ein Pferd bzw. eine Pfeife (Stock, Zügel), um Pferde herbeizurufen. 
+(2) Um die Königstochter zur Frau zu bekommen, soll der Freier (2.1) einen Berg (meist Glasberg, auch Kristall-, Marmorberg) hinaufreiten (von der Spitze einen goldenen Apfel, von der nach eigenem Wunsch auf dem Gipfel sitzenden [von Vater, Troll, Teufel piazierten] P. Apfel, Ring und Tuch holen, sie küssen), (2.2) an einem Gebäude (Turm, Schloß, Mauer) bis zur am obersten Fenster (4. Stockwerk, Balkon) sitzenden P. hochspringen (ihr den Ring abziehen) oder (2.3) über einen Graben (Grube) springen. Der unerkannte Jüngste bewältigt dank seiner Zauberpferde dreimal (in drei Anläufen) die Aufgabe. Beim dritten Mal markiert der König (Tochter) den Helden oft durch ein Erkennungszeichen (Verletzung oder Aufdrücken eines Zeichens). 
+(3) Boten (König und Tochter selbst) suchen den Helden überall im Land und/oder lassen alle Männer an der Königstochter vorbeidefilieren (Königstochter bedient alle zu einem Fest eingeladenen Männer). Der Jüngste wird zu Hause (am Königshof) an den der P. gehörenden Gegenständen und/oder den Markierungen erkannt. Er heiratet die Königstochter und erlöst manchmal verzauberte Prinzen (P.nen) aus der Gestalt seiner Pferde.
+Die Brüder wollen am Wettkampf teilnehmen oder zusammen mit dem Vater zuschauen, dem Jüngsten wird verboten mitzukommen. Auf dem Hin- und/oder Rückweg überholt er unerkannt in prachtvoller Ausrüstung Brüder und Vater, scheucht sie zur Seite, läßt sie in ihrem Sonntagsanzug durch sein Pferd beschmutzen, im Graben landen oder zieht den Brüdern mit der Peitsche eins über. Er veranlaßt den Vater gegen Trinkgeld (z.T. in Schläge umgewandelt), sein Pferd zu halten, oder die Brüder, seine Stiefel zu putzen. Wenn die Zurückgekehrten den wunderbaren Helden in höchsten Tönen preisen, fragt er anzüglich nach erhaltenen Schlägen oder Trinkgeld, woraufhin die Brüder den Baum fallen, die Scheune abreißen und den Dachstuhl ihres Hauses zerstören, von denen aus der Jüngste angeblich alles beobachtet hat. Relativ häufig findet sich in den Var.n sein Einwurf, daß vielleicht er dieser Held gewesen sei, woraufhin er Gelächter oder Prügel erntet. Manchmal besucht er zusammen mit der P. triumphierend sein Elternhaus (cf. AaTh 935: -» Heimkehr des verlorenen Sohnes).
+-->
+<xs:enumeration value="a_530_Prinzessin_auf_dem_Glasberg"/>
+<xs:enumeration value="e_cc_Spannung"/>
+_a____Der sterbende Vater beauftragt seine Söhne an seinem Grab Wache zu halten"/>
+_a____Der HD wird von Brüder gedemutigt"/>
+_a____Der künftige ST fügt die Schaden zu, provoziert die Brüder"/>
+_a____Der HO kündigt Bedingungen für die Brautprobe an"/>
+_a____Der HD nimmt das Zeichen von der Braut oder die Braut selbst"/>
+_a____Der HD brandmalt seine Brüder"/>
+_a____Nach dem Erfolg will der HD unbemerkt bleiben"/> vs. unbekannte Ankunft
+_a____Der FH behauptet der HD zu sein"/>_a____Der FH behauptet der HD zu sein"/>
+<xs:enumeration value="e_fc_Vermittlung"/>
+<xs:enumeration value="e_ic_Loesung"/>
+_a____Der jüngste Brüder bekommt (manchmal gewaltsam) das ZM"/>
+_a____Der HD gewinnt das Turnier"/>
+_a____Verantwortliche für die Demutigung werden zur Rechenschaft gezogen"/>
+_a____Der HD wird gesucht und ins Palast gebracht und wird erkannt"/>
+_a____Der HD bestraft de FH"/>
+<xs:enumeration value="e_lc_Misserfolg"/>
+_a____Ältere Brüder scheitern an der Wache"/>
+_a____Ältere Brüder scheitern an der Turnier"/>
+_a____Der FH wird entlarvt"/>
+
+<xs:enumeration value="e_rc_Raumverwaltung"/>
+<xs:enumeration value="e_uc_Markierung"/>
+
+
+
+<!--a531-->
+<!--(1.) Der Held, sein Pate, das wunderbare Pferd und der glänzende Gegenstand. (1.1.) Ein Junge wird bei armen Eltern geboren; (1.1.1.) da niemand —> Pate sein will, bittet der Vater einen Unbekannten; (1.1.2.) es ist der König, Gott, Maria, eine Fee; oder (1.2.) der Held ist der illegitime Sohn oder Patensohn eines Königs und auf der Suche nach ihm oder (1.2.1.) auf einer anderen Suche. (1.3.) Später kehrt der Pate zurück, um das Kind zu holen, oder (1.3.1.) es soll sich zu ihm begeben, versehen mit einem Pfand oder Brief. (1.4.) Der Held bricht mit seinem Reittier auf, das ihm sein Vater gegeben hat, das er durch seinen Paten erlangt oder das sich ihm selbst anbietet. (1.4.1.) Das Pferd (Maulesel, Esel; von prächtigem Anblick; von schmächtigem Aussehen) spricht und rät dem Helden. (1.5.) Trotz der Warnung durch sein Reittier (oder durch jemand anderen) nimmt der Held (1.5.1.) eine leuchtende (goldene) Feder, (1.5.2.) ein goldenes Haar, (1.5.3.) ein goldenes Hufeisen oder (1.5.4.) ein anderes (glänzendes) Ding auf (beim dritten Mal). (2.) Der untreue Begleiter (Rollentausch). (2.1.) Dem Helden schließt sich unterwegs ein Begleiter (—> Gefährte) an (obwohl ihm befohlen wurde, sich nicht begleiten zu lassen), oder der Held wird bereits von einem Diener begleitet, der ihn, oft in der Nähe eines Brunnens oder einer Wasserstelle, zwingt, die Rollen zu tauschen (cf. —» Gestalttausch) und (2.1.1.) Stillschweigen zu schwören. (2.1.2.) Nach der Ankunft am Hof des Königs läßt der Held sich als Bedienter anstellen, (2.1.3.) um für die Pferde zu sorgen; (2.1.4.) dabei schafft er sich mit seinem leuchtenden Gegenstand Licht. (3.) Die —> dankbaren Tiere. (3.1.) Der Held zeigt sich hilfreich gegenüber Tieren (Fisch, Vögel, Ameisen, Löwen etc.) oder anderen Wesen auf dem Weg, der ihn zum König führt (cf. 1./2.) oder (3.1.1.) später bei den Aufgaben, die ihm vom König auferlegt werden (cf. 4.). (3.2.) Diese versprechen, dem Helden zu helfen. (4.) Die Aufgaben. (4.1.) Auf Veranlassung neidischer Diener oder Berater am Hofe, (4.1.1.) des falschen Patenkindes oder (4.1.2.) des eigenen Bruders (der eigenen Brüder) (4.1.3.) erlegt der König dem Helden eine oder mehrere schwierige Aufgaben auf (bei Todesstrafe): (4.2.) den Vogel zur Feder (1.5.1.), (4.2.1.) das Pferd zum Hufeisen (1.5.3.) oder ein anderes Pferd, (4.2.2.) die (goldhaarige) Jungfrau oder Prinzessin, (4.2.3.) dem König seine Tochter herbeizuschaffen, (4.2.4.) andere Aufgaben zu lösen. (4.3.) Der Held hat Erfolg, dank des Rates, den ihm sein Reittier oder ein anderes Wesen gibt. (4.4.) Der Held löst die Aufgaben u. a. dadurch, daß sein Pferd siegreich gegen andere Pferde kämpft, (4.4.1.) er vom König Schiffe (Pferde, Wagen) beladen mit Nahrungsmitteln (oft für die Tiere oder die anderen Wesen in 3.), Waren oder einer anderen Ladung erbittet und erhält, (4.4.2.) und er entführt die Prinzessin, die Waren, Pferd oder Schiff bewundert. (4.5.) Das Wesen, das die Prinzessin gefangenhält, oder (4.5.1.) die Prinzessin selbst erlegt dem Helden neue Aufgaben auf, oder (4.5.2.) die Prinzessin will den König nur heiraten, wenn der Held neue Aufgaben löst. (4.6.) Die Aufgaben gleichen denen in AaTh 313 (cf. -* Magische Flucht; unlösbare —> Aufgaben), der Held soll u.a. (4.6.1.) eine enorme Anzahl von Körnern auslesen, (4.6.2.) vom Meeresboden die Schlüssel der Prinzessin, (4.6.3.) ihren Ring vom Grund des Wassers, (4.6.4.) das Schloß der Prinzessin, (4.6.5.) das Wasser des Lebens (—> Lebenswasser) und/oder des Todes (des Para1013 Ferdinand der treue und F. der ungetreue 1014 dieses, der Hölle), das Wasser, das verschönt oder verjüngt, holen oder (4.6.6.) andere Aufgaben vollbringen. (4.7.) Ihm helfen jeweils die verschiedenen dankbaren Tiere (Wesen). (5.) Der Ausgang. (5.1.) Als letzte Bedingung für die —> Hochzeit erzwingt die Prinzessin, daß der Held verbrannt wird, ein —> Bad in siedender (Stuten-)Milch (oder ö l ) nimmt, durch das Wasser des Todes oder sonstwie getötet wird, oder (5.1.1.) sie enthauptet oder zerstückelt ihn selbst (—> Enthauptung, —» Zerstückelung); (5.1.2.) der König fordert den Tod des Helden; (5.1.3.) der untreue Begleiter tötet den Helden. (5.1.4.) Der Held wird gerettet, denn (5.1.5.) auf den Rat seines Reittiers werden er, seine Kleidung oder ein Tuch, in das er eingerollt ist, mit dem Blut oder Schweiß des Reittieres oder einer anderen Flüssigkeit benetzt, oder (5.1.6.) das Pferd bläst die siedende Flüssigkeit kalt, oder (5.1.7.) die Prinzessin belebt den Helden durch das Wasser des Lebens (—> Wiederbelebung). (5.2.) Der König sieht, daß der Held unverletzt oder sogar verschönt ist, und verlangt, daß mit ihm dasselbe geschehe (die Prinzessin verlangt es), stirbt aber. (5.3.) Der Betrüger wird entlarvt und getötet, denn der Held, vom Tode erweckt, ist seines Eides entbunden (cf. 2.1.— 2.1.1.). (5.4.) Das Pferd verwandelt sich (durch Enthauptung) in einen jungen Mann oder ein junges Mädchen. (5.5.) Der Held heiratet die Prinzessin, (5.5.1.) das Mädchen, das ihm in der Gestalt des Pferdes geholfen hat. FÜR DIESEN TYP WICHTIG IST DASS DER HD SICH DEM AG UNTERORDNEN MUSS-->
+<xs:enumeration value="a531_Sohn_des_Jaegers/Ferdinand_der_treue_und_Ferdinand_der_ungetreue"><xs:annotation><xs:documentation>FÜR DIESEN TYP IST WICHTIG DASS DER HD SICH DEM AG UNTERORDNEN MUSS</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="e531_bc_Ausgangssituation"/>
+<xs:enumeration value="e531_bc_a____Berichtet über die Beziehung zwischen HD und HF"/>
+<xs:enumeration value="e531_bf_Ausgangssituation"/>
+<xs:enumeration value="e531_bf_a____Der HD findet Gegenstand das eine Krise (nicht die Spannung) auslost"/>
+<xs:enumeration value="e531_cc_Krise"/>
+<xs:enumeration value="e531_cc_a____Der HD muss dem AN bzw. Stifter geliefert werden"/>
+<xs:enumeration value="e531_cf_Krise"/>
+<xs:enumeration value="e531_cf_a____Im Elternhaus droht dem HD den Tod"/>
+<xs:enumeration value="e531_ci_Krise"/>
+<xs:enumeration value="e531_ci_a____Der HD wird von FH gezwungen Stillschweigen zu schwören"/>
+<xs:enumeration value="e531_cl_Krise"/>
+<xs:enumeration value="e531_cl_a____Der HD muss sich dem AN/AG/HB unterordnen, zu dem er geliefert wurde"/>
+<xs:enumeration value="e531_co_Krise"/>
+<xs:enumeration value="e531_co_a____Der HD muss sich dem bei der Lösung der Aufgaben aufgetauchte AN/HO unterordnen"/>
+<xs:enumeration value="e531_cr_Krise"/>
+<xs:enumeration value="e531_cr_a____Der HD wird getötet"/>
+<xs:enumeration value="e531_cu_Krise"/>
+<xs:enumeration value="e531_cu_a____Der AN will gegen der Wille des OB es heiraten"/>
+<xs:enumeration value="e531_dc_Vermittlung"/>
+<xs:enumeration value="e531_dc_a____Dem HD wird seine Pflicht mitgeteilt"/>
+<xs:enumeration value="e531_dc_a____Der HF warnt den HD vor der Todesgefahr"/>
+<xs:enumeration value="e531_df_Vermittlung"/>
+<xs:enumeration value="e531_df_a____Der HF wird über den Tod des HD Informiert"/>
+<xs:enumeration value="e531_ec_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e531_ec_a____Der HD macht sich auf dem weg zum AN"/>
+<xs:enumeration value="e531_ec_a____Der HD  und seine HF fliehen"/>
+<xs:enumeration value="e531_ef_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e531_ef_a____Der HF übernimmt die Rettungsaktion"/>
+<xs:enumeration value="e531_fc_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e531_gc_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e531_gc_a____Der HD wird durch einen Weggefährten begleitet der später als FH fungiert"/>
+<xs:enumeration value="e531_gf_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e531_gf_a____Das gewonnene OB als HF : gilt als Ersaz für de Erfolg wobei der HD für den AN gesuchte Frau bringt"/>
+<xs:enumeration value="e531_hc_Versaeumnis"/>
+<xs:enumeration value="e531_ic_Raumverwaltung"/>
+<xs:enumeration value="e531_jc_Spannung"/>
+<xs:enumeration value="e531_jc_a____Der HD muss schwierige Aufgaben lösen"/>
+<xs:enumeration value="e531_jf_Spannung"/>
+<xs:enumeration value="e531_jf_a____Der AN muss schwierige Aufgaben lösen"/>
+<xs:enumeration value="e531_kc_Misserfolg"/>
+<xs:enumeration value="e531_kc_a____Der AN scheitert"/>
+<xs:enumeration value="e531_lc_Erfolg"/>
+<xs:enumeration value="e531_lc_a____Der HD löst schwierige Aufgaben"/>
+<xs:enumeration value="e531_lf_Erfolg"/>
+<xs:enumeration value="e531_lf_a____Auseinandersetzung mit dem AN"/>
+<xs:enumeration value="e531_mc_Markierung"/>
+<xs:enumeration value="e531_nc_Liquidierung"/>
+<xs:enumeration value="e531_nc_a____Erfolgreiche Auseinandersetzung mit dem AN"/>
+<xs:enumeration value="e531_nc_a____Der AN scheitert bei der Auseinandersetzung/Wette"/>
+<xs:enumeration value="e531_nf_Liquidierung"/>
+<xs:enumeration value="e531_nf_a____Der HD ist befreit von der Stillschweigen"/>
+<xs:enumeration value="e531_ni_Liquidierung"/>
+<xs:enumeration value="e531_ni_a____Der HD wird wiederbelebt"/>
+<xs:enumeration value="e531_oc_Verfolgung"/>
+<xs:enumeration value="e531_pc_Rettung"/>
+<xs:enumeration value="e531_qc_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e531_rc_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e531_sc_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e531_sc_a____Der FH wird entlarvt"/>
+<xs:enumeration value="e531_tc_Transfiguration"/>
+<xs:enumeration value="e531_uc_Strafe"/>
+<xs:enumeration value="e531_vc_Belohnung"/>
+<xs:enumeration value="e531_wc_Hochzeit"/>
+<xs:enumeration value="e531_xc_Familienzusammenfuehrung"/>
+<!---->
+<xs:enumeration value="a532_Das_hilfreiche_pferd"/>
+
+<!--a545B-->
+<xs:enumeration value="a545B Der gestiefelte Kater"/>
+
+<xs:enumeration value="e545B_0b_Ausgangssituation"/>
+
+<xs:enumeration value="e545B_0f_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e545B_0f_a____Das Tier braucht Hilfe"/>
+<xs:enumeration value="e545B_0fb_Naechste_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e545B_0fc_Letzte_HD/FH_ST_Interaktion"/>
+
+<xs:enumeration value="e545B_0g_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e545B_0g_a____Dem HD wird versprochen die Königstochter zu heiraten"/>
+<xs:enumeration value="e545B_0gb_Empfang_naechstes_ZM_oder_HF"/>
+<xs:enumeration value="e545B_0gc_Empfang_letztes_ZM_oder_HF"/>
+
+<xs:enumeration value="e545B_2c_Krise"/>
+<xs:enumeration value="e545B_2c_a____Die Prinzessin soll gewonnen werden"/>
+<xs:enumeration value="e545B_2cb_Naechste_Krise"/>
+<xs:enumeration value="e545B_2cc_Letzte_Krise"/>
+
+<xs:enumeration value="e545B_2d_Vermittlung"/>
+<xs:enumeration value="e545B_2db_Naechste_Vermittlung"/>
+<xs:enumeration value="e545B_2dc_Letzte_Vermittlung_der_Kriese"/>
+
+<xs:enumeration value="e545B_2e_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e545B_2e_a____Der HF macht den König auf den HD neugier"/>
+<xs:enumeration value="e545B_2e_a____Der HF bittet den König um die Hand seiner Tochter"/>
+<xs:enumeration value="e545B_2eb_Naechste_einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e545B_2ec_Letzte_einsetzende_Gegenhandlung"/>
+
+<xs:enumeration value="e545B_2f_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e545B_2fb_Naechste_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e545B_2fc_Letzte_HD/FH_ST_Interaktion"/>
+
+<xs:enumeration value="e545B_2g_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e545B_2gb_Empfang_naechstes_ZM_oder_HF"/>
+<xs:enumeration value="e545B_2gc_Empfang_letztes_ZM_oder_HF"/>
+
+<xs:enumeration value="e545B_2i_Abreise_mit_Raumverwaltung"/>
+<xs:enumeration value="e545B_2i_a____Der  HD und HF gehen zur Braut"/>
+<xs:enumeration value="e545B_2ib_Naechste_Abreise_mit_Raumverwaltung"/>
+<xs:enumeration value="e545B_2ic_Letzte_Abreise_mit_Raumverwaltung"/>
+
+<xs:enumeration value="e545B_2j_Spannung"/>
+<xs:enumeration value="e545B_2jb_Naechste_Spannung"/>
+<xs:enumeration value="e545B_2jc_Letzte_Spannung"/>
+
+<xs:enumeration value="e545B_2k_Misserfolg"/>
+<xs:enumeration value="e545B_2kb_Naechste_Misserfolg"/>
+<xs:enumeration value="e545B_2kc_Letzte_Misserfolg"/>
+
+<xs:enumeration value="e545B_2l_Erfolg"/>
+<xs:enumeration value="e545B_2l_a____Der HF schafft fehlende Kleidung"/>
+<xs:enumeration value="e545B_2lb_Naechste_Erfolg"/>
+<xs:enumeration value="e545B_2lb_a____Der HF erledigt anzutreffende Probleme"/>
+<xs:enumeration value="e545B_2lc_Letzte_Erfolg"/>
+
+<xs:enumeration value="e545B_2n_Liquidierung"/>
+<xs:enumeration value="e545B_2n_a____Die Frau wird gewonnen"/>
+<xs:enumeration value="e545B_2nb_Naechste_Liquidierung"/>
+<xs:enumeration value="e545B_2nc_Letzte_Liquidierung"/>
+
+<xs:enumeration value="e545B_2o_Rueckkehr_mit_Raumverwaltung"/>
+<xs:enumeration value="e545B_2o_a____Alle kehren zurück"/>
+<xs:enumeration value="e545B_2ob_Naechste_Rueckkehr_mit_Raumverwaltung"/>
+<xs:enumeration value="e545B_2oc_Letzte_Rueckkehr_mit_Raumverwaltung"/>
+
+<xs:enumeration value="e545B_4c_Krise"/>
+<xs:enumeration value="e545B_4c_a____Der HD hat kein Haus in das er die Braut bringen kann"/>
+<xs:enumeration value="e545B_4cb_Naechste_Krise"/>
+<xs:enumeration value="e545B_4cc_Letzte_Krise"/>
+
+<xs:enumeration value="e545B_4d_Vermittlung"/>
+<xs:enumeration value="e545B_4db_Naechste_Vermittlung"/>
+<xs:enumeration value="e545B_4dc_Letzte_Vermittlung_der_Kriese"/>
+
+<xs:enumeration value="e545B_4e_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e545B_4e_a____Der HF geht voraus"/>
+<xs:enumeration value="e545B_4eb_Naechste_einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e545B_4ec_Letzte_einsetzende_Gegenhandlung"/>
+
+<xs:enumeration value="e545B_4f_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e545B_4fb_Naechste_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e545B_4fc_Letzte_HD/FH_ST_Interaktion"/>
+
+<xs:enumeration value="e545B_4g_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e545B_4gb_Empfang_naechstes_ZM_oder_HF"/>
+<xs:enumeration value="e545B_4gc_Empfang_letztes_ZM_oder_HF"/>
+
+<xs:enumeration value="e545B_4h_Versaeumnis"/>
+<xs:enumeration value="e545B_4hb_Misslingen_beim_Empfang_naechstes_ZM_oder_HF"/>
+<xs:enumeration value="e545B_4hc_Misslingen_beim_Empfang_letztes_ZM_oder_HF"/>
+
+<xs:enumeration value="e545B_4i_Abreise_mit_Raumverwaltung"/>
+<xs:enumeration value="e545B_4ib_Naechste_Abreise_mit_Raumverwaltung"/>
+<xs:enumeration value="e545B_4ic_Letzte_Abreise_mit_Raumverwaltung"/>
+
+<xs:enumeration value="e545B_4j_Spannung"/>
+<xs:enumeration value="e545B_4jb_Naechste_Spannung"/>
+<xs:enumeration value="e545B_4jc_Letzte_Spannung"/>
+
+<xs:enumeration value="e545B_4k_Misserfolg"/>
+<xs:enumeration value="e545B_4kb_Naechste_Misserfolg"/>
+<xs:enumeration value="e545B_4kc_Letzte_Misserfolg"/>
+
+<xs:enumeration value="e545B_4l_Erfolg"/>
+<xs:enumeration value="e545B_4l_a____Der HF beschlagnamt das Haus des Ungeheuers"/>
+<xs:enumeration value="e545B_4l_a____Der HF lässt die Hirten belogen"/>
+<xs:enumeration value="e545B_4lb_Naechste_Erfolg"/>
+<xs:enumeration value="e545B_4lb_a____Der HF neutralisiert die Fragen an den HD"/>
+<xs:enumeration value="e545B_4lc_Letzte_Erfolg"/>
+
+<xs:enumeration value="e545B_4m_Markierung"/>
+
+<xs:enumeration value="e545B_4n_Liquidierung"/>
+<xs:enumeration value="e545B_4n_a____Der wird als Inhaber des Gut und Habes erkannt"/>
+<xs:enumeration value="e545B_4nb_Naechste_Liquidierung"/>
+<xs:enumeration value="e545B_4nc_Letzte_Liquidierung"/>
+
+<xs:enumeration value="e545B_6f_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e545B_6f_a____Die Dankbarkeit des HD wird auf die Probe gestellt"/>
+<xs:enumeration value="e545B_6fb_Naechste_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e545B_6fc_Letzte_HD/FH_ST_Interaktion"/>
+
+<xs:enumeration value="e545B_6g_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e545B_6g_a____Der HD besteht die Probe und lebt weiter glücklich"/>
+<xs:enumeration value="e545B_6g_a____Der HD entschuldigt sich und der HF macht alles wieder gut"/>
+<xs:enumeration value="e545B_6g_a____Der HD überlistet den HF"/>
+<xs:enumeration value="e545B_6gb_Empfang_naechstes_ZM_oder_HF"/>
+<xs:enumeration value="e545B_6gc_Empfang_letztes_ZM_oder_HF"/>
+
+<xs:enumeration value="e545B_6h_Versaeumnis"/>
+<xs:enumeration value="e545B_6h_a____Der HD besteht die Probe nicht und wird bestraft"/>
+<xs:enumeration value="e545B_6hb_Misslingen_beim_Empfang_naechstes_ZM_oder_HF"/>
+<xs:enumeration value="e545B_6hc_Misslingen_beim_Empfang_letztes_ZM_oder_HF"/>
+
+<!--a550-->
+<!--(1.) Einleitung. (1.1) Ein goldener Vogel stiehlt nachts die kostbaren Äpfel aus dem Garten des Königs. Seine drei Söhne versuchen, den Vogel zu fangen. Während die beiden ältesten einschlafen, kommt der jüngste beim Versuch, den Vogel zu erlegen, in den Besitz einer seiner Federn. (1.2) Alternativ kann ein kranker König nur durch den Gesang des goldenen Vogels (Phönix) geheilt werden. (2.) Die drei Söhne des Königs machen sich auf die Suche nach dem goldenen Vogel. Die beiden ältesten begegnen einem Fuchs (Wolf), den sie erschießen wollen. Der Fuchs warnt sie davor, ein bestimmtes Wirtshaus aufzusuchen, und entkommt. Die Brüder betreten das Wirtshaus, vergnügen sich dort und vergessen darüber ihre Aufgabe. Der jüngste Bruder ist freundlich zu dem Tier (gibt ihm sein Pferd zu fressen), woraufhin es ihn zu dem Ort trägt, an dem sich der Vogel befindet (Dankbare [hilfreiche] Tiere). Entgegen dem Rat des Helfers nimmt der Prinz auch den goldenen Käfig mit und wird ertappt. Der König, dem der Vogel gehört, verspricht ihm die Freiheit, falls er ihm ein Zauberpferd bringt. Wieder hört der Held nicht auf den Rat seines Helfers, nimmt auch das kostbare Zaumzeug mit und wird nochmals erwischt. Diesmal kann er der Strafe nur entgehen, wenn er eine Prinzessin holt. Jetzt übernimmt der Tierhelfer die Aufgabe selbst und ist erfolgreich. Held und Helfer betrügen die Besitzer des Pferdes und des Vogels um die verlangten Objekte und fliehen mit der Prinzessin. Schließlich treffen sie die beiden älteren Brüder wieder, die aufgrund ihrer Ausschweifungen in Bedrängnis geraten sind. Gegen den Rat des Fuchses befreit der Held sie (rettet sie vor dem Erhängen; Mitleidsverbot). Sie werfen ihn jedoch in einen Brunnen (töten ihn) und bringen dem König die Kostbarkeiten. Der Helfer rettet den Prinzen (Wiederbelebung mit Lebenswasser). Der Held kehrt mit seinem Helfer zu seinem Vater zurück. Vogel, Pferd und Prinzessin erkennen ihn als ihren Retter (der Prinz heiratet die Prinzessin; die Brüder werden bestraft; der Tierhelfer, ein verzauberter Mensch, wird erlöst). 
+WENN DER HD SICH DEM BÖSEN KÖNIG UNTERORDNEN MUSS DANN HANDELT ES SICH UM a531_Ferdinand_der_treue-->
+<xs:enumeration value="a550_Vogel_Pferd_und_Koenigstochter"/>
+<xs:enumeration value="e550_bc_Ausgangssituation"/>
+<xs:enumeration value="e550_ce_Krise"/>
+<xs:enumeration value="e550_ce_a____Äpfel werden aus dem Garten gestolen"/>
+<xs:enumeration value="e550_ce_a____Dem Kranke muss der Vogel geholt werden"/>
+<xs:enumeration value="e550_ce_a____Etwas wird geträumt"/>
+<xs:enumeration value="e550_cg_Krise"/>
+<xs:enumeration value="e550_cg_a____Die Brüder geraten in die Not"/>
+<xs:enumeration value="e550_ci_Krise"/>
+<xs:enumeration value="e550_ci_a____Der HD wird von HO ertappt"/>
+<xs:enumeration value="e550_ck_Krise"/>
+<xs:enumeration value="e550_ck_a____Der FH wirft den HD in den Brunen"/>
+<xs:enumeration value="e550_dc_Vermittlung"/>
+<xs:enumeration value="e550_dc_a____Die Söhne werden beauftragt"/>
+<xs:enumeration value="e550_de_Vermittlung"/>
+<xs:enumeration value="e550_de_a____Der HD ist auf die notgeratene Brüder gestößen"/>
+<xs:enumeration value="e550_dg_Vermittlung"/>
+<xs:enumeration value="e550_dg_a____Der HD wird im vorfeld gewarnt"/>
+<xs:enumeration value="e550_di_Vermittlung"/>
+<xs:enumeration value="e550_di_a____Der HF wird über die Notlage des HD informiert"/>
+<xs:enumeration value="e550_ec_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e550_ec_a____Der Aufgabe des AG wird übernommen"/>
+<xs:enumeration value="e550_ee_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e550_ee_a____Der Hf  übernimmt die die Rettungsaufgabe des HD"/>
+<xs:enumeration value="e550_fc_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e550_fc_a____Folgt der Spannung"/>
+<xs:enumeration value="e550_gc_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e550_gc_a____Folgt der Spannung oder der Interaktion des ST"/>
+<xs:enumeration value="e550_hc_Versaeumnis"/>
+<xs:enumeration value="e550_ic_Raumverwaltung"/>
+<xs:enumeration value="e550_ic_a____Der HD kommt zum HO"/>
+<xs:enumeration value="e550_ie_Raumverwaltung"/>
+<xs:enumeration value="e550_ie_a____Der HD und der FH trennen sich an dem Kreuzweg"/>
+<xs:enumeration value="e550_ig_Raumverwaltung"/>
+<xs:enumeration value="e550_ig_a____Der HD mit Hilfe von anderen Mittel kehrt zurück"/>
+<xs:enumeration value="e550_jc_Spannung"/>
+<xs:enumeration value="e550_jc_a____Der FH  muss das fehlende OB beschaffen"/>
+<xs:enumeration value="e550_je_Spannung"/>
+<xs:enumeration value="e550_je_a____Der HD muss dem AG das fehlende OB beschaffen"/>
+<xs:enumeration value="e550_jg_Spannung"/>
+<xs:enumeration value="e550_jg_a____Der HD muss dem AN das gewünschte OB beschaffen"/>
+<xs:enumeration value="e550_kc_Misserfolg"/>
+<xs:enumeration value="e550_kc_a____Der FH scheitert bei der Beschaffung"/>
+<xs:enumeration value="e550_ke_Misserfolg"/>
+<xs:enumeration value="e550_ke_a____Der HD scheitert bei der Beschaffung, er wird erwischt"/>
+<xs:enumeration value="e550_lc_Erfolg"/>
+<xs:enumeration value="e550_lc_a____Der HD beschafft das fehlende OB"/>
+<xs:enumeration value="e550_mc_Markierung"/>
+<xs:enumeration value="e550_nc_Liquidierung"/>
+<xs:enumeration value="e550_nc_s____Der HD  wird wiederbelebt"/>
+<xs:enumeration value="e550_ne_Liquidierung"/>
+<xs:enumeration value="e550_ne_a____Der HD kauft die Brüder frei"/>
+<xs:enumeration value="e550_ng_Liquidierung"/>
+<xs:enumeration value="e550_ng_a____Der HD kommt vom Brunen hoch"/>
+<xs:enumeration value="e550_ni_Liquidierung"/>
+<xs:enumeration value="e550_ni_a____Der HD und das OB entkommen vom HO"/>
+<xs:enumeration value="e550_oc_Verfolgung"/>
+<xs:enumeration value="e550_pc_Rettung"/>
+<xs:enumeration value="e550_qc_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e550_sc_a____Der vom FH stichgelassene HD kehrt zurück"/>
+<xs:enumeration value="e550_rc_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e550_tc_a____Der FH gibt sich als HD aus"/>
+<xs:enumeration value="e550_sc_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e550_uc_a____Der zurückgekehrte HD tritt auf"/>
+<xs:enumeration value="e550_tc_Transfiguration"/>
+<xs:enumeration value="e550_uc_Strafe"/>
+<xs:enumeration value="e550_wc_a____Die Brüder werden bestraft"/>
+<xs:enumeration value="e550_vc_Belohnung"/>
+<xs:enumeration value="e550_wc_Hochzeit"/>
+<xs:enumeration value="e550_xc_Familienzusammenfuehrung"/>
+<xs:enumeration value="e550_zc_a____Die Frau wird dem AG übergeben"/>
+
+<!---->
+<!--a554-->
+<xs:enumeration value="a554_Dankbare_Tiere"/>
+<xs:enumeration value="e554_bb_Ausgangssituation"/>
+<xs:enumeration value="e554_bb_a____Der HD muss das Haus verlassen"/>
+<xs:enumeration value="e554_cb_Krise"/>
+<xs:enumeration value="e554_cb_a____Der HD bewirbt sich um die Frau"/>
+<xs:enumeration value="e554_cc_Krise"/>
+<xs:enumeration value="e554_cc_a____Nach der Begegnung mit dem künftigen HF"/>
+<xs:enumeration value="e554_db_Vermittlung"/>
+<xs:enumeration value="e554_db_a____Der HD meldet sich als Freier"/>
+<xs:enumeration value="e554_eb_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e554_fb_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e554_fb_a____Umfeld des Treffens vom HF und HD bzw. FH"/>
+<xs:enumeration value="e554_gb_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e554_gb_a____wird vom Tier begleitet, bekommt ein Zeichen um es abzurufen oder ein Transfigurationsmittel"/>
+<xs:enumeration value="e554_hb_Versaeumnis"/>
+<xs:enumeration value="e554_hb_a____Der FH achtet nicht auf das Tier"/>
+<xs:enumeration value="e554_ib_Raumverwaltung"/>
+<xs:enumeration value="e554_ib_a____Der HD überwindet der Distanz mit Hilfe der HF"/>
+<xs:enumeration value="e554_jb_Spannung"/>
+<xs:enumeration value="e554_jb_Falls zwischen Spannung und Erfolg andere Funktion vorkommt"/>
+<xs:enumeration value="e554_kb_Misserfolg"/>
+<xs:enumeration value="e554_kb_a____Der FH scheitert bei der Lösung der Aufgaben"/>
+<xs:enumeration value="e554_lb_Erfolg"/>
+<xs:enumeration value="e554_lb_a____Der HD lösst alle Aufgaben mit Hilfe der Tieren"/>
+<xs:enumeration value="e554_mb_Markierung"/>
+<xs:enumeration value="e554_nb_Liquidierung"/>
+<xs:enumeration value="e554_nb_a____Gewinnung der Frau"/>
+<xs:enumeration value="e554_ob_Verfolgung"/>
+<xs:enumeration value="e554_pb_Rettung"/>
+<xs:enumeration value="e554_qb_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e554_rb_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e554_sb_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e554_tb_Transfiguration"/>
+<xs:enumeration value="e554_ub_Strafe"/>
+<xs:enumeration value="e554_vb_Belohnung"/>
+<xs:enumeration value="e554_wb_Hochzeit"/>
+<xs:enumeration value="e554_yb_a____Der HD heiratet die Prinzessin"/>
+<xs:enumeration value="e554_xb_Familienzusammenfuehrung"/>
+<!---->
+<xs:enumeration value="a556_The Shepherd in the Service of a Witch"/>
+<!---->
+<xs:enumeration value="a563_Tischleindeckdich"/>
+<xs:enumeration value="e563_c_erhalten_und_test_des_uebernatuerlichen_gegenstandes"/>
+<xs:enumeration value="e563_e_einsatz_des_uebernatuerlichen_gegenstandes"/>
+<xs:enumeration value="e563_g_neid_und_entwendung_des_uebernatuerlichen_gegenstandes"/>
+<xs:enumeration value="e563_i_rückeroberung_aller_geraubten_gegenstaenden"/>
+<!---->
+<xs:enumeration value="a564_Provianttasche"/>
+<xs:enumeration value="a567_Das_wunderbare_Vogelherz"/>
+<xs:enumeration value="a590_Die_treulose_Mutter"/>
+<!---->
+<xs:enumeration value="a613_Die_beiden_Wanderer"/>
+<xs:enumeration value="e613_c_eingangssituation_bis_zum_geraten_in_Krise"/>
+<xs:enumeration value="e613_e_belauschung_mit_dem_positiven_ende"/>
+<xs:enumeration value="e613_g_die_information_wird_realisiert"/>
+<xs:enumeration value="e613_ga____jeder_einzelne_fall_muss_extra_annotiert_werden"/>
+<xs:enumeration value="e613_i_Treffen_mit_dem_AN_und_die_Preisgabe_des_Geheimnisses"/>
+<xs:enumeration value="e613_k_belauschung_mit_dem_negativen_ende"/>
+<!--a650A-->
+<xs:enumeration value="a650A_Starker_Hans"/>
+<xs:enumeration value="e650A_bb_Ausgangssituation"/>
+<xs:enumeration value="e650A_bb_a____ein strarker HD wird geboren"/>
+<xs:enumeration value="e650A_cb_Krise"/>
+<xs:enumeration value="e650A_cb_a____Ein Mädchen wird gewaltsam genommen"/>
+<xs:enumeration value="e650A_cc_Krise"/>
+<xs:enumeration value="e650A_cc_a____Der HD hat einen unstillbaren Appetit und die zerstörerisches Kraft"/>
+<xs:enumeration value="e650A_cd_Krise"/>
+<xs:enumeration value="e650A_cd_a____Der HD muss sich dem AN unterordnen"/>
+<xs:enumeration value="e650A_db_Vermittlung"/>
+<xs:enumeration value="e650A_db_a____Der HD ahnt dass zwischen seinem Vater und seiner Mutter etwas nicht stimt"/>
+<xs:enumeration value="e650A_db_a____Dem HD wird geflüstert"/>
+<xs:enumeration value="e650A_db_a____Der HD fragt seine Mutter über seiner Herkunft"/>
+<xs:enumeration value="e650A_dc_Vermittlung"/>
+<xs:enumeration value="e650A_dc_a____Die Nachbarn beklagen sich beim Eltern des HD"/>
+<xs:enumeration value="e650A_dd_Vermittlung"/>
+<xs:enumeration value="e650A_dd_a____Vertrag (Wette) zwischen dem HD und dem An"/>
+<xs:enumeration value="e650A_ea_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e650A_ea_a____Erwartet a590 Die treulose Mutter"/>
+<xs:enumeration value="e650A_eb_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e650A_eb_a____Der HD bereitet eine Flucht vor"/>
+<xs:enumeration value="e650A_ec_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e650A_ec_a____Der HD verlässt das Haus, weil er dort Nichts zum Essen hat"/>
+<xs:enumeration value="e650A_fb_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e650A_fb_a____der HD bestellt eine Waffe"/>
+<xs:enumeration value="e650A_gb_Empfang_eines_ZM_oder_HF"/>
+<xs:enumeration value="e650A_gb_a____Der HD bekommt und testet eine Waffe"/>
+<xs:enumeration value="e650A_hb_Versaeumnis"/>
+<xs:enumeration value="e650A_hb_a____Beim Testen ist der HD mit der Waffe nicht zufrieden"/>
+<xs:enumeration value="e650A_ib_Raumverwaltung"/>
+<xs:enumeration value="e650A_jb_Spannung"/>
+<xs:enumeration value="e650A_jb_a____Falls zwischen dem Kämpft gegen den AN und dem Sieg eine Stiftungsaktion vorkommt"/>
+<xs:enumeration value="e650A_kb_Misserfolg"/>
+<xs:enumeration value="e650A_kb_a____Der HD misslingt bei der Befreiung der Mutter"/>
+<xs:enumeration value="e650A_lb_Erfolg"/>
+<xs:enumeration value="e650A_lb_a____Der HD besiegt den Entführer"/>
+<xs:enumeration value="e650A_lc_Erfolg"/>
+<xs:enumeration value="e650A_lc_a____Der HD lösst alle gestelte Aufgaben"/>
+<xs:enumeration value="e650A_ld_Erfolg"/>
+<xs:enumeration value="e650A_ld_a____Auseinandersetzung mit dem AN"/>
+<xs:enumeration value="e650A_mb_Markierung"/>
+<xs:enumeration value="e650A_nb_Liquidierung"/>
+<xs:enumeration value="e650A_nb_a____Der HD befreit die Mutter und sich selbst"/>
+<xs:enumeration value="e650A_nb_a____Der HD und die Mutter entkommen der Gefangenschaft"/>
+<xs:enumeration value="e650A_nc_Liquidierung"/>
+<xs:enumeration value="e650A_nc_a____Der HD gilt als gewinner"/>
+<xs:enumeration value="e650A_ob_Verfolgung"/>
+<xs:enumeration value="e650A_pb_Rettung"/>
+<xs:enumeration value="e650A_qb_Unerkannte_Rueckkehr"/>
+<xs:enumeration value="e650A_rb_Unrechtmaessige_Anspruche_des_FH"/>
+<xs:enumeration value="e650A_sb_Auftrit_Aufklaerung_Entlarvung"/>
+<xs:enumeration value="e650A_tb_Transfiguration"/>
+<xs:enumeration value="e650A_ub_Strafe"/>
+<xs:enumeration value="e650A_vb_Belohnung"/>
+<xs:enumeration value="e650A_wb_Hochzeit"/>
+<xs:enumeration value="e650A_xb_Familienzusammenfuehrung"/>
+<!---->
+<xs:enumeration value="a706_Maedchen_ohne_Haende"/>
+<!---->
+<xs:enumeration value="a707_Die_drei_goldenen_Soehne"/>
+<xs:enumeration value="h707_HD_das_ausgesetze_maedchen"/>
+<xs:enumeration value="h707_OB_der_prinz_der_das_madchen_heiratet"/>
+<xs:enumeration value="h707_AN_derjenige_der_das_kind_aussetzen_laesst"/>
+<xs:enumeration value="h707_FH_derjenige_der_den_platz_des_HD_uebernimmt"/>
+<xs:enumeration value="h707_HF_kind(er)_des_HD_und_des_OB"/>
+<xs:enumeration value="h707_ST_derjenige_der_dem_HF_durch_den_rat_und-anweisungen_hielft"/>
+<xs:enumeration value="h707_ZM_die_durch_die_erfuellung_der_auftraege_beschaffene_dinge"/>
+<xs:enumeration value="e707_c_aussetzen_des_kindes_bis_zu_dem_kontakt_mit_dem_kuenftigen_braeutigam"/>
+<xs:enumeration value="e707_cb____die_stiefmutter_zwingt_ihren_mann_seine_toechter_in_der_wildnis_auszusetzen"/>
+<xs:enumeration value="e707_cc____bis_zum_brechen_des_sehekontakts_zwischen_kinder_und_dem_aussetzer"/>
+<xs:enumeration value="e707_e_eingangssituation_erstes_treffen_bis_zur_schwangerschaft"/>
+<xs:enumeration value="e707_ea____gefolgt_der_e931_die_prophezeiung"/>
+<xs:enumeration value="e707_ea____prinz_auf_der_suche_nach_ehefrau"/>
+<xs:enumeration value="e707_eb____gespraech_der_geschwister_und_die aeusserung_von_wuenschen_hochzeit(en)"/>
+<xs:enumeration value="e707_ec____koenig_auf_der_jagd_bleibt_bei_den_bauer_und_will_seine_tochter_als_ehefrau"/>
+<xs:enumeration value="e707_ed____einladung_der_maedchen_und_erfuellung_deren_wuenschen"/>
+<xs:enumeration value="e707_ee____die_bauerntochter_im_erziehungshaus_und_abholen_der_bauerntochter"/>
+<xs:enumeration value="e707_ef____hochzeit"/>
+<xs:enumeration value="e707_eg____schwangerschaft_der_prinzessin"/>
+<xs:enumeration value="e707_g_abwesenheit_des_koenigs_bis_zur_bestrafung_der_koenigin"/>
+<xs:enumeration value="e707_ca____gefolgt_der_e931_die_prophezeiung"/>
+<xs:enumeration value="e707_ga____die_geburt_der_wunderschoenen_kinder_waehrend_der_abwesenheit_des_koenigs"/>
+<xs:enumeration value="e707_gb____der_umtausch_von_kindern_und_den_tieren_und_informieren_des_koenigs_durch_die_boesen_schwestern"/>
+<xs:enumeration value="e707_gb____der_umtausch_von_kindern_und_den_tieren_und_informieren_des_koenigs_durch_die_boese_schwiegermutter"/>
+<xs:enumeration value="e707_gc____entdeckung_der_kinder_und_deren_annahme_durch_andere_person_personen"/>
+<xs:enumeration value="e707_gc____der_mueller_findet_die_kinder_und_adoptiert_sie"/>
+<xs:enumeration value="e707_gc____der_gaertner_findet_die_kinder_und_adoptiert_sie"/>
+<xs:enumeration value="e707_gc____der_bauer_findet_die_kinder_und_adoptiert_sie"/>
+<xs:enumeration value="e707_gc____der_greis_findet_die_kinder_und_adoptiert_sie"/>
+<xs:enumeration value="e707_gd____austreiben_der_koenigin"/>
+<xs:enumeration value="e707_gd____einsperren_der_koenigin"/>
+<xs:enumeration value="e707_i_getrenntes_leben_bis_zur_anregung_fuer_die_aufgabenstellung"/>
+<xs:enumeration value="e707_ia____aussetzen_der_kindern"/>
+<xs:enumeration value="e707_ib____grosswerden_der_kindern_bei_adoptiveltern"/>
+<xs:enumeration value="e707_ic____rueckkehr_des_koenigs_und_einsames_leben_der_koenigin"/>
+<xs:enumeration value="e707_id____die_kinder_finden_heraus_sie_gehoeren_nicht_zur_adoptivfamilie"/>
+<xs:enumeration value="e707_ie____die_suche_nach_den_eltern"/>
+<xs:enumeration value="e707_if____begegnug_mit_dem_koenig_und_die_kinder_werden_nicht_erkannt"/>
+<xs:enumeration value="e707_k_aufgabenstellung"/>
+<xs:enumeration value="e707_ka____die_herausforderung_wird_durch_eine_dritte_person_gesetzt"/>
+<xs:enumeration value="e707_m_begegnung_mit_dem_HF"/>
+<xs:enumeration value="e707_ma____das_kind_macht_sich_auf_den_weg_um_die_die_aufgabe_zu-loesen"/>
+<xs:enumeration value="e707_mb____das_kind_begegnet_dem_HF"/>
+<xs:enumeration value="e707_mc____ratschlaege_werden_gegeben_und_der_weg_wird_gezeigt"/>
+<xs:enumeration value="e707_o_aufgabenloesung"/>
+<xs:enumeration value="e707_oa____das_kind_macht_sich_auf_den_weg_um_die_aufgabe_zu_loesen_ohne_begegnung_mit_HF"/>
+<xs:enumeration value="e707_ob____auf_den_helfer_wird_nicht_gehoert"/>
+<xs:enumeration value="e707_oc____es_folg_eine_negative_loesung"/>
+<xs:enumeration value="e707_u_der_aufgabenloesung_folgt_die_aufhebung"/>
+<xs:enumeration value="e707_ua____folgt_die_e707_o_aufgabenloesung"/>
+<xs:enumeration value="e707_ua____gilt_als_erweiterte_version_der_episode_e707_o_aufgabenloesung"/>
+<xs:enumeration value="e707_ub____auf_den_helfer_wird_gehoert"/>
+<xs:enumeration value="e707_uc____die_aufgabe_das_ziel_wird_erfuellt"/>
+<xs:enumeration value="e707_ud____wiederbelebung_der_geschwister"/>
+<xs:enumeration value="e707_ue____wiederbelebung_der_geschwister_und_koenig"/>
+<xs:enumeration value="e707_uf____rueckkehr"/>
+<xs:enumeration value="e707_w_wiedervereinigung_der_familie_bis_zur_bestraffung_des_AN"/>
+<xs:enumeration value="e707_wa____kinder_werden_von_der_koenigsfamilie_bemerkt"/>
+<xs:enumeration value="e707_wa____kinder_werden_direkt_von_dem_koenig_bemerkt"/>
+<xs:enumeration value="e707_wa____kinder_werden_von_jaeger_von_dem_koenig_bemerkt"/>
+<xs:enumeration value="e707_wb____treffen_der_koenigsfamilie_und_kinder"/>
+<xs:enumeration value="e707_wc____der_sprechende_vogel_erzaehlt_alles_beim_treffen_mit_den_koenig"/>
+<xs:enumeration value="e707_wc____dem_vogel_wird_vertraut"/>
+<xs:enumeration value="e707_wc____die_wahrheit_wird_durch_die_buecher_und_schriften_ueberprueft"/>
+<xs:enumeration value="e707_wc____die_wahrheit_wird_durch_die_abfragung_der_fuer_die_geschichte_wichtigen_personen_ueberprueft"/>
+<xs:enumeration value="e707_wd____wiedervereinigung_und_bestraffung_der_antagonisten/antagonistin____ende_e707_q_"/>
+<xs:enumeration value="e707_we____erwartet_die_e931_die_prophezeiung_geht_in_erfuellung"/>
+<!---->
+<!---->
+<xs:enumeration value="a725_The_Dream"/>
+<xs:enumeration value="e725_c_vom_traeumen_bis_zum_konflikt"/>
+<xs:enumeration value="e725_e_die_nach_dem_konflikt_entwickelte_lage"/>
+<xs:enumeration value="e725_g_von_der_begegnung_mit_dem_OB_bis_zur_aufgabenstellung"/>
+<xs:enumeration value="e725_i_aufgabenstellung"/>
+<xs:enumeration value="e725_k_aufgabenloesung"/>
+<xs:enumeration value="e725_m_aufgabenloesung_mit_der_aufhebung"/>
+<xs:enumeration value="e725_o_die_traum_geht_in_erfuellung"/>
+<xs:enumeration value="e725_0b_Ausgangssituation"/>
+<xs:enumeration value="e725_0d_Vermittlung"/>
+<xs:enumeration value="e725_0c_a____Der HD muss die Hoheit erreichen"/>
+<xs:enumeration value="e725_0e_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e725_0e_a____Der HD wird vertrieben"/>
+<xs:enumeration value="e725_1c_Krise"/>
+<xs:enumeration value="e725_1c_a____Der HD wird gezwungen seinen Traum preiszugeben"/>
+<xs:enumeration value="e725_1e_Einsetzende_Gegenhandlung"/>
+<xs:enumeration value="e725_1e_a____Der HD bleibt im Knast"/>
+<xs:enumeration value="e725_1f_HD/FH_ST_Interaktion"/>
+<xs:enumeration value="e725_1g_a____Die Königstochter kümmert sich um den HD"/>
+<xs:enumeration value="e725_1g_a____Die Königstochter liefert dem HD die Information"/>
+<xs:enumeration value="e725_2c_Krise"/>
+<xs:enumeration value="e725_2c_a____Dem König wird Krieg erklärt wenn er die gestellten Rätsel nicht löst"/>
+<xs:enumeration value="e725_2d_a____Der HD wird beauftragt die Tätsel zu lösen"/>
+<xs:enumeration value="e725_2l_Erfolg"/>
+<xs:enumeration value="e725_2mb_Naechste_Erfolg"/>
+<xs:enumeration value="e725_2mc_Letzte_Erfolg"/>
+<xs:enumeration value="e725_2p_Liquidierung"/>
+<xs:enumeration value="e725_2p_a____Der Krieg wir vermeiden"/>
+<xs:enumeration value="e725_1p_Liquidierung"/>
+<xs:enumeration value="e725_1p_a____Der HD wird vom Knast freigelassen"/>
+<xs:enumeration value="e725_1yb_Hochzeit"/>
+<xs:enumeration value="e725_0p_Liquidierung"/>
+<xs:enumeration value="e725_0p_a____Der Traum geht in Erfüllung"/>
+<!---->
+
+<xs:enumeration value="e517_1d_Vermittlung"/>
+<xs:enumeration value="e517_1d_a____Dem HD wird mitgeteilt dass  der König Hilfe braucht"/>
+<xs:enumeration value="e517_1l_Erfolg"/>
+<xs:enumeration value="e517_1m_a____Der HD lösst die Aufgabe aus"/>
+<xs:enumeration value="e517_1p_Liquidierung"/>
+<xs:enumeration value="e517_1yb_Hochzeit"/>
+<xs:enumeration value="e517_0p_Liquidierung"/>
+<xs:enumeration value="e517_0p_a____Der HD bestellt seine Eltern zu sich"/>
+<!---->
+<xs:enumeration value="a854_Der_goldene_Bock"/>
+<xs:enumeration value="e854_c_Von_der_Provokation_bis_zur_Wette"/>
+<xs:enumeration value="e854_e_Massnahmen_zur_Isollation_des_OB"/>
+<xs:enumeration value="e854_g_Vom_Beginn_der_Aktivitaeten_bis_zum_Ausarbeitung_eines_Planes"/>
+<xs:enumeration value="e854_i_Umsetzung_des_Plannes"/>
+<xs:enumeration value="e854_k_Pruefen_und_Einloesen_der_Wette"/>
+<!---->
+<xs:enumeration value="a931_oedipus"/>
+<xs:enumeration value="e931_c_todespropezeihung_aussetzen_des_neugeborenen_kindes_bis_zum_entrissen_des_kindes_von_der_wilde"/>
+<!---->
+<xs:enumeration value="a974_Heimkehr des Gatten"/>
+<xs:enumeration value="e974_c_vom_geratten_in_der_fremde_bis_zum_flucht"/>
+<xs:enumeration value="e974_e_das_abenteuer_beim_flucht_"/>
+<xs:enumeration value="e974_ea____erwartet_ein_beliebiger_Typ"/>
+<xs:enumeration value="e974_g_nach_dem_heimkehr_bis_zur_oeffentlichen_auftritt"/>
+<xs:enumeration value="e974_i_nach_dem_oeffentlichen_auftritt_bis_zum_ende_der_geschichte"/>
+<!---->
+<xs:enumeration value="e1525A_c_eingangssituation_bis_zum_beauftragung_des_diebes"/>
+<xs:enumeration value="e1525A_e_auftrag_und_die_erfüllung_des_auftrages"/>
+<!---->
+<xs:enumeration value="e1592B_c_erste_ausleie_und_zurueckgabe_eines_gefaesses"/>
+<xs:enumeration value="e1592B_e_zweite_ausleie_und_nachfrage"/>
+<xs:enumeration value="e1592B_g_zum_gericht"/>
+<xs:enumeration value="e1592B_i_bewunderung_und_argumentierte_antwort"/>
+<!---->
+<xs:enumeration value="e1641_c_beginn_des_neuen_werdeganges_bis_zum_ersten_fall"/>
+<xs:enumeration value="e1641_e_der_fall"/>
+<xs:enumeration value="e1641_g_der_letzte_fall"/>
+
+<!--<xs:enumeration value="e1592B_c_topf_hat_ein_kind"/>-->
+
+<xs:enumeration value="eTMH761_Riddle_of_the_Sphinx"/>
+
+<xs:enumeration value="eNasreddin23_397"/>
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>

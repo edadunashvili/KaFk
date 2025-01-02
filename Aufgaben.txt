@@ -1,0 +1,13 @@
+1. texte in folgende Kategorien teilen
+a. cc_
+b. cr_
+c. xc_cc
+d. xc_cc_cr - ableiten
+
+2. daten im konvolut sammeln
+3. vom konvolut cc in TextGrid hochladen
+4. daten mit xc mit <seg> versehen
+5. daten mit xc in Corpus integrieren 
+
+
+1. aufgabe: Xquery: einzelne Elemente node ersetzen / Finden+Ersetzen: elemente und feste Attribute ersetzen 

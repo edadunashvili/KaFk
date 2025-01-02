@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+     <title>Svanische Folklore (sva)</title>
+     <author key="gnd:133557154">Dadunashvili, Elguja</author>
+     <author key="gnd:1154734161">Forker, Diana</author>
+     <respStmt>
+      <resp>Data Contributor</resp>
+      <name>Elguja.Dadunashvili@textgrid.de</name>
+     </respStmt>
+    </titleStmt>
+    <publicationStmt>
+     <publisher>
+      <name ref="gnd:4028557-1">Institut für Slawistik und Kaukasusstudien. Friedrich-Schiller-Universität Jena</name>
+     </publisher>
+     <pubPlace>Jena</pubPlace>
+     <date>2024</date>
+     <distributor>
+      <addName>DFG Projekt "Kaukasisches Erzählgut im Diskurs der vergleichenden Märchenforschung"</addName>
+      <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+     </distributor>
+     <availability>
+      <p>
+       <ref target="http://creativecommons.org/licenses/by/3.0/de/legalcode">Lizenzvertrag CC BY-NC-SA</ref>
+      </p>
+     </availability>
+    </publicationStmt>
+    <sourceDesc>
+     <biblFull>
+      <titleStmt>
+       <title xml:lang="kat">სვანური პროზაული ტექსტები. ბალსზემოური კილო.</title>
+       <title xml:lang="fra">TEXTES SVANES PROSAIQUES. I DIALECTE DU HAUT-BAL</title>
+      </titleStmt>
+      <publicationStmt>
+       <authority xml:lang="kat">ტექსტები შეკრიბეს აკაკი შანიძემ და ვარლამ თოფურიამ</authority>
+       <publisher xml:lang="kat">სსრკ მეცნიერებათა აკადემიის საქართველოს ფილიალი. ენის, ისტორიისა და მატერიალური კულტურის ინსტიტუტი აკადემიკოს ნიკო მარის სახელობისა</publisher>
+       <publisher xml:lang="fra">Institut Marr de Langues, d’Histoire et de Culture matérielle</publisher>
+       <authority xml:lang="fra">Textes recueillis par A. CHANIDZE et V. TOPURIA</authority>
+       <publisher xml:lang="kat">სსრკ მეცნიერებათა აკადემიის საქ. ფილიალის გამომცემლობა. თბილისი 1939.</publisher>
+       <publisher xml:lang="fra">Édition de la Filiale Géorgienne de l’Académie Sciences de I’URSS, Tbilissi 1939</publisher>
+      </publicationStmt>
+     </biblFull>
+    </sourceDesc>
+   </fileDesc>
+   <profileDesc>
+    <textClass>
+     <keywords>
+      <term />
+     </keywords>
+    </textClass>
+    <langUsage>
+     <language ident="sva">
+      <index indexName="iso639-3" />
+      <ref target="http://www-01.sil.org/iso639-3/codes.asp" />
+     </language>
+    </langUsage>
+    <creation>
+     <placeName>
+      <country>Georgien</country>
+      <region>Svanetien</region>
+      <district />
+      <settlement>Uschguli</settlement>
+      <geo />
+     </placeName>
+     <date>15.07.1927</date>
+    </creation>
+    <particDesc>
+     <person role="InformantIn">
+      <persName>Khachwani, Ivane</persName>
+      <age />
+      <birth>
+       <date />
+       <placeName />Uschguli, Svanetien</birth>
+     </person>
+     <person role="ForscherIn">
+      <persName>Varlam Tpuria</persName>
+     </person>
+     <person role="ÜbersetzerIn">
+      <persName>Ziuri Gabliani</persName>
+     </person>
+    </particDesc>
+    <handNotes>
+     <handNote>
+      <ref cRef="" />
+     </handNote>
+    </handNotes>
+   </profileDesc>
+  </teiHeader>
+  <text xml:id="cc_sva_sva_1">
+   <body>
+    <p>
+     <title>70. სემი ლავდილა </title>
+    </p>
+    <p>(15) ლი მეშხე მა̄რე, სემი დი̄ნაგეზალ ხორი. მეჩი მა̄რე ლი, ხე̄ქვე დი̄ნაგეზალს, ხოშა უდილს:</p>
+    <p>- მიშგვი ხოშა გეზალ, მი ლეგდ ხვა̄რი, ამხა̈რ შჷყ ლეჟა!</p>
+    <p>– ედჯღაჲ დემ აჯხერნე, აშიშდ ერ ხიდგა̈რდე.</p>
+    <p>ნესგა̈ უდილს ხე̄ქვე: (20)</p>
+    <p>- სი ეში̄ ამხა̈რ, ადო ხვიდგარი. </p>
+    <p>- აჯღაჲ დემ აჯხერნე, აშიშდ ხიდგა̈რდე.</p>
+    <p>- ხოხვრა უდილ, სი ეში ამხა̈რ!</p>
+    <p>- მამა მიშგვი, ეში აჯხერნე, ერე ტვეტ ქა მექვცენდეს!</p>
+    <p>ამნემ ახხერ მამას მიჩა. ადქვიჭე ტვეტ შჷყ ლა̈ქვა, ვისგვ ა̈ხგვა̈ბ. (25) ლა̈ხჴა̈ფ ვგისგვს, ჰა̈დუ̈რ ლა̈ხტა̈ხ. აჯაღ ლა̈ხჴა̈ფ, ჰა̈დუ̈რ ლა̈ხტა̈ხ. ჯაღ ლა̈ხჴა̈ფ მესმა̄მდ, აჯაღ ჰა̈დუ̈რ ლ̈ახტა̈ხ.</p>
+    <p>- ჰე, მამა მიშგვი, სუმინ ლოხვეჴფ, ვისგვ ჰა̈დუ̈რ ლა̈მტა̈ხ.</p>
+    <p>- მამა̄̈ დადილ, ჩუ ლა̄̈ხიშხვნ ალ ვისგვ, თჷმი ლადეღ მაკან ჯე̄რა. (30)</p>
+    <p>ჩუ ლა̈ჲშხვინ ალ ვისგვ. მამად მინეშ გოდერ ანსყე, ადბარჯე ვორმო, ადგა̈ნე ვორმოთე. აცვირ მინდვერისგა. მამას ლიზვებს ხომურჯვი̄ნეხ, მამად ჟი ლა̈ჲსისგე, ადჲე მინდვერთე̄სგა, ჩაცვირ ნინდვერისგა, ა̈გიდ ანჴა̈დ. მამა ჩადგან. ა̈რიხ ალჲა̈რ მინდვერისგა. ლეზვებ ლა̈ხშდა̈ხხ, ხოხვრა უდილს ხომურჯვი̄ნეხ ლიზვებს. (35)</p>
+    <p>– ვო, მიშგვი ლაგდილა, ჩუ ნომ მიზებიდ, მი ვისგვ მუღვე, ეჯა ლა̄ხე̄მდ. </p>
+    <p>[76] ა̈ნკიდ ამნემ ვისგე ჯიბხა̈ნქა, ლა̈ხჴა̈ფ ხოშა უდილ, ჰა̈დუ̈რ ლა̈ხტა̈ხ. ლა̈ხჴა̈ფ ნე̄სგა̈ უდილ, ჰა̈დუ̈რ ლანტახ. ეჩქად ანჴა̈დ ხენწიფი(შ) გეზალ მინდო̈რთე̄სგა ლა̈თხუართე, ხესმი ლიკი̄ლიე̄ლ მინდვერხა̈ნქა.</p>
+    <p>„მი მა̈ჲ: ხვირა ( || ხვი̄რი), დოშ ა̈ხემეჴრი! – ანჰე ამი̄ ნა̈ფდი̄ათე, (5) ვორმე̄ თხუმთეჟი. ამელეჟა ხესმი ლი̄კნლიე̄ლ: </p>
+    <p>- ჲა̈რ ხიშდ ამეჩუ მეკი̄ლიე̄ლ?</p>
+    <p>- ჲაღო, ნა̈ჲ ხვიშდ, მეჩი კა̈სრი გეზლი̄რ. ნა̈ჲ მამას ლოხვსისგჷნდად, ამავ ანკვა̈რ, ხვა̈ჲ ხა̈ნ ნა̄რ ვორმოისგა. </p>
+    <p>“- ჲაღო, მა̈ჲ ჯაკუხ, ერ ჟა̈ჯტჷხი ვორმოხა̈ნჟი, მაი ჯა̈მიადა̈ხ, (10) მა̈ჲ ჯიხალხ? -–ხოშა უდილდ ხე̄ქვე: </p>
+    <p>- მი მა̈მია̈და ნო̈ხი–ფარდა̈ქიშ·ლისყი.—ნე̄სგა̄̈ უდილდ ხე̄ქვე:</p>
+    <p>– მი მა̈მია̈და კა̄̈სარი ჯა̈რიშ ლიბზე. –– ხოხვრა უდილდ ხექვე:</p>
+    <p>- მი მა̈მია̈და მა̄მაგვეშ. მი მუღვე ღე̄რბათხა̈ნქა ჲერუ გეზალ: ეშხვი მიჟ ი მე̄რმე დოშდულ. (15)</p>
+    <p>– აღო, სი ჯაჲე̄სგი ჲეხვდ!</p>
+    <p>– აღო, ნა̈ჲ ჯინხჴრიდ, მო̄ზნანა ჯე̄რად ისგვი ი ისგვა ჲეხვმიშ, ისგვა ჯარიშ. </p>
+    <p>აჩა̈დხ ალჲა̈რ მაგ, ხენწიფი გეზალდ ჩადღანვე მიჩა ჲეხვ. ჯაჲ აჩად ლა̈თხუართე უხვა̄̈ნ ცხეკთეჲსგა, ეჯზუმ ა̈დთხუარე, [ერე] ჯიჯვიშ (20) კარა̈ვ ადგე, ტუფშვ. ჩვადჷლშგე. ამშა ჲეხვ ჩვალღვა̈ჟლი: ოხთავა მიჟ ი დოშდულ. ალჲა̈რს ალი ქო̄თღახ ხოხვრა უდილდ ( || უდლა̈შდ), სგო̄თგანახ სურჯინთე, ციცვ ი ფა̈კვნა ქა ლოხო̄დახ ამი მჷქაფ მინე ხოხვრა უდილდ. ბოფშა̈რ (მიჟ ი დოშდულ) ჩა̈ჟი ჯვეგთე ოთგა̈ნახ. ჭაგარდ ლისვ (ლუ̈ს) ხა̈მნეხ, ყვა̈რვლა̈რდ გავა̈ნ–ი-გავა̈ნ ესღირა̄ლვნეხ. (25) ნაცხამ ლა̈ნტა̈ხ. კუმში ჯვეგთე (ჴა̈ნიშ ი ფუ̈რიშ) ადგა̈ნეხ. ფურა̈რდ ლჷჯე ხა̄მნეხ, ჴანა̈რდ გავა̈ნ-ი-გავა̈ნ ესღირა̄ლვნეხ. ნაცხა̈მ ლა̈ხტა̈ხ, აჯაღ ადგა̈ნეხ ხა̈მი ჯვეგთე. ნეზვა̈რდ ლჷჯე ხა̄მნეხ, ტახა̈რდ გავა̈ნ-ი-გავა̈ნ ესღირა̄ლვნეხ. ნაცხა̈მ ლა̈ხტა̈ხ. ათხე ადკვა̈რხ რივენთე. რივენს ესყა.მულგუჰერის ბა̈დ ხვე̄გ. სგა̈თჷრმა̄̈ნხ ამის. მულგუჰე̄რიდ ბა̈დ ა̈ნწვა̄̈ნე. (30) ამეისგა ა̈რიხ მიჟ ი დოშდულ, ანჴიდ ქორთე მულგუჰე̄რიდ. ჟა̈ნცხეხ ალჲა̈რდ. ხა̈შგვმინხ:</p>
+    <p>–- ბაბა, ნიშგვე მჷრდი, ნა̈ჲ ჯა̈შგვემდ ლა̈თხუართე ოგვფუშდი!</p>
+    <p>– დოვე კოჭო̄ლა̈რ ხა̈სდ, მად ჯა̈მიადა̈ხ ლითხვა̈რ, ადო აჯფიშვდე! (35)</p>
+    <p>- აღო, აჯნურ დეშ ხვიგნიდ, ნა̈ჲ ლა̈თხვჲართე დომ ოდრიდ.</p>
+    <p>აჩა̈დხ ალჲა̈რ ლა̈თხვართე ხენწიფი ცხეკთეჲსგა, ეზერ ოთთხუარახ. ალჲა̈რდ ჯიჯვი კარა̈ვ ადგეხ, ტუფშვ ჩადჷლშგეხ. ა̈რიხ ამეჩუ [77] ეზერ ხა̈ნს. ხენწიფი გეზალ ანჴა̈დ ალჲარე კარა̈ვთეთსგა, სალა̈მ ხე̄ქვე:</p>
+    <p>- ეზერ ყმარწვილა̄რ ხიშდ. ამავ და̄̈რ მეჴდე̄ლი ისგვე სერ. იმჷნ ანჴა̈დდ? </p>
+    <p>– ჩუ ხარდა̈ს ნიშგვეჲცახა̈ნ, კოჭო̄ლ ხა̈ნჷლდს ლონგუნყავა, ნა̈ჲ (5) ჯე̈ქვნიდ ნაჭირს-ნალხინს, ხვა̈ჲ ნაჭირ ხვიშდ. ლა̈დი ხვითხვა̈რდ, ნომა ჯასდიკ. ნა̈ჲ ჯე̄ქვნინედ, ვოჴა̈რ ბოფშარ: სი ჲა̈რ ხი?</p>
+    <p>– მი ხენწიფი გეზალ ხვი. </p>
+    <p>- აღო, სი გვე̄ქარ გარამოვება!</p>
+    <p>– მი ჯე̄ქვნი, ბოფშა̈რ: მი ჲეხვ ა̈ხვიჴდ მჷჟეშ-დოშდვლა̈·მუთვენი. (10)·ლირტყვა̈ლა̈ლ ა̈მჴა̈დ, ციცვ ი ფა̈კვნა ოხთავა.</p>
+    <p>- ათხე ნა̈ჲ ჯე̄ქვნიდ გვიშგვეს: სემი ლავდილა ლა̈სხ, ნიშგვე დედე ხოხვრა უდილ. აჯა ხენწიფი გეხლა̈(შ) ჲეხვ ლჷმა̈რლი. ა̈მჴედხ ეჯჲა̈რ, გეზლი̄რ ქო̄თღეხ მიჟ ი დოშდულ, ციცვ ი ფა̈კვნა სგო̄თგა̈ნეხ. ეჯჲა̈რ ჩა̈ჟი ჯვეგთე ადგა̈ნეხ, ჩა̄ჟა̈რდ ნაცხა̈მ ლახტიხხ (15) (||ლოგვტიხხ), ჴანა̈რდ ი ფურა̈რდ ნაცხა̈მ ლახტინხხ ( || ლოგვტიხხ), რივენხა̈ნქა ნაცხა̈მ ანტა̈ხხ. მულგუჰე̄რიდ ჟოგურდა̄ლე, ალა ნა̈ ხვიშდ მიჟ ი დოშდულ. </p>
+    <p>მამა მინეშ ჩათირხ ათხე. ალა ლჷმა̄̈რ მამა მინეშ, ალჲა̈რ ლჷმა̄̈რხ, მიჟ ი დოშდულ, მიჩა გეზლი̄რ, ა̈გიდ აჩა̈დხ, ლა̈ხიადა̄ლ ხა̄რხ. მიჩა (20) გიგა̄̈ლა̈რ ლაკირშვ აშიხხ. </p>
+    <p>ლემზგრევ ხი.</p>
+   </body>
+  </text>
+ </TEI>
+ 

@@ -1,0 +1,1 @@
+"['quelle', 'index_string', 'inhalt', 'index_binar']","['000:ballast', 'ballast', 'ballast', '0']"

@@ -1,0 +1,177 @@
+0.0
+for $e in doc('gesamt_märchen.xml')//TEI
+for $d in $e/text[contains(data(@xml:id), '_rus_')]
+return (insert node $d into $e, insert node (attribute {'xml:base'}{$d/data([@xml:id])}) into $d, delete node $d/@xml:id)
+
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+
+for $e in doc('gesamt_märchen.xml')//tei:teiCorpus/tei:TEI
+for $t in $e//tei:p
+for $d in $e//tei:text[contains(data(@xml:id), 'zyx_')]
+return insert node (attribute {'xml:base'}{$d/data([@xml:id])}) into $t
+
+
+<text xml:base="
+<text xml:id="zyx_
+
+0.1
+declare namespace kf="www.dglab.uni-jena.de/kf";
+for $e in doc('gesamt_märchen.xml')//text[contains(data(@xml:id), 'zyx')]
+for $d in $e/body/p
+return insert node(attribute {"decls"} {$e/data([@xml:id])}, attribute{"n"}{"0"},attribute  {"kf:ana"}{'0'}) into $d
+
+1.0
+for $e in doc('gesamt_märchen.xml')//TEI[contains(data(@n),'IC_ani_65')]
+for $d in $e/text[contains(data(@xml:id), '_rus_')]
+return (insert node $d into $e, insert node (attribute {'xml:base'}{$d/data([@xml:id])}) into $d, delete node $d/@xml:id)
+
+<text xml:base="
+<text xml:id="zyx_
+
+1.1
+declare namespace kf="www.dglab.uni-jena.de/kf";
+for $e in doc('gesamt_märchen.xml')//TEI[contains(data(@n),'IC_ani_65')]/text[contains(data(@xml:id), 'zyx')]
+for $d in $e/body/p
+return insert node(attribute {"decls"} {$e/data([@xml:id])}, attribute{"n"}{"0"},attribute  {"kf:ana"}{'0'}) into $d
+
+
+declare namespace kf="www.dglab.uni-jena.de/kf";
+for $e in doc('gesamt_märchen.xml')//text[contains(data(@xml:id), 'zyx')]
+for $d in $e/body
+return rename node $d as  'test'
+
+
+nach den gelabelte episodeb suche:
+
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare namespace a="www.dglab.uni-jena.de/vmf/a";
+for $e in distinct-values (doc("gesamt_märchen.xml")//tei:unit/@a:ana)
+return <label> {$e}</label>
+
+
+einfache liste der motiven austragen:
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare namespace l="www.dglab.uni-jena.de/vmf/l";
+declare namespace a="www.dglab.uni-jena.de/vmf/a";
+for $e in distinct-values (doc("gesamt_märchen.xml")//tei:phr[@a:ana='m300']/@l:ana)
+return <label> {$e}</label>
+
+einfache liste von bereits gelabelte motive bzw. episoden:
+
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare namespace l="www.dglab.uni-jena.de/vmf/l";
+declare namespace a="www.dglab.uni-jena.de/vmf/a";
+for $e in distinct-values (doc("gesamt_märchen.xml")//tei:phr/@a:ana) 
+order by $e
+return <label> {$e} </label>
+
+einfache liste von typen
+
+
+for $e in doc("gesamt_märchen.xml")//tei:text/tei:body
+for $d in $e//tei:phr
+where data ($d/@l:ana) = ("AS:aufzählen:Einfache_Aufzählung_der_Familiemitglieder")
+return count($d)
+
+
+//TEI[contains(data(@n),"SND_65")]
+
+
+
+
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare namespace l="www.dglab.uni-jena.de/vmf/l";
+declare namespace a="www.dglab.uni-jena.de/vmf/a";
+for $e in doc("gesamt_märchen.xml")//tei:TEI
+ for $d in $e//fn:distinct-values(tei:text[contains(data(@xml:id), 'zyx_')])
+where $e//tei:term[contains(.,'Zaubermärchen')]
+return $e//tei:phr[fn:starts-with(@a:ana,'m')]
+
+
+1. Aufgabe: zur ersetzung des Elements <titleStm>
+
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+for $r in doc("gesamt_märchen.xml")//tei:TEI
+where $r//tei:text/@xml:id[contains(.,'kva_')]
+for $f in $r//tei:teiHeader/tei:fileDesc/tei:titleStmt
+return  replace node $f with <titleStmt>
+    <title xml:lang="deu">Awarische Folklore</title>
+    <title xml:lang="eng">Avar Folklore</title>
+    <author key="gnd:133557154">
+     <persName>
+      <forename>Elguja</forename>
+      <surname>Dadunashvili</surname>
+     </persName>
+    </author>
+    <author key="gnd:1154734161">
+     <persName>
+      <forename>Diana</forename>
+      <surname>Forker</surname>
+     </persName></author>
+    <respStmt>
+     <resp>Annotated according to the ATU system</resp>
+     <name key="gnd:133557154">
+      <persName>
+       <forename>Elguja</forename>
+       <surname>Dadunashvili</surname>
+      </persName>
+     </name>
+    </respStmt>
+   </titleStmt>
+   
+   
+2. Aufgabe: zur ersetzung des Elements <publicationStmt>
+
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+for $r in doc("gesamt_märchen.xml")//tei:TEI
+where $r//tei:text/@xml:id[contains(.,'zyx')]
+for $f in $r//tei:teiHeader/tei:fileDesc/tei:publicationStmt
+return  replace node $f  with <publicationStmt>
+    <publisher>
+     <name ref="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+    </publisher>
+    <pubPlace><genName ref="https://www.geonames.org/2895044/jena.html">Jena</genName></pubPlace>
+    <date when="2024">2024</date>
+    <distributor>
+     <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+     <ref target="https://github.com/edadunashvili">Software und Texte</ref></distributor>
+    <availability>
+     <p>
+      <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+     </p>
+    </availability>
+   </publicationStmt>
+   
+3. Aufgabe: zur Ersetzen des Elements <textClass>
+
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+for $r in doc("gesamt_märchen.xml")//tei:TEI
+where $r//tei:text/@xml:id[contains(.,'zyx')]
+for $f in $r//tei:teiHeader/tei:profileDesc/tei:textClass
+return   replace node $f with <textClass>
+    <keywords>
+     <term type="writingSystem">utf-8</term>
+    </keywords>
+    <keywords scheme="http://uri.gbv.de/terminology/bk/">
+     <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+     <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+    </keywords>
+   </textClass>
+ 
+
+zyx - rus - original 
+   
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+for $r in doc("gesamt_märchen_or.xml")//tei:TEI
+for $t in $r//tei:text
+where $t[contains(@xml:id, 'kat')]
+return   $t
+
+
+declare namespace tei="http://www.tei-c.org/ns/1.0";
+for $r in doc("gesamt_märchen_tr.xml")//tei:TEI
+for $t in $r//tei:text
+for $z in  $r//tei:text[2]
+for $u in $r//tei:text[1]
+where $z [contains(@xml:id, '_')]
+return delete node $u

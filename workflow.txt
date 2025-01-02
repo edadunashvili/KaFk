@@ -1,0 +1,6 @@
+declare namespace t="http://www.tei-c.org/ns/1.0";
+
+let $e := doc("teiCorpus.xml")//t:text
+for $d in $e//t:p
+for $r in $d//[text()]
+return  ( insert node <p><seg>{$r}</seg></p> after $d, delete node $d)

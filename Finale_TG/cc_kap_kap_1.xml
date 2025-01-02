@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+     <title xml:lang="deu">Bezhta Folklore</title>
+     <title xml:lang="eng">Bezhitinische Folklore</title>
+     <author key="gnd:133557154">
+      <persName>
+       <forename>Elguja</forename>
+       <surname>Dadunashvili</surname>
+      </persName>
+     </author>
+     <author>
+      <persName key="gnd:1154734161">
+       <forename>Diana</forename>
+       <surname>Forker</surname>
+      </persName>
+     </author>
+     <respStmt>
+      <resp>Annotated according to the ATU system</resp>
+      <name>
+       <persName key="gnd:133557154">
+        <forename>Elguja</forename>
+        <surname>Dadunashvili</surname>
+       </persName>
+      </name>
+     </respStmt>
+    </titleStmt>
+    <publicationStmt>
+     <publisher>
+      <name key="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+     </publisher>
+     <pubPlace>
+      <genName corresp="https://www.geonames.org/2895044/jena.html">Jena</genName>
+     </pubPlace>
+     <date>2024</date>
+     <distributor>
+      <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+      <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+     </distributor>
+     <availability>
+      <p>
+       <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+      </p>
+     </availability>
+    </publicationStmt>
+    <sourceDesc>
+     <bibl type="digitalSorce">
+      <ref target="https://www.lazar.uni-jena.de/">LaZAR Repositorium</ref>
+      <availability>
+       <p>
+        <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+       </p>
+      </availability>
+     </bibl>
+    </sourceDesc>
+   </fileDesc>
+   <profileDesc>
+    <langUsage>
+     <language ident="kap">
+      <index indexName="iso639-3" />
+      <ref target="http://www-01.sil.org/iso639-3/codes.asp" />
+     </language>
+    </langUsage>
+    <textClass>
+     <keywords>
+      <term type="writingSystem">utf-8</term>
+     </keywords>
+     <keywords scheme="http://uri.gbv.de/terminology/bk/">
+      <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+      <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+     </keywords>
+    </textClass>
+    <creation>
+     <placeName>
+      <country ref="https://www.geonames.org/614540/georgia.html">Georgien</country>
+      <region ref="https://www.geonames.org/865537/kakheti.html">Kakheti</region>
+      <district ref="https://www.geonames.org/7667701/qvareli.html">Qvareli</district>
+      <settlement ref="https://www.geonames.org/824940/chant-lisq-ure.html">Chant’lisq’ure</settlement>
+     </placeName>
+     <date when="2023">2023</date>
+    </creation>
+    <particDesc>
+     <person role="speaker">
+      <persName>
+       <forename>Lali</forename>
+       <surname>Kamalova</surname>
+      </persName>
+      <age />
+      <birth>
+       <date when="1964">1964</date>
+       <placeName>
+        <country ref="https://www.geonames.org/614540/georgia.html">Georgien</country>
+        <region ref="https://www.geonames.org/865537/kakheti.html">Kakheti</region>
+        <district ref="https://www.geonames.org/7667701/qvareli.html">Qvareli</district>
+        <settlement ref="https://www.geonames.org/824940/chant-lisq-ure.html">Chant’lisq’ure</settlement>
+       </placeName>
+      </birth>
+     </person>
+     <person role="researcher">
+      <persName key="gnd:1154734161">
+       <forename>Diana</forename>
+       <surname>Forker</surname>
+       <persName key="gnd:133557154">
+        <forename>Elguja</forename>
+        <surname>Dadunashvili</surname>
+       </persName>
+      </persName>
+     </person>
+     <person role="translator">
+      <name>
+       <persName key="gnd:1154734161">
+        <forename>Diana</forename>
+        <surname>Forker</surname>
+       </persName>
+      </name>
+     </person>
+    </particDesc>
+   </profileDesc>
+   <revisionDesc>
+    <listChange>
+     <change>
+      <name />
+      <date />
+     </change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:id="cc_kap_kap_1">
+   <body>
+    <p>гьонс зукъона Малла Расаданна ахъона. бета Малла Расаданнина ахъона нисона гей, абона ийона нисона гей сиди-гьонсо мушал1а багъулабаал. вах1до илос кид, вах1дола к1аъаб кид гей. давай иле муьшна боькчина сиди-гьонсо багъулабаал мушал1ал1о нисона гей. бета ахъона бетергьанна сиди-гьонсо багъулабана гей. гьодо кид гияч1ецас гей (вагьадда). гияц1анна гияч1енна кибба нисойо, вах1, суд миже беяхца, жейса милъалъа, хиса гьолъосола все равно, гього муьшна боькчина билъо лъалъе.</p>
+   </body>
+  </text>
+ </TEI>
+ 

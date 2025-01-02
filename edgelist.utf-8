@@ -1,0 +1,355 @@
+#C:\Users\elguj\anaconda3\Lib\site-packages\ipykernel_launcher.py -f C:\Users\elguj\AppData\Roaming\jupyter\runtime\kernel-db4c4083-977f-40d2-a6a6-1cd059c90eb7.json
+# GMT Thu Jan 25 20:30:16 2024
+# 
+a301:F:Abraten_von_der_Mission:N	2
+a301:H:Sich_abseilen_lassen:rHD_fHD	{'weight': 2}
+a301:h:Abraten_von_der_Mission:N	{'weight': 2}
+a301:H:Sich_abseilen_lassen:rHD_fHD	3
+a301:F:Abraten_von_der_Mission:rHD_rPP	{'weight': 2}
+a301:H:Erpressen_Wegführung:rHD_fVB	{'weight': 6}
+a301:H:Zweikampf:rHD_rAN	{'weight': 2}
+a301:h:Abraten_von_der_Mission:N	1
+a301:H:Zweikampf:rHD_rAN	{'weight': 2}
+a301:F:Abraten_von_der_Mission:rHD_rPP	5
+a301:F:Entführen_beheben:rHD_rPP	{'weight': 1}
+a301:F:Sich_abseilen_lassen:rHD_fHD	{'weight': 2}
+a301:H:Turm_Zaun_Berg_hinaufsteigen:rHD_rHF_fHD	{'weight': 1}
+a301:H:Zweikampf:rHD_rAN	{'weight': 2}
+a301:h:Abraten_von_der_Mission:rHD_rPP	{'weight': 10}
+a301:F:Entführen_beheben:rHD_rPP	1
+a301:H:Zweikampf:rHD_rAN	{'weight': 1}
+a301:F:Sich_abseilen_lassen:rHD_fHD	2
+a301:F:Sich_abseilen_lassen:rHD_fHD	{'weight': 2}
+a301:H:Erpressen_Wegführung:rHD_fVB	{'weight': 2}
+a301:H:Turm_Zaun_Berg_hinaufsteigen:rHD_rHF_fHD	1
+a301:H:Zaubermittel_Ausrüstung_oder_die_Waffe_ausprobieren:rHD_rZM	{'weight': 1}
+a301:H:Zweikampf:rHD_rAN	14
+a301:F:Erhalten_von_Informationen_über_lokales_Geheimnis:rHD_rPP	{'weight': 2}
+a301:F:Krisenursache_ergründen:N	{'weight': 2}
+a301:F:Krisenursache_ergründen:rHD_rPP	{'weight': 4}
+a301:F:Markieren:rHD_rAN	{'weight': 1}
+a301:F:Wache_halten:rHD_rAN	{'weight': 1}
+a301:H:Ende:N	{'weight': 1}
+a301:H:Entführen_beheben:rHD_rPP	{'weight': 1}
+a301:H:Erhalten_von_Informationen_über_lokales_Geheimnis:rHD_rPP	{'weight': 1}
+a301:H:Handlungsanweisung_Zweikampf:rHD_rHF	{'weight': 1}
+a301:H:Untertauchen:rHD_fHD	{'weight': 1}
+End-a301:H:Zweikampf:rHD_rAN	{'weight': 2}
+a301:H:Zweikampf:rHD_rAN	{'weight': 6}
+a301:h:Abraten_von_der_Mission:rHD_rPP	{'weight': 7}
+a516:H:Schicksalsbestimmender_Weisung_folgen:N	{'weight': 1}
+a301:h:Abraten_von_der_Mission:rHD_rPP	1
+a301:H:Erhalten_von_Informationen_über_lokales_Geheimnis:rHD_rPP	{'weight': 1}
+a301:F:Auftrag_Kochen:fHD	8
+Anf-a301:F:Auftrag_Kochen:fHD	{'weight': 3}
+a301:F:Staunen_nachgehen:rHD_fHD	{'weight': 1}
+a301:H:Begleiter_gewinnen:rHD_fHD	{'weight': 4}
+a301:f:Provozieren:fHD_fVB	{'weight': 12}
+a301:f:Provozieren:rST_fHD	{'weight': 1}
+a301:h:Auftrag_Kochen:fHD	{'weight': 10}
+a301:h:Provozieren_nachgehen:fHD_fVB	{'weight': 2}
+a301:unklar:unklar:fHD_fVB	{'weight': 1}
+Anf-a301:F:Auftrag_Kochen:fHD	0
+a301:F:Staunen_nachgehen:rHD_fHD	9
+a301:F:Staunen_nachgehen:rHD_fHD	{'weight': 6}
+a301:H:Begleiter_gewinnen:rHD_fHD	{'weight': 6}
+a301:H:Staunen_nachgehen:rHD_fHD	{'weight': 11}
+a650A:F:Ausrüsten:rHD_rST_rZM	{'weight': 1}
+a650A:F:Ausrüsten:rHD_rZM	{'weight': 1}
+a650A:F:Erfüllen_der_Aufgabe_verursacht_Beendigung_des_Vertrages:rHD_rAN	{'weight': 1}
+a650A:Ff:Erfüllen_der_Aufgabe_verursacht_Schrecken:rHD_rAN	{'weight': 1}
+a650A:Ff:Kontakt_abbrechen:rHD_rHH	{'weight': 1}
+a650A:H:Erfüllen_der_Aufgabe_verursacht_Beendigung_des_Vertrages:rHD_rAN	{'weight': 1}
+a301:H:Begleiter_gewinnen:rHD_fHD	2
+a301:H:Staunen_nachgehen:rHD_fHD	{'weight': 11}
+a301:unklar:unklar:fHD_fVB	{'weight': 1}
+a301:f:Provozieren:fHD_fVB	2
+a301:h:Auftrag_Kochen:fHD	{'weight': 3}
+a301:h:Provozieren_nachgehen:fHD_fVB	{'weight': 15}
+a301:f:Provozieren:rST_fHD	1
+a301:h:Provozieren_nachgehen:rST_fHD	{'weight': 1}
+a301:h:Auftrag_Kochen:fHD	4
+a301:F:Auftrag_Kochen:rHD	{'weight': 4}
+a301:f:Provozieren_nachgehen:fHD_fVB	{'weight': 1}
+a301:h:Provozieren_nachgehen:fHD_fVB	{'weight': 9}
+a301:h:Provozieren_nachgehen:rST_fHD	{'weight': 1}
+a301:h:Provozieren_nachgehen:fHD_fVB	3
+a301:F:Auftrag_Kochen:rHD	{'weight': 4}
+a301:f:Provozieren_nachgehen:fHD_fVB	{'weight': 1}
+a301:h:Auftrag_Kochen:rHD	{'weight': 1}
+a301:unklar:unklar:fHD_fVB	0
+a301:F:Auftrag_Kochen:rHD	4
+a301:f:Missetat_planen:fHD	{'weight': 2}
+a301:f:Provozieren:rHD_fVB	{'weight': 4}
+a301:f:Provozieren:rHD_rST	{'weight': 1}
+a301:h:Provozieren:rHD_fVB	{'weight': 1}
+a301:f:Missetat_planen:fHD	1
+a301:f:Provozieren:rHD_fVB	{'weight': 2}
+a301:f:Provozieren:rHD_fVB	2
+a301:H:Provozieren_nachgehen:rHD_fVB	{'weight': 7}
+a301:h:Auftrag_Kochen:rHD	{'weight': 1}
+a301:f:Provozieren:rHD_rST	1
+a301:H:Provozieren_nachgehen:rHD_rST	{'weight': 1}
+a301:h:Provozieren:rHD_fVB	1
+a301:H:Provozieren_nachgehen:rHD_fVB	{'weight': 1}
+a301:F:Auslösen_von_Neugier:rHD	2
+a301:F:Tabu_Türe_nicht_öffnen_dürfen:rHH	{'weight': 1}
+a301:h:Tabubruch_erfolgt:rHD	{'weight': 1}
+a301:F:Tabu_Türe_nicht_öffnen_dürfen:rHH	1
+Anf-a301:F:Tabu_Türe_nicht_öffnen_dürfen:rHH	{'weight': 1}
+a301:h:Tabubruch_erfolgt:rHD	4
+a301:f:Tabu_Türe_nicht_öffnen_dürfen:rHD_rHF	{'weight': 1}
+a301:f:Tabu_Türe_nicht_öffnen_dürfen:rHD_rHH	{'weight': 1}
+a301:h:Entführen:rHH_rAN	{'weight': 1}
+a301:h:Entführen:rPP_rAN	{'weight': 2}
+a301:F:Ausrüsten:rHD_rST	2
+a301:H:Zaubermittel_Ausrüstung_oder_die_Waffe_ausprobieren:rHD_rZM	{'weight': 1}
+a301:f:Kontakt_abbrechen:rHD_fHD	{'weight': 1}
+a301:H:Zaubermittel_Ausrüstung_oder_die_Waffe_ausprobieren:rHD_rZM	0
+a301:f:Kontakt_abbrechen:rHD_fHD	1
+a301:H:Handlungsanweisung_Objekt_ergreifen:rHD_rHF	{'weight': 1}
+a301:F:Bedrohung_gefressen_zu_werden:rHD_rHF	2
+a301:F:Werben_um_den_Auftrag:rHD_rHH_fHD	{'weight': 1}
+a301:H:Auslösen_von_Angst:rHD_rHF	{'weight': 1}
+a301:F:Werben_um_den_Auftrag:rHD_rHH_fHD	1
+a301:F:Krisenursache_ergründen:fHD	{'weight': 1}
+a301:H:Auslösen_von_Angst:rHD_rHF	1
+a301:H:Handlungsanweisung_Objekt_ergreifen:rHD_rHF	{'weight': 1}
+a301:F:Bestrafung:rHD_fHD	6
+End-a301:F:Bestrafung:rHD_fHD	{'weight': 2}
+a301:F:Heiraten:N	{'weight': 2}
+a301:F:Missetat_enthüllen:rHD_fHD	{'weight': 1}
+a301:F:Zwangsehe_verhindern:rHD_fHD	{'weight': 3}
+a301:H:Ende:N	{'weight': 1}
+a302C*:H:Auf_dem_Weg_nach_Hause:rHD_rST_rPP	{'weight': 1}
+End-a301:F:Bestrafung:rHD_fHD	0
+a301:F:Heiraten:N	1
+End-a301:F:Heiraten:N	{'weight': 2}
+a301:F:Missetat_enthüllen:rHD_fHD	1
+a301:F:Erzählen_lassen:rHD_fHD	{'weight': 1}
+a301:F:Zwangsehe_verhindern:rHD_fHD	2
+a300:F:Behinderung_heilen:rHD_rHF	{'weight': 2}
+a301:F:Zwangsehe_verhindern:rHD_rPP_fHD	{'weight': 1}
+a301:H:Ende:N	1
+End-a301:H:Ende:N	{'weight': 2}
+a302C*:H:Auf_dem_Weg_nach_Hause:rHD_rST_rPP	0
+a301:F:Bestrafung:rHD_rPP_fHD	2
+a301:F:Heiraten:rHD_rPP	{'weight': 1}
+a301:F:Zwangsehe_verhindern:rHD_rPP_fHD	{'weight': 1}
+a301:F:Heiraten:rHD_rPP	1
+End-a301:F:Heiraten:rHD_rPP	{'weight': 1}
+a301:F:Zwangsehe_verhindern:rHD_rPP_fHD	2
+a300:F:Behinderung_heilen:rHD_rHF	{'weight': 1}
+a301:F:Zwangsehe_verhindern:rHD_rVB	{'weight': 1}
+a301:F:Entführen_beheben:N	4
+a301:F:Werben_um_den_Auftrag:N	{'weight': 1}
+a301:H:Kühnheit_beweisen:N	{'weight': 1}
+a301:h:Entführen:rPP_rAN	{'weight': 1}
+a552:F:Zurückgreifen:rHD_rVB	{'weight': 1}
+a301:F:Werben_um_den_Auftrag:N	1
+a519:F:Wettkampf:rHD_rVB	{'weight': 1}
+a301:H:Kühnheit_beweisen:N	1
+a301:F:Kühnheit_beweisen:N	{'weight': 1}
+a301:h:Entführen:rPP_rAN	5
+a301:F:Entführen_beheben:rHD_rHP	{'weight': 1}
+a301:F:Entführen_beheben:rHF	{'weight': 1}
+a301:h:Tabubruch_erfolgt:N	{'weight': 1}
+a301:h:Tabubruch_erfolgt:rHP	{'weight': 1}
+a302:h:Flucht_auf_Pferd:rHD_rAN	{'weight': 1}
+a552:F:Zurückgreifen:rHD_rVB	1
+a301:unklar:unklar:rHD_rHP	{'weight': 1}
+a301:F:Entführen_beheben:rHD_rHP	1
+a301:F:Zurückgreifen:rHD_rHP	{'weight': 1}
+a301:F:Zurückgreifen:rHD_rHP	1
+a301:unklar:unklar:rHD_rHP	{'weight': 1}
+a301:F:Entführen_beheben:rHF	1
+a302:F:Erpressen_des_Geheimnisses_external_soul:rHD_rPP	{'weight': 1}
+a302:F:Erpressen_des_Geheimnisses_external_soul:rHD_rPP	0
+a301:F:Erhalten_von_Informationen_über_lokales_Geheimnis:rHD_rPP	0
+a301:F:Erzählen_lassen:rHD_fHD	1
+a301:F:Kontakt_wiederherstellen:N	{'weight': 1}
+a301:F:Kontakt_wiederherstellen:N	1
+a301:F:Zusammenbringen_aller_Beteiligten:N	{'weight': 1}
+a301:F:Geboren_werden:rHD	2
+Anf-a301:F:Geboren_werden:rHD	{'weight': 1}
+a301:H:Werben_um_den_Auftrag:N	{'weight': 1}
+Anf-a301:F:Geboren_werden:rHD	0
+a301:H:Werben_um_den_Auftrag:N	1
+a301:F:Kühnheit_beweisen:N	{'weight': 1}
+End-a301:F:Heiraten:N	0
+End-a301:F:Heiraten:rHD_rPP	0
+a301:F:Juwelen_beschaffen:rHD_rPP	2
+a301:H:Markieren_erkennen:rHD_rPP	{'weight': 1}
+a301:h:Vortäuschen_der_Heldentat:N	{'weight': 1}
+a301:H:Markieren_erkennen:rHD_rPP	1
+a301:F:Zusammenbringen_aller_Beteiligten:N	{'weight': 1}
+a301:h:Vortäuschen_der_Heldentat:N	3
+a301:H:Erhalten_des_Zaubermittels:N	{'weight': 1}
+a301:f:Vertrag_abschließen:N	{'weight': 1}
+a301:h:Erpressen_des_Meineides:N	{'weight': 1}
+a301:F:Zusammenbringen_aller_Beteiligten:N	0
+a301:F:Krisenursache_ergründen:N	2
+a301:F:Sich_oder_andere_hochziehen_lassen:N	{'weight': 1}
+a301:H:Sich_oder_andere_hochziehen_lassen:N	{'weight': 1}
+a301:F:Sich_oder_andere_hochziehen_lassen:N	1
+a301:F:Missetat_vermeiden:N	{'weight': 1}
+a301:H:Sich_oder_andere_hochziehen_lassen:N	1
+a301:F:Missetat_vermeiden:rHD_rPP	{'weight': 1}
+a301:F:Krisenursache_ergründen:fHD	1
+a301:h:Entführen:rHH_rAN	{'weight': 1}
+a301:h:Entführen:rHH_rAN	0
+a301:F:Krisenursache_ergründen:rHD_fHD	2
+a301:H:Mut_zeigen:rHD_rAN	{'weight': 1}
+a301:H:Schöne_ergreifen:N	{'weight': 1}
+a301:H:Mut_zeigen:rHD_rAN	1
+a301:H:Handlungsanweisung_Zweikampf:rHD_rHF	{'weight': 1}
+a301:H:Schöne_ergreifen:N	1
+a300:F:Behinderung_heilen:rHD_rHF	{'weight': 1}
+a301:F:Krisenursache_ergründen:rHD_rPP	3
+a301:F:Missetat_vermeiden:rHD_rPP	{'weight': 2}
+a301:H:Missetat_vermeiden:rHD_rPP	{'weight': 1}
+a301:f:Auslösen_von_Liebe:rHD_rPP	{'weight': 1}
+a301:F:Missetat_vermeiden:rHD_rPP	2
+a301:F:Sich_oder_andere_hochziehen_lassen:rHD_rPP	{'weight': 2}
+a301:h:Missetat_vermeiden:rHD_rPP	{'weight': 5}
+a301:H:Missetat_vermeiden:rHD_rPP	1
+a301:h:Missetat_vermeiden:rHD_rPP	{'weight': 1}
+a301:f:Auslösen_von_Liebe:rHD_rPP	1
+a301:F:Sich_oder_andere_hochziehen_lassen:rHD_rPP	{'weight': 1}
+a301:F:Kühnheit_beweisen:N	0
+a301:F:Markieren:rHD_rAN	1
+a516:F:Sonstige_Aufgabe_erfüllen:rHP	{'weight': 1}
+a516:F:Sonstige_Aufgabe_erfüllen:rHP	0
+a301:F:Missetat_vermeiden:N	1
+a301:h:Missetat_vermeiden:N	{'weight': 1}
+a301:h:Missetat_vermeiden:N	1
+a301:H:Wegweisung_erhalten:N	{'weight': 1}
+a301:F:Sich_oder_andere_hochziehen_lassen:rHD_rPP	1
+a301:H:Entführen_beheben:rHD_rPP	{'weight': 1}
+a301:h:Missetat_vermeiden:rHD_rPP	2
+a301:H:Markieren:rHD_rPP	{'weight': 1}
+a301:H:Wegweisung_mit_Optionen:rHD_rPP	{'weight': 5}
+a301:F:Schicksalsbestimmender_Weisung_folgen:rHD_fHD	2
+a301:F:Ungewünschtes_Wesen_aus_dem_Weg_räumen:rHD_fHD	{'weight': 1}
+a301:Ff:Zum_fremden_Ort_gelangen:rHD_fHD	{'weight': 1}
+a301:F:Ungewünschtes_Wesen_aus_dem_Weg_räumen:rHD_fHD	1
+a530:H:Held_erkennen:rHD_fHD	{'weight': 1}
+a301:Ff:Zum_fremden_Ort_gelangen:rHD_fHD	1
+a301:F:Wache_halten:rHD_rAN	{'weight': 1}
+a301:H:Erpressen_Wegführung:rHD_fVB	2
+a301:H:Auftrag_Kochen:rHD	{'weight': 2}
+a301:H:Provozieren_nachgehen:rHD_fVB	{'weight': 6}
+a301:H:Entführen_beheben:rHD_rPP	0
+a301:H:Staunen_nachgehen:rHD_fHD	0
+a650A:F:Ausrüsten:rHD_rST_rZM	0
+a650A:F:Ausrüsten:rHD_rZM	0
+a650A:F:Erfüllen_der_Aufgabe_verursacht_Beendigung_des_Vertrages:rHD_rAN	0
+a650A:Ff:Erfüllen_der_Aufgabe_verursacht_Schrecken:rHD_rAN	0
+a650A:Ff:Kontakt_abbrechen:rHD_rHH	0
+a650A:H:Erfüllen_der_Aufgabe_verursacht_Beendigung_des_Vertrages:rHD_rAN	0
+Anf-a301:F:Tabu_Türe_nicht_öffnen_dürfen:rHH	0
+a301:F:Tabu_nicht_einschlafen_dürfen:rHP	2
+a301:h:Tabubruch_erfolgt:rHP	{'weight': 1}
+a516:H:Schöne_ergreifen:rHD_rPP	{'weight': 1}
+a301:h:Tabubruch_erfolgt:rHP	0
+a516:H:Schöne_ergreifen:rHD_rPP	0
+a530:H:Held_erkennen:rHD_fHD	1
+a301:H:Untertauchen:rHD_fHD	{'weight': 1}
+a301:F:Wache_halten:rHD_rAN	0
+a519:F:Wettkampf:rHD_rVB	0
+a301:unklar:unklar:rHD_rHP	0
+a300:F:Behinderung_heilen:rHD_rHF	1
+a301:F:Zwangsehe_verhindern:rHD_rVB	{'weight': 1}
+a301:F:Zwangsehe_verhindern:rHD_rVB	0
+a301:H:Auftrag_Kochen:rHD	1
+a301:H:Provozieren_nachgehen:rHD_fVB	{'weight': 2}
+a301:H:Provozieren_nachgehen:rHD_fVB	0
+a301:H:Handlungsanweisung_Objekt_ergreifen:rHD_rHF	0
+a301:H:Bestrafung:rHD_rPP_fHD	3
+a301:H:Ende:rHD_rHH_rHP	{'weight': 1}
+a301:H:Heiraten:rHD_rPP	{'weight': 1}
+a301:H:Zwangsehe_verhindern:rHD_rPP_fHD	{'weight': 2}
+a301:H:Ende:rHD_rHH_rHP	1
+End-a301:H:Ende:rHD_rHH_rHP	{'weight': 1}
+a301:H:Heiraten:rHD_rPP	1
+End-a301:H:Heiraten:rHD_rPP	{'weight': 1}
+a301:H:Zwangsehe_verhindern:rHD_rPP_fHD	2
+a301:H:Markieren_erkennen:rHD_rPP_fHD	{'weight': 1}
+a301:f:Ungewünschter_Heiratsantrag:rHD_rPP_fHD	{'weight': 1}
+End-a301:H:Ende:N	0
+End-a301:H:Ende:rHD_rHH_rHP	0
+a301:H:Erhalten_des_Zaubermittels:N	1
+a301:H:Zaubermittel_Ausrüstung_oder_die_Waffe_ausprobieren:N	{'weight': 1}
+a301:H:Zaubermittel_Ausrüstung_oder_die_Waffe_ausprobieren:N	1
+a301:H:Ortswechsel_gelingt:N	{'weight': 1}
+a301:H:Erhalten_von_Informationen_über_lokales_Geheimnis:rHD_rPP	0
+a301:H:Handlungsanweisung_Zweikampf:rHD_rHF	0
+End-a301:H:Heiraten:rHD_rPP	0
+a301:H:Identität_wechseln:N	2
+a301:H:Ortswechsel_gelingt:N	{'weight': 1}
+a301:f:Vertrag_abschließen:N	{'weight': 1}
+a301:H:Ortswechsel_gelingt:N	0
+a301:f:Vertrag_abschließen:N	0
+a301:H:Markieren:rHD_rPP	1
+a301:h:Missetat_Im_Stich_lassen:rHD_fHD	{'weight': 1}
+a301:h:Missetat_Im_Stich_lassen:rHD_fHD	3
+a301:H:Wegweisung_mit_Optionen:rHD_rPP	{'weight': 2}
+a301:h:Erpressen_des_Meineides:N	{'weight': 1}
+a301:h:Wegweisung_mit_Optionen:rHD_fZM	{'weight': 2}
+a301:H:Markieren_erkennen:rHD_rPP_fHD	1
+a301:h:Markieren_erkennen:rHD_rPP_fHD	{'weight': 1}
+a301:h:Markieren_erkennen:rHD_rPP_fHD	1
+a301:f:Erpressen_Heiratszusage:rHD_rPP_fHD	{'weight': 1}
+a301:H:Provozieren_nachgehen:rHD_rST	1
+a750B:F:Erpressen_beheben:rHD_rST	{'weight': 1}
+a750B:F:Erpressen_beheben:rHD_rST	0
+a301:H:Sich_oder_andere_hochziehen_lassen:rHD_rPP_fHD	2
+a301:H:Wegweisung_mit_Optionen:rHD_rPP	{'weight': 1}
+a301:h:Missetat_Im_Stich_lassen:rHD_rPP_fHD	{'weight': 1}
+a301:H:Wegweisung_mit_Optionen:rHD_rPP	2
+a301:h:Missetat_Im_Stich_lassen:N	{'weight': 1}
+a301:h:Missetat_Im_Stich_lassen:rHD_rPP	{'weight': 1}
+a301:h:Missetat_Im_Stich_lassen:rHD_rPP_fHD	1
+a301:h:Wegweisung_mit_Optionen:rHD_fZM	{'weight': 1}
+a301:H:Untertauchen:rHD_fHD	0
+a301:H:Wegweisung_erhalten:N	1
+a301:h:Missetat_Im_Stich_lassen:N	{'weight': 1}
+a301:h:Missetat_Im_Stich_lassen:N	1
+a301:h:Wegweisung_mit_Optionen:N	{'weight': 2}
+a301:h:Missetat_Im_Stich_lassen:rHD_rPP	1
+a301:h:Wegweisung_mit_Optionen:rHD_fZM	{'weight': 1}
+a301:f:Ungewünschter_Heiratsantrag:rHD_rPP_fHD	1
+a300:H:Behinderung_heilen:rHD_rHF	{'weight': 1}
+End-a301:H:Zweikampf:rHD_rAN	0
+a516:H:Schicksalsbestimmender_Weisung_folgen:N	0
+a301:f:Ausgangslosen_Ort_gelangen:rHD_fZM	2
+a300:F:Wassermangel_beheben:rHD_rVB	{'weight': 1}
+a301:h:Wegweisung_mit_Optionen:rHD_fZM	{'weight': 1}
+a300:F:Wassermangel_beheben:rHD_rVB	0
+a301:h:Wegweisung_mit_Optionen:rHD_fZM	2
+a300:f:Ausgangslosen_Ort_gelangen:rHD_rVB	{'weight': 2}
+a300:h:Ausgangslosen_Ort_gelangen:rHD_rVB	{'weight': 1}
+a301:f:Erpressen_Heiratszusage:rHD_rPP_fHD	1
+a300:F:Sich_oder_Andere_tragen_lassen:rHD_rZM	{'weight': 1}
+a300:F:Sich_oder_Andere_tragen_lassen:rHD_rZM	0
+a301:h:Auftrag_Kochen:rHD	0
+a301:h:Provozieren_nachgehen:rST_fHD	0
+a301:f:Provozieren_nachgehen:fHD_fVB	0
+a301:f:Tabu_Türe_nicht_öffnen_dürfen:rHD_rHF	1
+a516:H:Schöne_ergreifen:rHF_rPP	{'weight': 1}
+a516:H:Schöne_ergreifen:rHF_rPP	0
+a301:f:Tabu_Türe_nicht_öffnen_dürfen:rHD_rHH	1
+Anf-a301:f:Tabu_Türe_nicht_öffnen_dürfen:rHD_rHH	{'weight': 1}
+Anf-a301:f:Tabu_Türe_nicht_öffnen_dürfen:rHD_rHH	0
+a301:f:Tabu_Zielort_erreichen_ohne_Pause:N	2
+a301:h:Tabubruch_erfolgt:N	{'weight': 1}
+a516:H:Schöne_ergreifen:N	{'weight': 1}
+a301:h:Tabubruch_erfolgt:N	0
+a516:H:Schöne_ergreifen:N	0
+a300:H:Behinderung_heilen:rHD_rHF	0
+a302:h:Flucht_auf_Pferd:rHD_rAN	0
+a301:h:Erpressen_des_Meineides:N	0
+a301:h:Wegweisung_mit_Optionen:N	1
+a300:f:Ausgangslosen_Ort_gelangen:rHD_rVB	{'weight': 2}
+a300:f:Ausgangslosen_Ort_gelangen:rHD_rVB	0
+a300:h:Ausgangslosen_Ort_gelangen:rHD_rVB	0

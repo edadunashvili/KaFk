@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+     <title xml:lang="deu">Archi Folklore</title>
+     <title xml:lang="eng">Artschinische Folklore</title>
+     <author key="gnd:133557154">
+      <persName>
+       <forename>Elguja</forename>
+       <surname>Dadunashvili</surname>
+      </persName>
+     </author>
+     <author>
+      <persName key="gnd:1154734161">
+       <forename>Diana</forename>
+       <surname>Forker</surname>
+      </persName>
+     </author>
+     <respStmt>
+      <resp>Annotated according to the ATU system</resp>
+      <name>
+       <persName key="gnd:133557154">
+        <forename>Elguja</forename>
+        <surname>Dadunashvili</surname>
+       </persName>
+      </name>
+     </respStmt>
+    </titleStmt>
+    <publicationStmt>
+     <publisher>
+      <name key="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+     </publisher>
+     <pubPlace>
+      <genName corresp="https://www.geonames.org/2895044/jena.html">Jena</genName>
+     </pubPlace>
+     <date>2024</date>
+     <distributor>
+      <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+      <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+     </distributor>
+     <availability>
+      <p>
+       <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+      </p>
+     </availability>
+    </publicationStmt>
+    <sourceDesc>
+     <biblFull>
+      <titleStmt>
+       <title xml:lang="rus">Арчинский языкъ. Граматический очеркъ, тексты, сборникъ арчинскихъ слобъ съ русскумъ къ нему указателемъ</title>
+       <author key="gnd:116138696">
+        <persName>
+         <forename>Adolf</forename>
+         <surname>Dirr</surname>
+        </persName>
+       </author>
+       <respStmt>
+        <resp />
+        <name />
+       </respStmt>
+      </titleStmt>
+      <extent>
+       <measure unit="words" />
+       <measure unit="pages" />
+      </extent>
+      <publicationStmt>
+       <publisher>
+        <name>СМОМПК; Сборникъ матеріалов для описанія мѣстностей и племенъ Кавказа</name>
+        <geogName>Tbilisi</geogName>
+       </publisher>
+       <distributor>
+        <persName>
+         <surname />
+        </persName>
+       </distributor>
+       <date when="1908">1908</date>
+       <availability>
+        <p> </p>
+       </availability>
+      </publicationStmt>
+     </biblFull>
+    </sourceDesc>
+   </fileDesc>
+   <profileDesc>
+    <langUsage>
+     <language ident="rus">
+      <index indexName="iso639-3" />
+      <ref target="http://www-01.sil.org/iso639-3/codes.asp" />
+     </language>
+    </langUsage>
+    <textClass>
+     <keywords>
+      <term type="writingSystem">utf-8</term>
+     </keywords>
+     <keywords scheme="http://uri.gbv.de/terminology/bk/">
+      <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+      <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+     </keywords>
+    </textClass>
+    <creation>
+     <placeName>
+      <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+      <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+      <district />
+      <settlement />
+     </placeName>
+     <date notAfter="1906">1906</date>
+    </creation>
+    <particDesc>
+     <person role="speaker">
+      <persName>
+       <forename> </forename>
+       <surname> </surname>
+      </persName>
+      <age />
+      <birth>
+       <date />
+       <placeName>
+        <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+        <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+        <district />
+        <settlement />
+       </placeName>
+      </birth>
+     </person>
+     <person role="researcher">
+      <persName key="gnd:116138696">
+       <forename>Adolf</forename>
+       <surname>Dirr</surname>
+      </persName>
+     </person>
+     <person role="translator">
+      <persName key="gnd:116138696">
+       <forename>Adolf</forename>
+       <surname>Dirr</surname>
+      </persName>
+     </person>
+    </particDesc>
+   </profileDesc>
+   <revisionDesc>
+    <listChange>
+     <change>Text recognized by OCR has been corrected by ChatGPT.</change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:id="cc_aqc_rus_32">
+   <body>
+    <head>16.</head>
+    <p>Жил в одном селе человек, у которого были три сына. Все трое ходили на охоту каждый день. Раз отец <pb n="122" />сказал им: "В ту сторону не ходите, а в остальные стороны вы можете свободно идти!" Однако они все-таки пошли в запрещенную сторону. Там они нашли лес, где остались три дня. Каждый шел по своей дороге: старший убил зайца, средний — лисицу, младший — волка. Они взяли свою добычу и пошли домой. На следующий день они снова пошли в этот лес и собрали дрова. Старший сказал: "Я хочу напиться воды" и ушел, но не вернулся. Увидев, что он не возвращается, средний брат пошел за ним, но и тот не вернулся. Тогда младший пошел искать и нашел их окаменелыми около воды. Он ушел оттуда и встретил животное, которое скрывалось под своими волосами. Он следил за ним и увидел, что оно лезет в дыру под деревом. Полез за ним и нашел внутри этой дыры трех очень красивых девиц. "Уходи отсюда", сказали девицы ему: "Ведь ока (то есть это животное) пришла, и спит теперь; если она тебя увидит, ты тоже окаменеешь". — "Нет", сказал младший брат: "она превратила моих братьев в камни, и я не уйду отсюда, не убив ее". — "Если это так", сказали девицы, "то знай, что она — женщина. Она спит в той комнате. Там есть столб, на столбу гвоздь, на гвозде плеть. Возьми ее (то есть женщину), привяжи крепко к столбу за волосы и бей плетью. Сколько она ни будет просить, не пускай! Если она не поклянется черной лошадью на ее лбу и не скажет: "я твоя, ты мой", не пускай".</p>
+    <p>Младший брат сделал, как девицы сказали ему: привязал ее, бил и отпустил только тогда, когда она поклялась. Потом он ушел, взяв с собою казну и трех дочерей. Пошли они к окаменевшим братьям, оживили их и все вместе вернулись домой. Младшему брату он дал по одной девице, себе тоже одну взял. Устроили большую свадьбу и родили сыновей, похожих на отца, и дочь, похожую на мать.</p>
+   </body>
+  </text>
+ </TEI>
+ 

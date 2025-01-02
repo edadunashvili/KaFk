@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 	schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+   <fileDesc>
+    <titleStmt>
+     <title xml:lang="deu">Archi Folklore</title>
+     <title xml:lang="eng">Artschinische Folklore</title>
+     <author key="gnd:133557154">
+      <persName>
+       <forename>Elguja</forename>
+       <surname>Dadunashvili</surname>
+      </persName>
+     </author>
+     <author>
+      <persName key="gnd:1154734161">
+       <forename>Diana</forename>
+       <surname>Forker</surname>
+      </persName>
+     </author>
+     <respStmt>
+      <resp>Annotated according to the ATU system</resp>
+      <name>
+       <persName key="gnd:133557154">
+        <forename>Elguja</forename>
+        <surname>Dadunashvili</surname>
+       </persName>
+      </name>
+     </respStmt>
+    </titleStmt>
+    <publicationStmt>
+     <publisher>
+      <name key="gnd:4028557-1">Institute of Slavic and Caucasus Studies. Friedrich Schiller University Jena</name>
+     </publisher>
+     <pubPlace>
+      <genName corresp="https://www.geonames.org/2895044/jena.html">Jena</genName>
+     </pubPlace>
+     <date>2024</date>
+     <distributor>
+      <addName>DFG project “Caucasian narratives in the discourse of comparative fairy tale research”</addName>
+      <ref target="https://github.com/edadunashvili">Software und Texte</ref>
+     </distributor>
+     <availability>
+      <p>
+       <ref target="https://creativecommons.org/licenses/by/4.0/">CC BY</ref>
+      </p>
+     </availability>
+    </publicationStmt>
+    <sourceDesc>
+     <biblFull>
+      <titleStmt>
+       <title xml:lang="rus">Арчинский языкъ. Граматический очеркъ, тексты, сборникъ арчинскихъ слобъ съ русскумъ къ нему указателемъ</title>
+       <author key="gnd:116138696">
+        <persName>
+         <forename>Adolf</forename>
+         <surname>Dirr</surname>
+        </persName>
+       </author>
+       <respStmt>
+        <resp />
+        <name />
+       </respStmt>
+      </titleStmt>
+      <extent>
+       <measure unit="words" />
+       <measure unit="pages" />
+      </extent>
+      <publicationStmt>
+       <publisher>
+        <name>СМОМПК; Сборникъ матеріалов для описанія мѣстностей и племенъ Кавказа</name>
+        <geogName>Tbilisi</geogName>
+       </publisher>
+       <distributor>
+        <persName>
+         <surname />
+        </persName>
+       </distributor>
+       <date when="1908">1908</date>
+       <availability>
+        <p> </p>
+       </availability>
+      </publicationStmt>
+     </biblFull>
+    </sourceDesc>
+   </fileDesc>
+   <profileDesc>
+    <langUsage>
+     <language ident="rus">
+      <index indexName="iso639-3" />
+      <ref target="http://www-01.sil.org/iso639-3/codes.asp" />
+     </language>
+    </langUsage>
+    <textClass>
+     <keywords>
+      <term type="writingSystem">utf-8</term>
+     </keywords>
+     <keywords scheme="http://uri.gbv.de/terminology/bk/">
+      <term type="text.libraryClassification.basisklassifikation" key="18.92">Sonstige asiatische Sprachen und Literaturen</term>
+      <term type="text.libraryClassification.basisklassifikation" key="73.63">Orale Traditionen</term>
+     </keywords>
+    </textClass>
+    <creation>
+     <placeName>
+      <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+      <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+      <district />
+      <settlement />
+     </placeName>
+     <date notAfter="1906">1906</date>
+    </creation>
+    <particDesc>
+     <person role="speaker">
+      <persName>
+       <forename> </forename>
+       <surname> </surname>
+      </persName>
+      <age />
+      <birth>
+       <date />
+       <placeName>
+        <country ref="https://www.geonames.org/2017370/russian-federation.html">Russian-Federation</country>
+        <region ref="https://www.geonames.org/567293/dagestan.html">Dagestan</region>
+        <district />
+        <settlement />
+       </placeName>
+      </birth>
+     </person>
+     <person role="researcher">
+      <persName key="gnd:116138696">
+       <forename>Adolf</forename>
+       <surname>Dirr</surname>
+      </persName>
+     </person>
+     <person role="translator">
+      <persName key="gnd:116138696">
+       <forename>Adolf</forename>
+       <surname>Dirr</surname>
+      </persName>
+     </person>
+    </particDesc>
+   </profileDesc>
+   <revisionDesc>
+    <listChange>
+     <change>Text recognized by OCR has been corrected by ChatGPT.</change>
+    </listChange>
+   </revisionDesc>
+  </teiHeader>
+  <text xml:id="cc_aqc_rus_30">
+   <body>
+    <head>14.</head>
+    <p> Жил-был очень хороший монах. Однажды к нему пришел гость. Вечером они сидели, разговаривая, но во время разговора монах иногда бил в ладоши. Гость спросил: "Почему <pb n="117" />ты бьешь в ладоши?" Монах ответил: "У меня в доме есть мышь, которая ничего не оставляет нетронутым. Я свои вещи кладу в эти сумки там наверху, и каждый раз, когда эта мышь собирается подняться туда, я бью в ладоши, чтобы заставить ее вернуться в свою нору." — "Нет ли у тебя топора?" спросил гость. "Есть!" Гость встал, взял топор и разрушил норку мыши, в которой они, впрочем, нашли деньги. Потом они снова начали разговаривать. Снова мышь пришла, прыгнула, но не могла достичь сумок и упала на пол. Эта самая мышь была предводительницей мышей. Мыши собрались и сказали: "У нашей предводительницы сидла была в этих деньгах. Теперь уже денег нет, так что отныне она не может быть нашей предводительницей." Сказали и разошлись.</p>
+   </body>
+  </text>
+ </TEI>
+ 

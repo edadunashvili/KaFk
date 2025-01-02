@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" targetNamespace="www.dglab.uni-jena.de/vmf/l" vc:maxVersion="1.1" vc:minVersion="1.0" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:l="www.dglab.uni-jena.de/vmf/l">
+
+<xs:attribute name="ana" type="l:ana"/>
+<xs:simpleType name="ana">
+<xs:restriction base="xs:normalizedString">
+<xs:enumeration value="0"/>
+
+<!--<xs:enumeration value="KT:hinweis:dem_HD/HO_wird_auf_das_fehlende_OB_durch_das_symbol_hingewiesen"/>-->
+<!--<xs:enumeration value="KV:melden:not:die_not_wird_durch_den_lieferung_des_leblosen_koerpers_gemeldet"/>-->
+<!--<xs:enumeration value="KV:melden:not:not_wird_durch_den_signalisator_gemeldet"/>-->
+
+<xs:enumeration value="AS::ausgangssituation"/>
+<xs:enumeration value="AS:aufbrechen:Ein_Familienmitglied_bricht_auf"/>
+<xs:enumeration value="AS:aufzählen:Einfache_Aufzählung_der_Familiemitglieder"/>
+<xs:enumeration value="AS:conzeptia_magica:Nach_dem_Empfängmissmittel_wird_gesucht"/>
+<xs:enumeration value="AS:conzeptia_magica:Vereinbarung_Kind_gegen_das_ZM"/>
+<xs:enumeration value="AS:conzeptia_magica:Wunderbare_Empfängnis_findet_statt"/>
+<xs:enumeration value="AS:demutigung:Familienmitglied_wird_vom_AN_gedemutigt"/>
+<xs:enumeration value="AS:demutigung:Familienmitglied_wird_vom_VB_gedemutigt"/>
+<xs:enumeration value="AS:erkündigung:Der_Schicksals_wird_verkundet"/>
+<xs:enumeration value="AS:geburt:Der_HD_wird_geboren"/>
+<xs:enumeration value="AS:gewalt:Familienmitglied_wird_vom_AN_festgenommen"/>
+<xs:enumeration value="AS:gewalt:Familienmitglied_wird_vom_AN_getötet"/>
+<xs:enumeration value="AS:markierung:Der_Weg_zum_Opfer_wird_markiert"/>
+<xs:enumeration value="AS:markierung:Die_Markierung_wird_gefälscht"/>
+<xs:enumeration value="AS:sterben:Familienmitglied_stirbt"/>
+<xs:enumeration value="AS:ehe:Familienmitglied_heiratet"/>
+<xs:enumeration value="AS:versprechen:Der_HD_wird_dem_AN_versprochen"/>
+<xs:enumeration value="BG::bedingung"/>
+<xs:enumeration value="BG:mitleid:Mitleidshervorrufende_Stand_des_HD"></xs:enumeration>
+<xs:enumeration value="BG:faszination:Der_HD_und_der_FH_äußern_sich_gegenseitige_Symphatie"/>
+<xs:enumeration value="BG:Gelegenheit_auf_dem_Jenseitsweg_etwas_merkwürdiges_zu_erfahren"/>
+<xs:enumeration value="BG:Gelegenheit_auf_dem_Jenseitsweg_gefragt_zu_werden"/>
+<xs:enumeration value="BG:Gelegenheit_das_richtigs_Transportmittel_vom_falschen_zu_unterscheiden"/>
+<xs:enumeration value="BG:Gelegenheit_etwas_zu_belauschen"/>
+<xs:enumeration value="BG:Gelegenheit_etwas_zu_belauschen"/>
+<xs:enumeration value="BG:Gelegenheit_mit_dem_Gewohnheitsrecht_zu_manipulieren"/>
+<xs:enumeration value="BG:Gelegenheit_sich_als_Ehemann_vorzugeben"/>
+<xs:enumeration value="BG:Gelegenheit_sich_als_Vermittler_vorzugeben"/>
+<xs:enumeration value="BG:Gelegenheit_sicheren_Weg_vom_unsicheren_zu_unterscheiden"/>
+<xs:enumeration value="BG:Gelegenheit_um_etwas_zu_bitten"/>
+<xs:enumeration value="BG:Gelegenheit_vor_dem_Dilemma_zu_stehen"/>
+<xs:enumeration value="BG:Gelegenheit_Zauberkunst_zu_lernen"/>
+<xs:enumeration value="BG:probe:Auf_die_potenzielle_Beute_verzichten"/>
+<xs:enumeration value="BG:probe:Ehrlich_und_Zuverlässig_sein"/>
+<xs:enumeration value="BG:probe:Einbrecher_vergeben"/>
+<xs:enumeration value="BG:probe:Futter_richtig_verteilen"/>
+<xs:enumeration value="BG:probe:Gastfreundlich_sein"/>
+<xs:enumeration value="BG:probe:Hilfbedürftigen_freikaufen"/>
+<xs:enumeration value="BG:probe:Höflich_sein"/>
+<xs:enumeration value="BG:probe:Sorgenvoll_sein"/>
+<xs:enumeration value="BG:probe:Hungriges_Tier_futtern"/>
+<xs:enumeration value="BG:probe:Leugner_sein"/>
+<xs:enumeration value="BG:probe:Stark_genug_sein"/>
+<xs:enumeration value="BG:probe:Schutzbedürftige_Tiere/Tierjunge_retten"/>
+<xs:enumeration value="BG:probe:Untier_heiraten"/>
+<xs:enumeration value="BG:probe:Verlobung_billigen"/>
+<xs:enumeration value="BG:probe:Wache_halten"/>
+<xs:enumeration value="BG:probe:Zuverlaessig_sein"/>
+<xs:enumeration value="BG:probe:Zwischen_den_Streitenden_schlichten"/>
+<xs:enumeration value="BG:tabu:Behälter_nicht_öffnen"/>
+<xs:enumeration value="BG:tabu:Ding_nicht_weitergeben"/>
+<xs:enumeration value="BG:tabu:Feuer_nicht_erlöschen"/>
+<xs:enumeration value="BG:tabu:Haus_nicht_verlassen"/>
+<xs:enumeration value="BG:tabu:Land_nicht_betreten"/>
+<xs:enumeration value="BG:tabu:Nicht_einschlaffen"/>
+<xs:enumeration value="BG:tabu:Stillschweigen_halten"/>
+<xs:enumeration value="BG:tabu:Tierhaut_nicht_verbrennen"/>
+<xs:enumeration value="BG:tabu:Tür_nicht_öffnen"/>
+<xs:enumeration value="BG:tabu:Sich_von_jemand_fernhalten"/>
+<xs:enumeration value="BG:tabu:Vom_Ausgangspunkt_bis_zum_Zielort_keine_Pause_machen"/>
+<xs:enumeration value="BG:test:Der_HD_testet_die_Tauglichkeit_des_ZM"/>
+<xs:enumeration value="BG:unklar:eine_unklare_Bedingung"/>
+<xs:enumeration value="EM::Empfang"/>
+<xs:enumeration value="EM:Begehrte_Information_erpressen_lassen"/>
+<xs:enumeration value="EM:Belauschen_welche_Gefahren_den_Rückgekehrten_lauern"/>
+<xs:enumeration value="EM:Belauschen_wie_man_Augenlicht_zurückholen_kann"/>
+<xs:enumeration value="EM:Belauschen_wie_man_den_Schatz_in_besitz_nehmen_kann"/>
+<xs:enumeration value="EM:Belauschen_wie_man_Kranke_heilen_kann"/>
+<xs:enumeration value="EM:Belauschen_wie_man_verstuemmelung_wieder_gutmachen_kann"/>
+<xs:enumeration value="EM:Belauschen_wo_man_das_gesuchte_OB_eringen_kann"/>
+<xs:enumeration value="EM:Belauschen_wo_man_fehlendes_wasser_finden_kann"/>
+<xs:enumeration value="EM:Den_Tipp_wie_man_den_AN_täuschen_kann_erhalten"/>
+<xs:enumeration value="EM:Der_HD/HF_wird_gerettet/befreit"><xs:annotation><xs:documentation>aber nicht wiederbelebt oder erlöst </xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Das_ausgesetzte_Kind_wird_aufgenomen_und_großgezogen"/>
+<xs:enumeration value="EM:Eine_Spur_zum_Zielort_erpressen"/>
+<xs:enumeration value="EM:Eine_Überweisung_zum_anderen_HF/ST_erhalten"/>
+<xs:enumeration value="EM:Einen_Elixier_erhalten"/>
+<xs:enumeration value="EM:Erklärung_über_die_Brücke/Fährmann"/>
+<xs:enumeration value="EM:Erklärung_über_den_Sex_vor_der_Ehe"/>
+<xs:enumeration value="EM:Erklärung_über_die_Manipulation"/>
+<xs:enumeration value="EM:Erklärung_über_die_essensparenden"/>
+<xs:enumeration value="EM:Erklärung_über_die_wassersparenden"/>
+<xs:enumeration value="EM:Erklärung_über_die_arbeitsscheue"/>
+<xs:enumeration value="EM:Erklärung_über_die_klatschhaften"/>
+<xs:enumeration value="EM:Erklärung_über_die_Geizigkeit"/>
+<xs:enumeration value="EM:Erklärung_über_die_Diebe"/>
+<xs:enumeration value="EM:Erklärung_über_die_Frommigkeit"/>
+<xs:enumeration value="EM:Erklärung_über_die_Gastfreundschaftlichkeit"/>
+<xs:enumeration value="EM:Erklärung_über_die_Grobheit"/>
+<xs:enumeration value="EM:Erklärung_über_die_Rabenelter"/>
+<xs:enumeration value="EM:Fähigkeit_sich_umzuwandeln_erhalten"/>
+<xs:enumeration value="EM:Fluchtsgelegenheit_erhalten"/>
+<xs:enumeration value="EM:Glüeckliche_Eheschließung_erhalten"/>
+<xs:enumeration value="EM:Gold/Geldzeugendes_Ding_erhalten"/>
+<xs:enumeration value="EM:Proviantzeugendes_Ding_erhalten"/>
+<xs:enumeration value="EM:Efahrung_über_das_lokale_Geheimnis_erhalten"/>
+<!--<xs:enumeration value="EM:Numinosen_Beistand_erhalten"/>-->
+<xs:enumeration value="EM:Respekt_sichern_ohne_dabei_etwas_zu_erhalten"/>
+<xs:enumeration value="EM:Schlechte_Entscheidung_treffen_die_gut_ist"/>
+<xs:enumeration value="EM:Signalisator_erhalten"/>
+<xs:enumeration value="EM:Strafmaßnamenzeugendes_Ding_erhalten"/>
+<xs:enumeration value="EM:Sympathisierenden_Weggefährten_erhalten"/>
+<xs:enumeration value="EM:Tarnkappe_erhalten"/>
+<xs:enumeration value="EM:Tierjunge_erhalten"/>
+<xs:enumeration value="EM:Transportmittel_erhalten"/>
+<xs:enumeration value="EM:Treuen_HF_erhalten"/>
+<xs:enumeration value="EM:Universales_ZM_erhalten"/>
+<xs:enumeration value="EM:Versprechen_geholfen_zu_werden_erhalten"/>
+<xs:enumeration value="EM:Versprechen_Wünsche_ erfüllt_zu_werden_erhalten"/>
+<xs:enumeration value="EM:Körperteile_vergolden_lassen"/>
+<xs:enumeration value="EM:Prächtige_Kleidung_und_Schmuck_erhalten"/>
+<xs:enumeration value="EM:Verzärtes_Essen_wiederhergestellt_erhalten"/>
+<xs:enumeration value="EM:Anweisung_erhalten"/>
+<xs:enumeration value="EM:Waffe_erhalten"/>
+<xs:enumeration value="EM:Warnung_vor_dem_Verrat_erhalten"/>
+<xs:enumeration value="EM:Warnung_vor_der_Ungeheuerlichkeit_des_AN_erhalte"/>
+<xs:enumeration value="EM:Wegweisung/Wegführung_erhalten"/>
+<xs:enumeration value="EM:Der_HD_wird_wiederbelet"/>
+<xs:enumeration value="EM:Zauberkunst_erhalte"/>
+<xs:enumeration value="EM:ZM_erhalten"/>
+<xs:enumeration value="EMn:Anforderung_ablehnen"/>
+<xs:enumeration value="EMn:Anstelle_Dankbarkeit_wird_Neid_erzeugt"/>
+<xs:enumeration value="EMn:Anweisungen_ablehnen"/>
+<xs:enumeration value="EMn:Bei_der_Probe_durchfallen"/>
+<xs:enumeration value="EMn:Bitte_ablehnen"/>
+<xs:enumeration value="EMn:Dem_HD_von_der_Absicht_abraten"/>
+<xs:enumeration value="EMn:Dem_richtigen_ZM_verpassen"/>
+<xs:enumeration value="EMn:Getestete_ZM_ablehnen"/>
+<xs:enumeration value="EMn:Gute_Entscheidung_treffen_die_schlecht_ist"/>
+<xs:enumeration value="EMn:Heiratsvorschlag_ablehnen"/>
+<xs:enumeration value="EMn:Tabubruch_mit_Konsequenzen"/>
+<xs:enumeration value="EMn:Warnung/Ratschläge_ablehnen"/>
+<xs:enumeration value="KF::krisefuehrung"/>
+<xs:enumeration value="KF:aneignung:Aneignung_eines_fremden_ZM_oder_Gutes"/>
+<xs:enumeration value="KF:aneignung:Aneignung_fremder_Heldentat"/>
+<xs:enumeration value="KF:anregung:Anregung_der_Jagdlust"/>
+<xs:enumeration value="KF:anregung:Anregung_der_Scham_wegen_der_fehlenden_Bekleidung"/>
+<xs:enumeration value="KF:anregung:Anregung_einer_Liebe"/>
+<xs:enumeration value="KF:anregung:Anregung_einer_Neugier"/>
+<xs:enumeration value="KF:anregung:Anregung_eines_Begehrens"/>
+<xs:enumeration value="KF:anregung:Anregung_eines_Geizes"/>
+<xs:enumeration value="KF:ausbeutung:Der_HD_wird_ohne_essen_zum_Tod_ausgeliefert"/>
+<xs:enumeration value="KF:aussetzen:Mutter_mit_Kinder_werden_vertieben"/>
+<xs:enumeration value="KF:aussetzen:Ein_unmündiger_HD_wird_ausgesetzt"/>
+<xs:enumeration value="KF:aussetzen:Der_HD_wird_außerhlb_des_Hauses_zurückgelassen"/>
+<xs:enumeration value="KF:demutigung:Der_HD_wird_vom_FH_gedemutigt"/>
+<xs:enumeration value="KF:demutigung:Der_HD_wird_vom_AN_gedemutigt"/>
+<xs:enumeration value="KF:demutigung:Der_HD_wird_verleumdet_und_gedemutigt"/>
+<xs:enumeration value="KF:erpressung:Der_AN_fordert_Tribut"/>
+<xs:enumeration value="KF:gewaltübung:Das_OB_wird_geraubt_oder_entfuehrt"/>
+<xs:enumeration value="KF:gewaltübung:Der_HD_wird_durch_die_Kanibalismus_bedroht"/>
+<xs:enumeration value="KF:heimtücke:Der_HD_wird_angelockt"/>
+<xs:enumeration value="KF:heimtücke:Verleumdung_plannen"/>
+<xs:enumeration value="KF:heimtücke:Uriasbrief_mit_Absicht_Mutter_zu_verleumdet"><xs:annotation><xs:documentation>vom schreiben bis zur Vollstreckund</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:heimtücke:Uriasbrief_mit_Absicht_Vorhersage_zu_Entkommen"><xs:annotation><xs:documentation>vom schreiben bis zur Vollstreckund</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:heimtücke:Uriasbrief_mit_Absicht_Ehefrau_zu_verleumden"><xs:annotation><xs:documentation>vom schreiben bis zur Vollstreckund</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:heimtücke:Unlösbare_Aufgaben_planen"/>
+<xs:enumeration value="KF:heimtücke:Scheinfreundlichkeit_der_künftihen_Schwägerin/Stiefmutter"/>
+<xs:enumeration value="KF:leiden:Haustiere_werden_gefressen"/>
+<xs:enumeration value="KF:leiden:Ungeheuerlichkeit_des_HD_ist_unerträglich"/>
+<xs:enumeration value="KF:leiden:Etwas_nur_tags_oder_nachtsüber_genießen"/>
+<xs:enumeration value="KF:leiden:Der_HD_muss_seine_Identität/Geschlecht_verhüllen"/>
+<xs:enumeration value="KF:mord:Der_HD_wird_ermordet"/>
+<xs:enumeration value="KF:verleumdung:Dem_HD_wird_den_Kindermord_verleumdet"/>
+<xs:enumeration value="KF:verleumdung:Kleine_Verleumdungen_ohne_Srafmaßnahmen"/>
+<xs:enumeration value="KF:saugen:Der_AN_saugt_das_Blut_ab"/>
+<xs:enumeration value="KF:überfallen:Es_wird_ein_Krieg_erklärt"/>
+<xs:enumeration value="KF:verrat:Der_HD_wird_gestoßen"/>
+<xs:enumeration value="KF:verrat:Der_HD_wird_verbannt"/>
+<xs:enumeration value="KF:verrat:Der_HD_wird_während_der_Niederkommen_vorgetäuscht_und_das_Kind_ausgesetzt"/>
+<xs:enumeration value="KF:verrat:Der_HD_wird_zurückgelassen"/>
+<xs:enumeration value="KF:verstuemmelung:Dem_HD_werde_Füße_abgehackt"/>
+<xs:enumeration value="KF:verstuemmelung:Dem_HD_werden_Hände_abgehackt"/>
+<xs:enumeration value="KF:verstuemmelung:Der_HD_wird_geblendet"/>
+<xs:enumeration value="KT::krisevermittlung"/>
+<xs:enumeration value="KT:auftrag:Der_AN_soll_verjungt_werden"/>
+<xs:enumeration value="KT:auftrag:Ungewünschte_Familienmitglied_müssen_weggeräumt_werden"/>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_Nahrungsmittel_zu_vermehren"/>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_Stoff_zu_vermehren"/>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_goldhaariges_Kind_zur_Welt_zu_bringen"/>
+<xs:enumeration value="KT:auftrag:Ein_versprochenes_Kind_muss_zum_AN_gehen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_aus_Jenseitswelt_etwas_zu_holen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_unter_ähnlichen_das_richtige_auszuwählen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_das_Tier_zu_beschaffen_dem_das_Zeichen_gehört"/>
+<xs:enumeration value="KT:auftrag:Es_ist_dem_schuldner_Rückzahlung_zu_erzwingen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_fehlendes_OB_für_den_AG/sich_selbst_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_Organ_eines_Tieres_zu_beschaffen"/>
+<!--<xs:enumeration value="KT:auftrag:Es_ist_eine_Entscheidung_zu_treffen"/>-->
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Erpressung_abzuwenden"/>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Hitze_zu_überleben"/>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Jagdkunst_zu_beweisen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_zu_zechen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Hungersnot_zu_entkommen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Kühnheit_zu_beweisen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Pflanze_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Schimmel_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Schönen_zu_holen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_einen_Juwelier_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_Haustier/Tierherde_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_einen_Wettlauf_zu_gewinnen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_einen_Wild_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_gegen_den_Tier_zu_kämpfen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_gleichzeitig_mehrere_aufgaben_zu_lösen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Lebenswasser_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Reiterkunst_zu_beweisen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Schaum_zu_spalten"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Fruchte_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Musikinstrument_zu_holen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Tier_gegen_Tier_kmpfen_zu_lassen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Tier_zu_zähmen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Tiere_zu_hüten"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Tiere_zu_masten"/>
+<xs:enumeration value="KT:auftrag:Es_ist_viel_holz_zu_beschaffen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_viel_zu_essen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Wasserschussel_auf_die_Spitze_des_baumes_zu_bringen"/>
+<xs:enumeration value="KT:auftrag:Es_ist_Zauberkunst_zu_beweisen"/>
+<xs:enumeration value="KT:auftrag:Es_wird_eine_Einladung_verkundet"/>
+<xs:enumeration value="KT:auskunft:Der_HD_erfärt_über_den_Wassermangel"/>
+<xs:enumeration value="KT:auskunft:Der_HD_erfärt_über_die_menschliche_Opfergabe_und_Wassermangel"/>
+<xs:enumeration value="KT:auskunft:Der_HD_erfärt_über_die_Notlage_zuhause"/>
+<xs:enumeration value="KT:auskunft:Der_HD_erfärt_über_die_menschlichen_Opfergabe"/>
+<xs:enumeration value="KT:erkennung:Nach_seiner_Wiederbelebung_erkündigt_sich_de_HD_über_die_eigene_Lage"/>
+<xs:enumeration value="KT:hinweis:Dem_HD/HO_wird_auf_das_fehlende_OB_durch_die_Überlieferung_hingewiesen"/>
+<xs:enumeration value="KT:hinweis:Dem_HD_wird_auf_das_fehlende_OB_durch_die_Fluch_hinweisen"/>
+<xs:enumeration value="KT:hinweis:Die_bestehende_Krise_wird_durch_das_Signalisator_vermittelt"/>
+<xs:enumeration value="KT:nachforschung:Der_HD_forscht_die_verhülte_Krise_nach"/>
+<xs:enumeration value="KT:nachforschung:Der_HF_forscht_die_verhülte_Krise_nach"/>
+<xs:enumeration value="KT:rückschluss:Dem_HD_wird_über_die_Kriese_informiert_die_er_gerade_liguidiert_hat"/>
+<xs:enumeration value="KT:unklar:unklar_wie_vermittelt"/>
+<xs:enumeration value="KT:wette:Versteckwette"/>
+<xs:enumeration value="KT:wette:Wetten_wer_sich_zuerst_ärgert"/>
+<xs:enumeration value="LS::leistung"/>
+<xs:enumeration value="LS:aufklärung:Alle_beteiligter_sammeln_sich_an_einem_Ot"/>
+<xs:enumeration value="LS:aufklärung:Heimtücke_wird_aufgeklärt"/>
+<xs:enumeration value="LS:aufklärung:Der_HD_erfärt_über_die_bevorstehende_Zwangsehe_zwischen_FH_und_OB"/>
+<xs:enumeration value="LS:aufklärung:Der_HD_zieht_auf_sich_die_Suche"/>
+<xs:enumeration value="LS:aufklärung:Erkennung_des_HD"/>
+<xs:enumeration value="LS:aufklärung:Erkennung_des_HD_und_Entlarvung_des_FH"/>
+<!--<xs:enumeration value="LS:entspannung:Die_Liebe_kommt_zusatande"/>-->
+<xs:enumeration value="LS:entspannung:Auf_dem_Rückweg_verabschiedet_sich_der_HD_vom_HF"/>
+<xs:enumeration value="LS:entspannung:Der_suchende_HD_findet_das_gesuchte_OB"><xs:annotation><xs:documentation>bei dem vertiebenen HD geht es um das Motiv LS:aufklärung:Der_HD_zieht_auf_sich_die_Suche inklusive der positive Ergebnisse</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:makierung:Der_HD_markiert_ein_unbekanntes_Wesen"/>
+<xs:enumeration value="LS:manipulation:Durch_die_Manipulation_fremden_Besitz_entwenden"/>
+<xs:enumeration value="LS:manipulation:Durch_die_Manipulation_Staunen_zum_Spott_vorgeben"/>
+<xs:enumeration value="LS:manipulation:Durch_die_Manipulation_Unmut_zum_Hochmut_vorgeben"/>
+<xs:enumeration value="LS:markierung:Das_OB_markiert_den_HD_oder_und_seinen_HF"/>
+<xs:enumeration value="LS:markierung:Der_AN_markiert_den_Weg_zum_Opfer"/>
+<xs:enumeration value="LS:markierung:Der_HD_markiert_den_FH"/>
+<xs:enumeration value="LS:markierung:Der_HD_nimmt_die_Zeichen_des_besiegten_AN"/>
+<xs:enumeration value="LS:melden:Als_ahnungsloser_Gast_den_AN_aufsuchen"/>
+<xs:enumeration value="LS:melden:Als_Bertüger_sich_beim_HO_melden_und_Interesse_erwecken"/>
+<xs:enumeration value="LS:melden:Als_Bertüger_sich_beim_OB_melden_um_sie_in_die_KR_zu führen"/>
+<xs:enumeration value="LS:melden:Als_Bewerber_sich_um_die_erfuellung_der_verkundete_Aufgaben_melden"/>
+<xs:enumeration value="LS:melden:Als_Diener/Jobsuchender_sich_beim_AN_meldet"/>
+<xs:enumeration value="LS:melden:Als_Besitzer_eines_auffäligen_Gegenstandes_beim_AN_gemeldet_werden"></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_AN_melden_und_gedemutigt_werden"/>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_AN_melden_und_Mut_zeigen"/>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_HO_melden_und_gedemutigt_werden"/>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_HO_melden_und_Mut_zeigen"/>
+<xs:enumeration value="LS:melden:Als_feind_sich_bei_dem_VB_melden_und_gedemutigt_werden"/>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_VB_melden_und_Mut_zeigen"/>
+<xs:enumeration value="LS:melden:Als_Geliebter_sich_bei_dem_OB_als_HF_melden"/>
+<xs:enumeration value="LS:melden:Als_Schutzsuchende_sich_bei_dem_OB/VB_melden/erwischt/gefunden_werden"/>
+<xs:enumeration value="LS:melden:Als_Freier_den_HD_beim_HO_melden"/>
+<xs:enumeration value="LS:melden:Als_Freier_den_HD_beim_HO_melden"/>
+<xs:enumeration value="LS:melden:Als_Freier_sich_beim_HO/OB_melden"/>
+<xs:enumeration value="LS:melden:Als_Freund_den_HF_abruft"/>
+<xs:enumeration value="LS:melden:Als_Freund_sich_bei_dem_HF_melden"/>
+<xs:enumeration value="LS:melden:Als_Gast_sich_bei_der_VB_melden_und_um_die_Unterkunft_bitten"/>
+<xs:enumeration value="LS:melden:Als_adoptionstauglicher_HD_beim_VB/HF_melden"/>
+<xs:enumeration value="LS:melden:Als_HD_bei_der_gesuchten_Familienangehörigen_melden"/>
+<xs:enumeration value="LS:melden:Als_pflichtbewüster_HD_sich_zu_den_Rückhollung_des_geraubten/fehlenden_OB_melden"/>
+<xs:enumeration value="LS:melden:Als_Retter_sich_beim_OB_melden_und_es_zum_Ausspionieren_ermüntern"/>
+<xs:enumeration value="LS:melden:Als_Retter_sich_beim_OB_melden_und_Rettung_versprechen"/>
+<xs:enumeration value="LS:melden:Als_Rüeckkehrer_Zeichen_geben"/>
+<xs:enumeration value="LS:melden:Als_Schüler_beim_AN_melden"/>
+<xs:enumeration value="LS:melden:Als_ausgesetztes_und_gerettetes_Kind_gemeldet_werden"/>
+<xs:enumeration value="LS:melden:Als_versprochenes_Kind_sich_beim_AN_melden"/>
+<xs:enumeration value="LS:melden:Als_FH_sich_bei_der_VB_melden_und_sie_als_AN_gewinnen"/>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_klettert_hoch"/>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_kommt_die_Unwegsamkeit_durch"/>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_läßt_dem_AN_tragen"/>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_läßt_das_ZM_ihn_fahren"/>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_läßt_den_FH_hochziehen"/>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_steigt_in_den_Abgrund_herab"/>
+<xs:enumeration value="LS:raumverwaltung:Duch_die_Transformation_kann_der_HD_sein_Reisenziel_erreichen"/>
+<xs:enumeration value="LS:raumverwaltung:flug:Beschaffung_des_Proviants_folgt_vom_HO"/>
+<xs:enumeration value="LS:raumverwaltung:flug:Der_Flug_ist_für_den_HD_schwer_zu_ertrage"/>
+<xs:enumeration value="LS:raumverwaltung:flug:Der_HD_füttert_den_HF_mit_eigenem_Fleisch"/>
+<xs:enumeration value="LS:raumverwaltung:flug:Der_HF_händigt_dem_HD_das_Heilmittel_aus"/>
+<xs:enumeration value="LS:raumverwaltung:flug:Der_HF_heilt_die_Wunde_ohne_das_Heilmittel_auszuhändigen"/>
+<xs:enumeration value="LS:raumverwaltung:flug:Flug_ohne_Weiters"/>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_gräbt_einen_Tunnel"/>
+<xs:enumeration value="LS:spannung:Bestrafung_des_FH/AN"/>
+<xs:enumeration value="LS:spannung:Betrugsmanoever_des_AN_wird_zurueckgeschlagen"/>
+<xs:enumeration value="LS:spannung:Blinde_heilen"/>
+<xs:enumeration value="LS:spannung:Den_AN_bezwingen_das_Opfer_freizulassen/wiederzubeleben"/>
+<xs:enumeration value="LS:spannung:Der_HD_erfüllt_die_Aufgabe"/>
+<xs:enumeration value="LS:spannung:Der_HD_gewinnt/befreit_das_OB"><xs:annotation><xs:documentation>kein Auftrag</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Der_verstümmelte_HD_geheilt_sich"/>
+<xs:enumeration value="LS:spannung:Durch_die_Manipulation_das_fehlende_Ding/Geld_Beschaffen"/>
+<xs:enumeration value="LS:spannung:Eigenes_Augenlicht_zurückholen"/>
+<xs:enumeration value="LS:spannung:Erfuellung_der_Aufgabe_führt_zum_Beenden_des_vertrages"/>
+<xs:enumeration value="LS:spannung:Erfuellung_der_Aufgabe_verursacht_Schrecken"/>
+<xs:enumeration value="LS:spannung:Erfuellung_der_Aufgabe_verursacht_Fragen"/>
+<xs:enumeration value="LS:spannung:Erlösung_eines_Versteinerten"/>
+<xs:enumeration value="LS:spannung:Flucht_mit_hinterhergeworfenen_Gegenständen"/>
+<xs:enumeration value="LS:spannung:Flucht_mit_Pferderennen"/>
+<xs:enumeration value="LS:spannung:Flucht_mit_Umwandlungen"/>
+<xs:enumeration value="LS:spannung:Flucht_mit_Unterstützung_des_kämpfenden_HF"/>
+<xs:enumeration value="LS:spannung:Flucht_mit_Unterstützung_des_dankbaren_HF"/>
+<xs:enumeration value="LS:spannung:Verstecken_als_Rettungsmittel"></xs:enumeration>
+<xs:enumeration value="LS:spannung:Fremden_Schatz_entwenden"/>
+<xs:enumeration value="LS:spannung:Kampf_mit_sieg"/>
+<xs:enumeration value="LS:spannung:Kranke_heilen"/>
+<xs:enumeration value="LS:spannung:Mit_der_Erfüllung_beginnen"/>
+<xs:enumeration value="LS:spannung:Seelebehälter_komplett_vernichten"/>
+<xs:enumeration value="LS:spannung:Seelebehälter_partiell_vernichten"/>
+<!--<xs:enumeration value="LS:spannung:Der_verschöllene_HD_zieht_auf_sich_die_Suche"/>-->
+<xs:enumeration value="LS:spannung:Das_OB_unsichtbar_ausspionieren"/>
+<xs:enumeration value="LS:spannung:Verlassen_des_Hauses"/>
+<xs:enumeration value="LS:spannung:Verstümmelung_wieder_gutmachen"/>
+<xs:enumeration value="LS:spannung:Wasserquelle_finden"/>
+<xs:enumeration value="LS:spannung:Wettkampf_mit_Erfolg"/>
+<xs:enumeration value="LS:unklar:unklar_wie"/>
+<xs:enumeration value="LSn:abmelden:Der_HD_meldet_sich_vom_OB_oder_HO_ab"/>
+<xs:enumeration value="LSn:spannung:Betrugsmanoever_des_AN_gefolgt_mit_Versteinerung"/>
+<xs:enumeration value="LSn:spannung:Erlösung_eines_Versteinerten_löst_neue_KF_aus"/>
+<xs:enumeration value="LSn:spannung:Erwischt_bem_Belauschen"/>
+<xs:enumeration value="LSn:spannung:Flucht_mit_Pferderennen_verlören"/>
+<xs:enumeration value="LSn:spannung:Kampf_mit_Niederlage"/>
+<xs:enumeration value="LSn:spannung:Scheitern_bei_der_Erfüllung_der_Aufgabe"/>
+<xs:enumeration value="LSn:spannung:Wache_erfolglos_halten"/>
+<xs:enumeration value="LSn:spannung:Wettkampf_mit_Niederlage"/>
+<xs:enumeration value="LSn:spannung:Wiederbelebung_durch_die_neue_KF"/>
+
+
+<xs:enumeration value="0=0460"><xs:annotation><xs:documentation>"0460"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS::ausgangssituation=AS531"><xs:annotation><xs:documentation>"AS531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:aufbrechen:Ein_Familienmitglied_bricht_auf=AS312D AS451"><xs:annotation><xs:documentation>"AS312D AS451"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:aufzählen:Einfache_Aufzählung_der_Familiemitglieder=AS706 AS707"><xs:annotation><xs:documentation>"AS706 AS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:conzeptia_magica:Nach_dem_Empfängmissmittel_wird_gesucht=AS314 AS706"><xs:annotation><xs:documentation>"AS314 AS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:conzeptia_magica:Vereinbarung_Kind_gegen_das_ZM=AS314 AS514 AS706"><xs:annotation><xs:documentation>"AS314 AS514 AS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:conzeptia_magica:Wunderbare_Empfängnis_findet_statt=AS312D AS314 AS315A AS706"><xs:annotation><xs:documentation>"AS312D AS314 AS315A AS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:demutigung:Familienmitglied_wird_vom_VB_gedemutigt=AS312D"><xs:annotation><xs:documentation>"AS312D"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:ehe:Familienmitglied_heiratet=AS315A AS706 AS707"><xs:annotation><xs:documentation>"AS315A AS706 AS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:geburt:Der_HD_wird_geboren=AS312D AS451 AS706"><xs:annotation><xs:documentation>"AS312D AS451 AS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:gewalt:Familienmitglied_wird_vom_AN_festgenommen=AS312D"><xs:annotation><xs:documentation>"AS312D"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:gewalt:Familienmitglied_wird_vom_AN_getötet=AS312D"><xs:annotation><xs:documentation>"AS312D"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:markierung:Der_Weg_zum_Opfer_wird_markiert=AS312D"><xs:annotation><xs:documentation>"AS312D"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:sterben:Familienmitglied_stirbt=AS613 AS706"><xs:annotation><xs:documentation>"AS613 AS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="AS:versprechen:Der_HD_wird_dem_AN_versprochen=AS531"><xs:annotation><xs:documentation>"AS531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:Gelegenheit_das_richtigs_Transportmittel_vom_falschen_zu_unterscheiden=BG301"><xs:annotation><xs:documentation>"BG301"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:Gelegenheit_etwas_zu_belauschen=BG516 BG613"><xs:annotation><xs:documentation>"BG516 BG613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:Gelegenheit_mit_dem_Gewohnheitsrecht_zu_manipulieren=BG328 BG550 BG707"><xs:annotation><xs:documentation>"BG328 BG550 BG707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:Gelegenheit_sich_als_Ehemann_vorzugeben=BG303"><xs:annotation><xs:documentation>"BG303"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:Gelegenheit_sicheren_Weg_vom_unsicheren_zu_unterscheiden=BG315A BG550 BG552"><xs:annotation><xs:documentation>"BG315A BG550 BG552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:Gelegenheit_um_etwas_zu_bitten=BG300 BG516"><xs:annotation><xs:documentation>"BG300 BG516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:Gelegenheit_vor_dem_Dilemma_zu_stehen=BG314 BG531"><xs:annotation><xs:documentation>"BG314 BG531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:faszination:Der_HD_und_der_FH_äußern_sich_gegenseitige_Symphatie=BG301 BG513A BG531"><xs:annotation><xs:documentation>"BG301 BG513A BG531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Auf_die_potenzielle_Beute_verzichten=BG554"><xs:annotation><xs:documentation>"BG554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Ehrlich_und_Zuverlässig_sein=BG302 BG302C*"><xs:annotation><xs:documentation>"BG302 BG302C*"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Einbrecher_vergeben=BG302C* BG545B"><xs:annotation><xs:documentation>"BG302C* BG545B"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Futter_richtig_verteilen=BG554"><xs:annotation><xs:documentation>"BG554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Hilfbedürftigen_freikaufen=BG328 BG550 BG554"><xs:annotation><xs:documentation>"BG328 BG550 BG554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Hungriges_Tier_futtern=BG554"><xs:annotation><xs:documentation>"BG554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Höflich_sein=BG425 BG451 BG554"><xs:annotation><xs:documentation>"BG425 BG451 BG554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Leugner_sein=BG325"><xs:annotation><xs:documentation>"BG325"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Schutzbedürftige_Tiere/Tierjunge_retten=BG554"><xs:annotation><xs:documentation>"BG554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Sorgenvoll_sein=BG554"><xs:annotation><xs:documentation>"BG554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Stark_genug_sein=BG301 BG516"><xs:annotation><xs:documentation>"BG301 BG516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Untier_heiraten=BG425"><xs:annotation><xs:documentation>"BG425"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Verlobung_billigen=BG312D BG552"><xs:annotation><xs:documentation>"BG312D BG552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Wache_halten=BG530"><xs:annotation><xs:documentation>"BG530"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Zuverlaessig_sein=BG545B"><xs:annotation><xs:documentation>"BG545B"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:probe:Zwischen_den_Streitenden_schlichten=BG554"><xs:annotation><xs:documentation>"BG554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Ding_nicht_weitergeben=BG325"><xs:annotation><xs:documentation>"BG325"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Feuer_nicht_erlöschen=BG451"><xs:annotation><xs:documentation>"BG451"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Land_nicht_betreten=BG321 BG507"><xs:annotation><xs:documentation>"BG321 BG507"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Nicht_einschlaffen=BG301"><xs:annotation><xs:documentation>"BG301"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Sich_von_jemand_fernhalten=BG706"><xs:annotation><xs:documentation>"BG706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Stillschweigen_halten=BG516"><xs:annotation><xs:documentation>"BG516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Tierhaut_nicht_verbrennen=BG425"><xs:annotation><xs:documentation>"BG425"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Tür_nicht_öffnen=BG301 BG312D"><xs:annotation><xs:documentation>"BG301 BG312D"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:tabu:Vom_Ausgangspunkt_bis_zum_Zielort_keine_Pause_machen=BG301 BG451"><xs:annotation><xs:documentation>"BG301 BG451"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:test:Der_HD_testet_die_Tauglichkeit_des_ZM=BG325 BG563 BG650A"><xs:annotation><xs:documentation>"BG325 BG563 BG650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="BG:unklar:eine_unklare_Bedingung=BG314 BG554 BG563 BG707"><xs:annotation><xs:documentation>"BG314 BG554 BG563 BG707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Anweisung_erhalten=EM315A EM460 EM514 EM516 EM531 EM706 EM707"><xs:annotation><xs:documentation>"EM315A EM460 EM514 EM516 EM531 EM706 EM707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Begehrte_Information_erpressen_lassen=EM302 EM302C* EM328 EM550"><xs:annotation><xs:documentation>"EM302 EM302C* EM328 EM550"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Belauschen_welche_Gefahren_den_Rückgekehrten_lauern=EM516"><xs:annotation><xs:documentation>"EM516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Belauschen_wie_man_Augenlicht_zurückholen_kann=EM613"><xs:annotation><xs:documentation>"EM613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Belauschen_wie_man_Kranke_heilen_kann=EM613"><xs:annotation><xs:documentation>"EM613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Belauschen_wie_man_den_Schatz_in_besitz_nehmen_kann=EM613"><xs:annotation><xs:documentation>"EM613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Belauschen_wie_man_verstuemmelung_wieder_gutmachen_kann=EM613"><xs:annotation><xs:documentation>"EM613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Belauschen_wo_man_das_gesuchte_OB_eringen_kann=EM516"><xs:annotation><xs:documentation>"EM516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Belauschen_wo_man_fehlendes_wasser_finden_kann=EM613"><xs:annotation><xs:documentation>"EM613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Das_ausgesetzte_Kind_wird_aufgenomen_und_großgezogen=EM707"><xs:annotation><xs:documentation>"EM707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Den_Tipp_wie_man_den_AN_täuschen_kann_erhalten=EM302 EM314 EM325"><xs:annotation><xs:documentation>"EM302 EM314 EM325"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Der_HD/HF_wird_gerettet/befreit=EM300 EM550 EM706 EM707"><xs:annotation><xs:documentation>"EM300 EM550 EM706 EM707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Der_HD_wird_wiederbelet=EM302C* EM303 EM552"><xs:annotation><xs:documentation>"EM302C* EM303 EM552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Efahrung_über_das_lokale_Geheimnis_erhalten=EM312D EM315A EM451 EM460 EM516 EM552 EM563"><xs:annotation><xs:documentation>"EM312D EM315A EM451 EM460 EM516 EM552 EM563"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Eine_Spur_zum_Zielort_erpressen=EM301"><xs:annotation><xs:documentation>"EM301"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Eine_Überweisung_zum_anderen_HF/ST_erhalten=EM425 EM451 EM531 EM552 EM707"><xs:annotation><xs:documentation>"EM425 EM451 EM531 EM552 EM707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Einen_Elixier_erhalten=EM303 EM552"><xs:annotation><xs:documentation>"EM303 EM552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Erklärung_über_die_Diebe=EM460"><xs:annotation><xs:documentation>"EM460"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Erklärung_über_die_Frommigkeit=EM460"><xs:annotation><xs:documentation>"EM460"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Erklärung_über_die_Gastfreundschaftlichkeit=EM460"><xs:annotation><xs:documentation>"EM460"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Erklärung_über_die_Grobheit=EM460"><xs:annotation><xs:documentation>"EM460"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Fluchtsgelegenheit_erhalten=EM325"><xs:annotation><xs:documentation>"EM325"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Glüeckliche_Eheschließung_erhalten=EM425"><xs:annotation><xs:documentation>"EM425"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Gold/Geldzeugendes_Ding_erhalten=EM563"><xs:annotation><xs:documentation>"EM563"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Proviantzeugendes_Ding_erhalten=EM563"><xs:annotation><xs:documentation>"EM563"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Respekt_sichern_ohne_dabei_etwas_zu_erhalten=EM552"><xs:annotation><xs:documentation>"EM552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Schlechte_Entscheidung_treffen_die_gut_ist=EM314"><xs:annotation><xs:documentation>"EM314"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Signalisator_erhalten=EM530 EM554 EM707"><xs:annotation><xs:documentation>"EM530 EM554 EM707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Strafmaßnamenzeugendes_Ding_erhalten=EM563"><xs:annotation><xs:documentation>"EM563"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Sympathisierenden_Weggehährten_erhalten=EM301 EM303 EM513A EM545B EM554"><xs:annotation><xs:documentation>"EM301 EM303 EM513A EM545B EM554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Tarnkappe_erhalten=EM507"><xs:annotation><xs:documentation>"EM507"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Tierjunge_erhalten=EM321 EM554"><xs:annotation><xs:documentation>"EM321 EM554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Transportmittel_erhalten=EM300 EM302C* EM530 EM531 EM552 EM707"><xs:annotation><xs:documentation>"EM300 EM302C* EM530 EM531 EM552 EM707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Universales_ZM_erhalten=EM531 EM554"><xs:annotation><xs:documentation>"EM531 EM554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Versprechen_Wünsche_ erfüllt_zu_werden_erhalten=EM750B"><xs:annotation><xs:documentation>"EM750B"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Versprechen_geholfen_zu_werden_erhalten=EM531 EM545B EM554"><xs:annotation><xs:documentation>"EM531 EM545B EM554"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Verzärtes_Essen_wiederhergestellt_erhalten=EM750B"><xs:annotation><xs:documentation>"EM750B"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Waffe_erhalten=EM650A"><xs:annotation><xs:documentation>"EM650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Warnung_vor_dem_Verrat_erhalten=EM301"><xs:annotation><xs:documentation>"EM301"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Warnung_vor_der_Ungeheuerlichkeit_des_AN_erhalte=EM300 EM301 EM312D EM325 EM552 EM707"><xs:annotation><xs:documentation>"EM300 EM301 EM312D EM325 EM552 EM707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Wegweisung/Wegführung_erhalten=EM303 EM314 EM328 EM451 EM516 EM550 EM552"><xs:annotation><xs:documentation>"EM303 EM314 EM328 EM451 EM516 EM550 EM552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:ZM_erhalten=EM516"><xs:annotation><xs:documentation>"EM516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EM:Zauberkunst_erhalte=EM325"><xs:annotation><xs:documentation>"EM325"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Anforderung_ablehnen=EMn530 EMn552"><xs:annotation><xs:documentation>"EMn530 EMn552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Anstelle_Dankbarkeit_wird_Neid_erzeugt=EMn550"><xs:annotation><xs:documentation>"EMn550"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Anweisungen_ablehnen=EMn315A EMn550 EMn552"><xs:annotation><xs:documentation>"EMn315A EMn550 EMn552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Bei_der_Probe_durchfallen=EMn301 EMn516 EMn545B"><xs:annotation><xs:documentation>"EMn301 EMn516 EMn545B"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Bitte_ablehnen=EMn300"><xs:annotation><xs:documentation>"EMn300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Dem_HD_von_der_Absicht_abraten=EMn552"><xs:annotation><xs:documentation>"EMn552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Dem_richtigen_ZM_verpassen=EMn301"><xs:annotation><xs:documentation>"EMn301"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Getestete_ZM_ablehnen=EMn650A"><xs:annotation><xs:documentation>"EMn650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Gute_Entscheidung_treffen_die_schlecht_ist=EMn314 EMn531"><xs:annotation><xs:documentation>"EMn314 EMn531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Heiratsvorschlag_ablehnen=EMn425"><xs:annotation><xs:documentation>"EMn425"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Tabubruch_mit_Konsequenzen=EMn301 EMn321 EMn325 EMn425 EMn451 EMn507 EMn516 EMn706"><xs:annotation><xs:documentation>"EMn301 EMn321 EMn325 EMn425 EMn451 EMn507 EMn516 EMn706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="EMn:Warnung/Ratschläge_ablehnen=EMn300 EMn301 EMn451 EMn516 EMn552 EMn707"><xs:annotation><xs:documentation>"EMn300 EMn301 EMn451 EMn516 EMn552 EMn707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:aneignung:Aneignung_eines_fremden_ZM_oder_Gutes=KF563"><xs:annotation><xs:documentation>"KF563"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:aneignung:Aneignung_fremder_Heldentat=KF300 KF314 KF550"><xs:annotation><xs:documentation>"KF300 KF314 KF550"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:anregung:Anregung_der_Jagdlust=KF303"><xs:annotation><xs:documentation>"KF303"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:anregung:Anregung_der_Scham_wegen_der_fehlenden_Bekleidung=KF545B"><xs:annotation><xs:documentation>"KF545B"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:anregung:Anregung_einer_Liebe=KF314 KF325 KF507 KF514 KF516 KF531 KF707"><xs:annotation><xs:documentation>"KF314 KF325 KF507 KF514 KF516 KF531 KF707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:anregung:Anregung_einer_Neugier=KF314 KF507 KF530 KF706"><xs:annotation><xs:documentation>"KF314 KF507 KF530 KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:anregung:Anregung_eines_Begehrens=KF531"><xs:annotation><xs:documentation>"KF531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:anregung:Anregung_eines_Geizes=KF613"><xs:annotation><xs:documentation>"KF613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:ausbeutung:Der_HD_wird_ohne_essen_zum_Tod_ausgeliefert=KF613"><xs:annotation><xs:documentation>"KF613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:aussetzen:Ein_unmündiger_HD_wird_ausgesetzt=KF707"><xs:annotation><xs:documentation>"KF707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:aussetzen:Kinder_werden_ausgesetzt=KF707"><xs:annotation><xs:documentation>"KF707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:aussetzen:Mutter_mit_Kinder_werden_vertieben=KF706"><xs:annotation><xs:documentation>"KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:demutigung:Der_HD_wird_verleumdet_und_gedemutigt=KF707"><xs:annotation><xs:documentation>"KF707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:demutigung:Der_HD_wird_vom_FH_gedemutigt=KF314 KF530"><xs:annotation><xs:documentation>"KF314 KF530"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:erpressung:Der_AN_fordert_Tribut=KF300"><xs:annotation><xs:documentation>"KF300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:gewaltübung:Das_OB_wird_geraubt_oder_entfuehrt=KF301 KF552 KF650A"><xs:annotation><xs:documentation>"KF301 KF552 KF650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:gewaltübung:Der_HD_wird_durch_die_Kanibalismus_bedroht=KF315A"><xs:annotation><xs:documentation>"KF315A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:heimtücke:Der_HD_wird_angelockt=KF314 KF707"><xs:annotation><xs:documentation>"KF314 KF707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:heimtücke:Scheinfreundlichkeit_der_künftihen_Schwägerin/Stiefmutter=KF706"><xs:annotation><xs:documentation>"KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:heimtücke:Unlösbare_Aufgaben_planen=KF590 KF707"><xs:annotation><xs:documentation>"KF590 KF707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:heimtücke:Uriasbrief_mit_Absicht_Mutter_zu_verleumdet=KF706"><xs:annotation><xs:documentation>"KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:heimtücke:Verleumdung_plannen=KF706"><xs:annotation><xs:documentation>"KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:leiden:Der_HD_muss_seine_Identität/Geschlecht_verhüllen=KF514"><xs:annotation><xs:documentation>"KF514"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:leiden:Etwas_nur_tags_oder_nachtsüber_genießen=KF507"><xs:annotation><xs:documentation>"KF507"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:leiden:Haustiere_werden_gefressen=KF315A"><xs:annotation><xs:documentation>"KF315A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:leiden:Ungeheuerlichkeit_des_HD_ist_unerträglich=KF650A"><xs:annotation><xs:documentation>"KF650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:mord:Der_HD_wird_ermordet=KF314"><xs:annotation><xs:documentation>"KF314"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:saugen:Der_AN_saugt_das_Blut_ab=KF451"><xs:annotation><xs:documentation>"KF451"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verleumdung:Dem_HD_wird_den_Kindermord_verleumdet=KF706"><xs:annotation><xs:documentation>"KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verleumdung:Kleine_Verleumdungen_ohne_Srafmaßnahmen=KF706"><xs:annotation><xs:documentation>"KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verrat:Der_HD_wird_gestoßen=KF300 KF312D KF550 KF707"><xs:annotation><xs:documentation>"KF300 KF312D KF550 KF707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verrat:Der_HD_wird_verbannt=KF706"><xs:annotation><xs:documentation>"KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verrat:Der_HD_wird_während_der_Niederkommen_vorgetäuscht_und_das_Kind_ausgesetzt=KF707"><xs:annotation><xs:documentation>"KF707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verrat:Der_HD_wird_zurückgelassen=KF301"><xs:annotation><xs:documentation>"KF301"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verstuemmelung:Dem_HD_werde_Füße_abgehackt=KF312D"><xs:annotation><xs:documentation>"KF312D"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verstuemmelung:Dem_HD_werden_Hände_abgehackt=KF706"><xs:annotation><xs:documentation>"KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:verstuemmelung:Der_HD_wird_geblendet=KF613 KF706"><xs:annotation><xs:documentation>"KF613 KF706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KF:überfallen:Es_wird_ein_Krieg_erklärt=KF314"><xs:annotation><xs:documentation>"KF314"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Der_AN_soll_verjungt_werden=KT531"><xs:annotation><xs:documentation>"KT531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Ein_versprochenes_Kind_muss_zum_AN_gehen=KT314 KT706"><xs:annotation><xs:documentation>"KT314 KT706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_Lebenswasser_zu_beschaffen=KT314 KT531 KT650A KT707"><xs:annotation><xs:documentation>"KT314 KT531 KT650A KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_Musikinstrument_zu_holen=KT707"><xs:annotation><xs:documentation>"KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_Reiterkunst_zu_beweisen=KT530"><xs:annotation><xs:documentation>"KT530"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_Schaum_zu_spalten=KT516"><xs:annotation><xs:documentation>"KT516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_Tiere_zu_hüten=KT556F*"><xs:annotation><xs:documentation>"KT556F*"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_Tiere_zu_masten=KT650A"><xs:annotation><xs:documentation>"KT650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_Wasserschussel_auf_die_Spitze_des_baumes_zu_bringen=KT516 KT707"><xs:annotation><xs:documentation>"KT516 KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_Zauberkunst_zu_beweisen=KT325"><xs:annotation><xs:documentation>"KT325"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_aus_Jenseitswelt_etwas_zu_holen=KT460"><xs:annotation><xs:documentation>"KT460"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_das_Tier_zu_beschaffen_dem_das_Zeichen_gehört=KT531"><xs:annotation><xs:documentation>"KT531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_dem_schuldner_Rückzahlung_zu_erzwingen=KT650A"><xs:annotation><xs:documentation>"KT650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_Haustier/Tierherde_zu_beschaffen=KT531 KT707"><xs:annotation><xs:documentation>"KT531 KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_Nahrungsmittel_zu_vermehren=KT707"><xs:annotation><xs:documentation>"KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_Organ_eines_Tieres_zu_beschaffen=KT314 KT590 KT650A KT707"><xs:annotation><xs:documentation>"KT314 KT590 KT650A KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_Stoff_zu_vermehren=KT707"><xs:annotation><xs:documentation>"KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_fehlendes_OB_für_den_AG/sich_selbst_zu_beschaffen=KT550"><xs:annotation><xs:documentation>"KT550"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_ein_goldhaariges_Kind_zur_Welt_zu_bringen=KT707"><xs:annotation><xs:documentation>"KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Erpressung_abzuwenden=KT300"><xs:annotation><xs:documentation>"KT300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Hitze_zu_überleben=KT513A"><xs:annotation><xs:documentation>"KT513A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Hungersnot_zu_entkommen=KT563"><xs:annotation><xs:documentation>"KT563"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Jagdkunst_zu_beweisen=KT514"><xs:annotation><xs:documentation>"KT514"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Kühnheit_zu_beweisen=KT531"><xs:annotation><xs:documentation>"KT531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Pflanze_zu_beschaffen=KT560 KT707"><xs:annotation><xs:documentation>"KT560 KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Schimmel_zu_beschaffen=KT531"><xs:annotation><xs:documentation>"KT531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_eine_Schönen_zu_holen=KT531 KT707"><xs:annotation><xs:documentation>"KT531 KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_einen_Juwelier_zu_beschaffen=KT531"><xs:annotation><xs:documentation>"KT531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_einen_Wettlauf_zu_gewinnen=KT513A"><xs:annotation><xs:documentation>"KT513A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_einen_Wild_zu_beschaffen=KT707"><xs:annotation><xs:documentation>"KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_gegen_den_Tier_zu_kämpfen=KT513A KT516"><xs:annotation><xs:documentation>"KT513A KT516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_gleichzeitig_mehrere_aufgaben_zu_lösen=KT513A KT531"><xs:annotation><xs:documentation>"KT513A KT531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_unter_ähnlichen_das_richtige_auszuwählen=KT507"><xs:annotation><xs:documentation>"KT507"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_viel_holz_zu_beschaffen=KT650A"><xs:annotation><xs:documentation>"KT650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_viel_zu_essen=KT513A"><xs:annotation><xs:documentation>"KT513A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_ist_zu_zechen=KT514"><xs:annotation><xs:documentation>"KT514"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Es_wird_eine_Einladung_verkundet=KT314 KT707"><xs:annotation><xs:documentation>"KT314 KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auftrag:Ungewünschte_Familienmitglied_müssen_weggeräumt_werden=KT706 KT707"><xs:annotation><xs:documentation>"KT706 KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auskunft:Der_HD_erfärt_über_den_Wassermangel=KT300"><xs:annotation><xs:documentation>"KT300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auskunft:Der_HD_erfärt_über_die_Notlage_zuhause=KT315A"><xs:annotation><xs:documentation>"KT315A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:auskunft:Der_HD_erfärt_über_die_menschliche_Opfergabe_und_Wassermangel=KT300"><xs:annotation><xs:documentation>"KT300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:erkennung:Nach_seiner_Wiederbelebung_erkündigt_sich_de_HD_über_die_eigene_Lage=KT300"><xs:annotation><xs:documentation>"KT300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:hinweis:Dem_HD/HO_wird_auf_das_fehlende_OB_durch_die_Überlieferung_hingewiesen=KT513A KT707"><xs:annotation><xs:documentation>"KT513A KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:hinweis:Dem_HD_wird_auf_das_fehlende_OB_durch_die_Fluch_hinweisen=KT312D KT707"><xs:annotation><xs:documentation>"KT312D KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:hinweis:Die_bestehende_Krise_wird_durch_das_Signalisator_vermittelt=KT314 KT451 KT707"><xs:annotation><xs:documentation>"KT314 KT451 KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:nachforschung:Der_HD_forscht_die_verhülte_Krise_nach=KT312D KT321 KT451 KT516 KT650A KT707"><xs:annotation><xs:documentation>"KT312D KT321 KT451 KT516 KT650A KT707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:nachforschung:Der_HF_forscht_die_verhülte_Krise_nach=KT507"><xs:annotation><xs:documentation>"KT507"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:rückschluss:Dem_HD_wird_über_die_Kriese_informiert_die_er_gerade_liguidiert_hat=KT301 KT314"><xs:annotation><xs:documentation>"KT301 KT314"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="KT:wette:Versteckwette=KT329 KT613"><xs:annotation><xs:documentation>"KT329 KT613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:aufklärung:Alle_beteiligter_sammeln_sich_an_einem_Ot=LS706"><xs:annotation><xs:documentation>"LS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:aufklärung:Der_HD_erfärt_über_die_bevorstehende_Zwangsehe_zwischen_FH_und_OB=LS301 LS312D LS550"><xs:annotation><xs:documentation>"LS301 LS312D LS550"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:aufklärung:Der_HD_zieht_auf_sich_die_Suche=LS300 LS706"><xs:annotation><xs:documentation>"LS300 LS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:aufklärung:Erkennung_des_HD=LS300 LS312D LS451"><xs:annotation><xs:documentation>"LS300 LS312D LS451"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:aufklärung:Erkennung_des_HD_und_Entlarvung_des_FH=LS300 LS312D LS314 LS530 LS550"><xs:annotation><xs:documentation>"LS300 LS312D LS314 LS530 LS550"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:aufklärung:Heimtücke_wird_aufgeklärt=LS706 LS707"><xs:annotation><xs:documentation>"LS706 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:entspannung:Auf_dem_Rückweg_verabschiedet_sich_der_HD_vom_HF=LS300 LS513A"><xs:annotation><xs:documentation>"LS300 LS513A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:entspannung:Der_suchende_HD_findet_das_gesuchte_OB=LS425 LS706"><xs:annotation><xs:documentation>"LS425 LS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:makierung:Der_HD_markiert_ein_unbekanntes_Wesen=LS315A"><xs:annotation><xs:documentation>"LS315A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:manipulation:Durch_die_Manipulation_Staunen_zum_Spott_vorgeben=LS545B"><xs:annotation><xs:documentation>"LS545B"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:manipulation:Durch_die_Manipulation_fremden_Besitz_entwenden=LS545B"><xs:annotation><xs:documentation>"LS545B"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:markierung:Das_OB_markiert_den_HD_oder_und_seinen_HF=LS300 LS314"><xs:annotation><xs:documentation>"LS300 LS314"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:markierung:Der_AN_markiert_den_Weg_zum_Opfer=LS451"><xs:annotation><xs:documentation>"LS451"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:markierung:Der_HD_markiert_den_FH=LS314"><xs:annotation><xs:documentation>"LS314"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:markierung:Der_HD_nimmt_die_Zeichen_des_besiegten_AN=LS300"><xs:annotation><xs:documentation>"LS300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Bertüger_sich_beim_HO_melden_und_Interesse_erwecken=LS545B LS854"><xs:annotation><xs:documentation>"LS545B LS854"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Bertüger_sich_beim_OB_melden_um_sie_in_die_KR_zu führen=LS707"><xs:annotation><xs:documentation>"LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Bewerber_sich_um_die_erfuellung_der_verkundete_Aufgaben_melden=LS314 LS530"><xs:annotation><xs:documentation>"LS314 LS530"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Diener/Jobsuchender_sich_beim_AN_meldet=LS314 LS531 LS556F* LS650A"><xs:annotation><xs:documentation>"LS314 LS531 LS556F* LS650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_FH_sich_bei_der_VB_melden_und_sie_als_AN_gewinnen=LS707"><xs:annotation><xs:documentation>"LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_AN_melden_und_Mut_zeigen=LS300 LS328 LS507 LS513A"><xs:annotation><xs:documentation>"LS300 LS328 LS507 LS513A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_AN_melden_und_gedemutigt_werden=LS302 LS552"><xs:annotation><xs:documentation>"LS302 LS552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_HO_melden_und_Mut_zeigen=LS531"><xs:annotation><xs:documentation>"LS531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Feind_sich_bei_dem_VB_melden_und_Mut_zeigen=LS312D LS531"><xs:annotation><xs:documentation>"LS312D LS531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Freier_den_HD_beim_HO_melden=LS325 LS507 LS545B LS552"><xs:annotation><xs:documentation>"LS325 LS507 LS545B LS552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Freier_sich_beim_HO/OB_melden=LS329 LS552 LS613 LS707"><xs:annotation><xs:documentation>"LS329 LS552 LS613 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Freund_den_HF_abruft=LS531 LS707"><xs:annotation><xs:documentation>"LS531 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Freund_sich_bei_dem_HF_melden=LS514 LS531 LS552 LS563 LS706 LS707"><xs:annotation><xs:documentation>"LS514 LS531 LS552 LS563 LS706 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Gast_sich_bei_der_VB_melden_und_um_die_Unterkunft_bitten=LS300 LS314 LS321 LS531"><xs:annotation><xs:documentation>"LS300 LS314 LS321 LS531"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Geliebter_sich_bei_dem_OB_als_HF_melden=LS707"><xs:annotation><xs:documentation>"LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_HD_bei_der_gesuchten_Familienangehörigen_melden=LS451"><xs:annotation><xs:documentation>"LS451"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Retter_sich_beim_OB_melden_und_Rettung_versprechen=LS300 LS301 LS552"><xs:annotation><xs:documentation>"LS300 LS301 LS552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Retter_sich_beim_OB_melden_und_es_zum_Ausspionieren_ermüntern=LS302 LS302C*"><xs:annotation><xs:documentation>"LS302 LS302C*"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Schutzsuchende_sich_bei_dem_OB/VB_melden/erwischt/gefunden_werden=LS451 LS706 LS707"><xs:annotation><xs:documentation>"LS451 LS706 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_Schüler_beim_AN_melden=LS325"><xs:annotation><xs:documentation>"LS325"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_ahnungsloser_Gast_den_AN_aufsuchen=LS451 LS563"><xs:annotation><xs:documentation>"LS451 LS563"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_ausgesetztes_und_gerettetes_Kind_gemeldet_werden=LS707"><xs:annotation><xs:documentation>"LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_pflichtbewüster_HD_sich_zu_den_Rückhollung_des_geraubten_OB_melden=LS301 LS552"><xs:annotation><xs:documentation>"LS301 LS552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:melden:Als_versprochenes_Kind_sich_beim_AN_melden=LS314 LS325 LS706"><xs:annotation><xs:documentation>"LS314 LS325 LS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_gräbt_einen_Tunnel=LS707"><xs:annotation><xs:documentation>"LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_kommt_die_Unwegsamkeit_durch=LS302 LS328 LS516 LS550 LS552"><xs:annotation><xs:documentation>"LS302 LS328 LS516 LS550 LS552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_läßt_das_ZM_ihn_fahren=LS300"><xs:annotation><xs:documentation>"LS300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_läßt_dem_AN_tragen=LS302"><xs:annotation><xs:documentation>"LS302"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_läßt_den_FH_hochziehen=LS301"><xs:annotation><xs:documentation>"LS301"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:Der_HD_steigt_in_den_Abgrund_herab=LS301"><xs:annotation><xs:documentation>"LS301"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:Duch_die_Transformation_kann_der_HD_sein_Reisenziel_erreichen=LS507"><xs:annotation><xs:documentation>"LS507"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:flug:Beschaffung_des_Proviants_folgt_vom_HO=LS300"><xs:annotation><xs:documentation>"LS300"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:flug:Der_HD_füttert_den_HF_mit_eigenem_Fleisch=LS300 LS707"><xs:annotation><xs:documentation>"LS300 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:raumverwaltung:flug:Der_HF_heilt_die_Wunde_ohne_das_Heilmittel_auszuhändigen=LS300 LS707"><xs:annotation><xs:documentation>"LS300 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Bestrafung_des_FH/AN=LS301 LS312D LS314 LS550 LS706 LS707"><xs:annotation><xs:documentation>"LS301 LS312D LS314 LS550 LS706 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Blinde_heilen=LS321"><xs:annotation><xs:documentation>"LS321"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Das_OB_unsichtbar_ausspionieren=LS507"><xs:annotation><xs:documentation>"LS507"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Den_AN_bezwingen_das_Opfer_freizulassen/wiederzubeleben=LS312D"><xs:annotation><xs:documentation>"LS312D"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Der_HD_erfüllt_die_Aufgabe=LS314 LS328 LS329 LS460 LS513A LS514 LS516 LS530 LS531 LS550 LS556F* LS590 LS613 LS650A LS707"><xs:annotation><xs:documentation>"LS314 LS328 LS329 LS460 LS513A LS514 LS516 LS530 LS531 LS550 LS556F* LS590 LS613 LS650A LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Der_HD_gewinnt/befreit_das_OB=LS516 LS531 LS650A LS707"><xs:annotation><xs:documentation>"LS516 LS531 LS650A LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Durch_die_Manipulation_das_fehlende_Ding/Geld_Beschaffen=LS325 LS545B LS707"><xs:annotation><xs:documentation>"LS325 LS545B LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Eigenes_Augenlicht_zurückholen=LS613"><xs:annotation><xs:documentation>"LS613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Erfuellung_der_Aufgabe_führt_zum_Beenden_des_vertrages=LS325 LS460 LS513A LS516 LS531 LS556F* LS650A"><xs:annotation><xs:documentation>"LS325 LS460 LS513A LS516 LS531 LS556F* LS650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Erfuellung_der_Aufgabe_verursacht_Fragen=LS707"><xs:annotation><xs:documentation>"LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Erfuellung_der_Aufgabe_verursacht_Schrecken=LS650A"><xs:annotation><xs:documentation>"LS650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Erlösung_eines_Versteinerten=LS303"><xs:annotation><xs:documentation>"LS303"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Flucht_mit_Pferderennen=LS302C*"><xs:annotation><xs:documentation>"LS302C*"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Flucht_mit_Umwandlungen=LS315A LS325"><xs:annotation><xs:documentation>"LS315A LS325"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Flucht_mit_Unterstützung_des_dankbaren_HF=LS706 LS707"><xs:annotation><xs:documentation>"LS706 LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Flucht_mit_Unterstützung_des_kämpfenden_HF=LS315A"><xs:annotation><xs:documentation>"LS315A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Flucht_mit_hinterhergeworfenen_Gegenständen=LS315A"><xs:annotation><xs:documentation>"LS315A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Fremden_Schatz_entwenden=LS613"><xs:annotation><xs:documentation>"LS613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Kampf_mit_sieg=LS300 LS301 LS312D LS314 LS321 LS451 LS531 LS552 LS563 LS650A"><xs:annotation><xs:documentation>"LS300 LS301 LS312D LS314 LS321 LS451 LS531 LS552 LS563 LS650A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Kranke_heilen=LS613"><xs:annotation><xs:documentation>"LS613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Mit_der_Erfüllung_beginnen=LS707"><xs:annotation><xs:documentation>"LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Seelebehälter_komplett_vernichten=LS302"><xs:annotation><xs:documentation>"LS302"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Seelebehälter_partiell_vernichten=LS302"><xs:annotation><xs:documentation>"LS302"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Verlassen_des_Hauses=LS301 LS303 LS314 LS315A LS325 LS425 LS451 LS507 LS531 LS650A LS707"><xs:annotation><xs:documentation>"LS301 LS303 LS314 LS315A LS325 LS425 LS451 LS507 LS531 LS650A LS707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Verstümmelung_wieder_gutmachen=LS706"><xs:annotation><xs:documentation>"LS706"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:spannung:Wasserquelle_finden=LS613"><xs:annotation><xs:documentation>"LS613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LS:unklar:unklar_wie=LS516"><xs:annotation><xs:documentation>"LS516"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LSn:abmelden:Der_HD_meldet_sich_vom_OB_oder_HO_ab=LSn300 LSn314"><xs:annotation><xs:documentation>"LSn300 LSn314"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LSn:spannung:Betrugsmanoever_des_AN_gefolgt_mit_Versteinerung=LSn303"><xs:annotation><xs:documentation>"LSn303"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LSn:spannung:Erwischt_bem_Belauschen=LSn613"><xs:annotation><xs:documentation>"LSn613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LSn:spannung:Flucht_mit_Pferderennen_verlören=LSn302C* LSn552"><xs:annotation><xs:documentation>"LSn302C* LSn552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LSn:spannung:Kampf_mit_Niederlage=LSn531 LSn552"><xs:annotation><xs:documentation>"LSn531 LSn552"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LSn:spannung:Scheitern_bei_der_Erfüllung_der_Aufgabe=LSn514 LSn530 LSn531 LSn707"><xs:annotation><xs:documentation>"LSn514 LSn530 LSn531 LSn707"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LSn:spannung:Wache_erfolglos_halten=LSn315A"><xs:annotation><xs:documentation>"LSn315A"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="LSn:spannung:Wettkampf_mit_Niederlage=LSn329 LSn613"><xs:annotation><xs:documentation>"LSn329 LSn613"</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="en::ende=en312D en314 en321 en325 en507 en513A en530 en531 en550 en552 en706 en707"><xs:annotation><xs:documentation>"en312D en314 en321 en325 en507 en513A en530 en531 en550 en552 en706 en707"</xs:documentation></xs:annotation></xs:enumeration>
+
+
+
+<xs:enumeration value="en::ende"/>
+<xs:enumeration value="fAn_a_"/>
+<xs:enumeration value="fEn_a_"/>
+<xs:enumeration value="mTest"/>
+
+
+
+
+
+</xs:restriction>
+</xs:simpleType>
+</xs:schema>
