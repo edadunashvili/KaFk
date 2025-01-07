@@ -8,8 +8,8 @@
         <xs:annotation>
           <xs:documentation>Gilt als Platzhalter</xs:documentation>
         </xs:annotation>
-      </xs:enumeration>
-            <xs:enumeration value="ABRATEN_von_der_Mission">
+</xs:enumeration>
+      <xs:enumeration value="ABRATEN_von_der_Mission">
         <xs:annotation>
           <xs:documentation>2:HF:hf </xs:documentation>
         </xs:annotation>
@@ -419,6 +419,11 @@
           <xs:documentation>2:H:h </xs:documentation>
         </xs:annotation>
       </xs:enumeration>
+      <xs:enumeration value="Dilemma_lösen">
+        <xs:annotation>
+          <xs:documentation>2:F:f:HF:H:h</xs:documentation>
+        </xs:annotation>
+</xs:enumeration>
       <xs:enumeration value="Eigene_Misshandlung_nachforschen">
         <xs:annotation>
           <xs:documentation>1:f:F</xs:documentation>
@@ -476,7 +481,7 @@
       </xs:enumeration>
       <xs:enumeration value="Eine_Heiratsabsicht_kundtun">
         <xs:annotation>
-          <xs:documentation>Gilt als Platzhalter</xs:documentation>
+          <xs:documentation>0:F</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Eine_löst_andere_ABSURDITÄT_aus">
@@ -544,7 +549,12 @@
           <xs:documentation>2:F:f</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="Ende">
+      <xs:enumeration value="Elixier_als_ZAUBERMITTEL_erhalten">
+        <xs:annotation>
+          <xs:documentation>0:H</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+            <xs:enumeration value="Ende">
         <xs:annotation>
           <xs:documentation>0:H:h</xs:documentation>
         </xs:annotation>
@@ -629,7 +639,12 @@
           <xs:documentation>2:H</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="FLUCH">
+      <xs:enumeration value="Fernseher_als_ZAUBERMITTEL_erhalten">
+        <xs:annotation>
+          <xs:documentation>o:H</xs:documentation>
+        </xs:annotation>
+</xs:enumeration>
+  <xs:enumeration value="FLUCH">
         <xs:annotation>
           <xs:documentation>2:h</xs:documentation>
         </xs:annotation>
@@ -647,6 +662,11 @@
       <xs:enumeration value="FLUCHT_vorbereiten">
         <xs:annotation>
           <xs:documentation>3:H:h:HF:hf</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Flugzeugendes_ZAUBERMITTEL_erhalten">
+        <xs:annotation>
+          <xs:documentation>2:H:Hh/h</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Folge_von_Arbeitsscheu_deuten">
@@ -2245,6 +2265,11 @@
           <xs:documentation>2:H:h</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
+      <xs:enumeration value="VORHERSAGE_des_Aufenthaltsortes">
+        <xs:annotation>
+          <xs:documentation>2:F:f:HF:hf</xs:documentation>
+        </xs:annotation>
+      </xs:enumeration>
       <xs:enumeration value="VORHERSAGE_erforderlich">
         <xs:annotation>
           <xs:documentation>0:h/Hh</xs:documentation>
@@ -2275,7 +2300,7 @@
           <xs:documentation>2:f</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
-      <xs:enumeration value="VORHERSAGE_Unglück_vom_Anziehen">
+                  <xs:enumeration value="VORHERSAGE_Unglück_vom_Anziehen">
         <xs:annotation>
           <xs:documentation>2:hf</xs:documentation>
         </xs:annotation>
@@ -2454,11 +2479,6 @@
       <xs:enumeration value="Wunderbare_EMPFÄNGNIS">
         <xs:annotation>
           <xs:documentation>2:H</xs:documentation>
-        </xs:annotation>
-      </xs:enumeration>
-      <xs:enumeration value="Wunderbare_Transportmittel_erhalten">
-        <xs:annotation>
-          <xs:documentation>2:H:Hh/h</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
       <xs:enumeration value="Wunsch_erfüllendes_ZAUBERMITTEL_erhalten">

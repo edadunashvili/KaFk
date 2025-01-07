@@ -18,8 +18,10 @@
          <xs:enumeration value="aE2"/>
          <xs:enumeration value="fEn Endformel"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="fEn"/>
-         <xs:enumeration value="fAn AnfangsformelEndformel"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="fAn Anfangsformel"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="fAn"/>
+         <xs:enumeration value="fIn Innenformel"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="fIn"/>
          <xs:enumeration value="aU ATU Typ: unklar welcher"><xs:annotation><xs:documentation>Der betroffene Inhalt lässt sich nicht nach bekannten Typen definieren. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aU"/>
          <xs:enumeration value="a1 Fischdiebstahl"/>
@@ -618,7 +620,7 @@
          <xs:enumeration value="a653 Die vier kunstreichen Brüder"/>
          <xs:enumeration value="a653"/>
          <xs:enumeration value="a654 Die behenden Brüder"/>
-         <xs:enumeration value="a654"/>
+         <xs:enumeration value="a654"><xs:annotation><xs:documentation>Drei Freunde, Brüder oder Männer, die den Wunschvorstellungen einer Prinzessin nach bes. Fähigkeiten entsprechen, freien um sie. Sie erwerben oder besitzen wunderbare Dinge: einen Spiegel, ein Fernrohr oder eine Brille, vermittels derer man alles auf der Welt zu sehen vermag, einen Flugmantel oder -teppich und eine Lebensfrucht (Apfel, Zitrone etc.) oder -salbe, die heilen bzw. vom Tode erwecken können. Bei ihrer Zusammenkunft erkennen sie, daß die Begehrte tot ist, fliegen auf dem Teppich zu ihr und machen sie mit dem Wundermittel wieder leben- dig. Es folgt der auch der ersten Redaktion eigene Streit, wer sie zur Frau bekommen soll.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a655 Die scharfsinnigen Brüder"/>
          <xs:enumeration value="a655"/>
          <xs:enumeration value="a660 Die drei Doktoren"/>
