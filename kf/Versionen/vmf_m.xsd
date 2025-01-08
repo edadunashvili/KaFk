@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema elementFormDefault="qualified" targetNamespace="www.dglab.uni-jena.de/vmf/m" vc:maxVersion="1.1" vc:minVersion="1.0" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:m="www.dglab.uni-jena.de/vmf/m">
-
-<xs:attribute name="ana" type="m:ana"/>
-<xs:simpleType name="ana">
-<xs:restriction base="xs:normalizedString"><xs:annotation></xs:annotation>
-</xs:restriction>
-</xs:simpleType>
-</xs:schema>

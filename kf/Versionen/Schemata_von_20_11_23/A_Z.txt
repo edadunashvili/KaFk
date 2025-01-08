@@ -1,4 +1,0 @@
-declare namespace xs="http://www.w3.org/2001/XMLSchema";
-for $e in doc("vmf_l.xsd")//xs:enumeration/[@value]
-order by $e
-return <enumeration>{$e}</enumeration>
