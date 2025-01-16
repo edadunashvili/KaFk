@@ -1454,6 +1454,8 @@ mit unterschiedlichen Körperemissionen (Rülpsen, Wiehern, Furzen) des Reittier
          <xs:enumeration value="a1525D"/>
          <xs:enumeration value="a1525E Diebswette"/>
          <xs:enumeration value="a1525E"/>
+         <xs:enumeration value="a1525G Die vergkleidete Diebe"/>
+         <xs:enumeration value="a1525G"/>
          <xs:enumeration value="a1525H4 Junge im Bienenkorb"/>
          <xs:enumeration value="a1525H4"/>
          <xs:enumeration value="a1525M Schaf in der Wiege"/>

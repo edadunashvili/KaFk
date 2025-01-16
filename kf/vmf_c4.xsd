@@ -1781,6 +1781,11 @@
           <xs:documentation>2:hf</xs:documentation>
         </xs:annotation>
       </xs:enumeration>
+      <xs:enumeration value="TABU_Limit_nicht_überziehen">
+        <xs:annotation>
+          <xs:documentation>hf</xs:documentation>
+        </xs:annotation>
+</xs:enumeration>
       <xs:enumeration value="TABU_nachgehen">
         <xs:annotation>
           <xs:documentation>2:h:H (unwahrscheinlich)</xs:documentation>
