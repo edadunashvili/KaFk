@@ -313,6 +313,9 @@
          <xs:enumeration value="a282C*"/>
          <xs:enumeration value="a285 Kind und Schlange"/>
          <xs:enumeration value="a285"/>
+         <xs:enumeration value="a285D Feindschaft
+zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann findet in seinem Haus (Feld) eine — Schlange; er stellt ihr eine Schale Milch hin; die Schlange trinkt sie aus und hinterläßt eine Goldmünze. Der Mann bringt der Schlange weiterhin täglich Milch und wird reich. (2) Der Sohn des Mannes sucht die Schlange zu töten und sich so statt des einen täglichen Goldstücks den vermuteten Schatz auf einmal zu verschaffen. Sein Schlag mit einer Axt (Knüppel) tötet aber die Schlange nicht. (3) Die Schlange beißt den Jungen, und er stirbt. (4) Der um die Wiederherstellung seines Wohlstands bemühte Vater bittet die Schlange um Versöhnung, sie lehnt jedoch ab, da er stets an den Tod seines Sohnes und sie an den Anschlag auf ihr Leben denken würde (EM). </xs:documentation></xs:annotation></xs:enumeration>
+            <xs:enumeration value="a285D"/>
          <xs:enumeration value="a288B* Eile mit Weile"/>
          <xs:enumeration value="a288B*"/>
          <xs:enumeration value="a291 Seilziehen der Tiere"/>
@@ -403,7 +406,7 @@
          <xs:enumeration value="a330"/>
          <xs:enumeration value="a331 Geist im Glas"/>
          <xs:enumeration value="a331"/>
-         <xs:enumeration value="a332 Gevater Tod"/>
+         <xs:enumeration value="a332 Gevatter Tod"><xs:annotation><xs:documentation> (1) Ein kinderreicher Armer begegnet auf der Suche nach einem Paten für seinen neugeborenen Sohn nacheinander Gott, Teufel (Heiligem) und  Tod ; er erwählt den Tod, weil nur dieser sich allen Mensehen gegenüber gerecht verhalte. (2) Als Taufgeschenk erhält der Vater (Sohn) die Gabe, die Überlebenschancen eines Kranken zu bestimmen, indem sich ihm der Tod am Kopf- oder Fußende des Bettes zeigt; dies bringt ihm ärztlichen Ruhm und Reichtum ein. (3.1) In einem bes. gewinnversprechenden Fall hält sich der Arzt nicht an die Abmachung: Er kehrt das Bett um und erreicht so die Heilung des Todgeweihten; (3.2) in der ihm selbst angekündigten Sterbestunde versucht er dem Tod zu entgehen, indem er das ihm gewährte letzte Vaterunser nicht zu Ende betet (AaTh 1199: Gebet ohne Ende). (4.1) Der Tod zeigt ihm in einer Lichterhöhle sein beinahe abgebranntes Lebenslicht und löscht es kurzerhand aus; (4.2) er bringt ihn mit List dazu, das Amen auszusprechen (EM). </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a332"/>
          <xs:enumeration value="a333 Rotkaeppchen"/>
          <xs:enumeration value="a333"/>
@@ -1157,7 +1160,7 @@
          <xs:enumeration value="a1162"/>
          <xs:enumeration value="a1163 Schmied lernt vom Teufel Sand zu verwenden"/>
          <xs:enumeration value="a1163"/>
-         <xs:enumeration value="a1164 Belfagor"/>
+         <xs:enumeration value="a1164 Belfagor"><xs:annotation><xs:documentation>Ein geplagter Ehemann wirft sein zänkisches, widerspenstiges Weib in einen Brunnen oder eine tiefe Grube. Als er sie später aus Mitleid, Reue oder der unversorgten Kinder wegen wieder herausholen will, zieht er statt ihrer einen dort hausenden Teufel oder Dämon heraus, dem die Frau gleichermaßen zur Qual geworden ist (AaTh 1164). Zum Dank für die Rettung schließt der Teufel mit dem Mann einen Vertrag: Er fährt in eine Prinzessin und läßt sich nur von seinem Partner austreiben, so daß dieser bald weithin als Exorzist oder Wunderheiler gilt, reich belohnt wird oder auch die Hand der Prinzessin erhält (cf. auch AaTh 1862B: The Sham Physician and the Devil in Partnership). Als der Teufel in einem anderen Fall nicht weichen will, droht der Mann mit der Rückkehr der bösen Frau, worauf der Dämon sogleich die Flucht ergreift (AaTh 1164 D)</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1164"/>
          <xs:enumeration value="a1165 Troll und Taufe"/>
          <xs:enumeration value="a1165"/>
@@ -1181,7 +1184,7 @@
          <xs:enumeration value="a1188"/>
          <xs:enumeration value="a1191 Brückenopfer"/>
          <xs:enumeration value="a1191"/>
-         <xs:enumeration value="a1199 Gebet ohne Ende"/>
+         <xs:enumeration value="a1199 Gebet ohne Ende"><xs:annotation><xs:documentation> In einer modernen Aufzeichnung aus Israel sendet Gott den Todesengel aus, einen Menschen zu holen, weil er sein Vertrauen in Gott verloren habe. Der Mensch erreicht einen Aufschub, indem er darum bittet, ein letztes Mal das G. ,Schma, Israel' (Höre, Israel) beten zu dürfen, es aber nicht beendet. Nach einiger Zeit besucht der Todesengel erneut diesen Menschen, nimmt bei ihm Quartier und stellt sich sterbend. Der Gastgeber muß nunmehr das besagte G. über dem Sterbenden sprechen und ist nach dessen Vollendung dem Todesengel verfallen. In einem syr. Märchen erfährt ein Jüngling, daß der Todesengel ihn in seiner Hochzeitsnacht holen will (AaTh 934-934E: Todesprophezeiungen). Er heiratet erst nach Ablauf von 400 Jahren und überlistet dann den Todesengel ein zweites Mal durch ein unvollendetes Vaterunser. Nach weiteren 20 Jahren beendet er beim Essen versehentlich das G. und wird vom Tod ereilt (EM). </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1199"/>
          <xs:enumeration value="a1199A Qual des Brotes (Flachses"/>
          <xs:enumeration value="a1199A"/>
@@ -1778,6 +1781,8 @@ gelassen.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1861A"/>
          <xs:enumeration value="a1862A Flohpulver"/>
          <xs:enumeration value="a1862A"/>
+         <xs:enumeration value="a1862B"/>
+         <xs:enumeration value="a1862B The Sham Physician and the Devil in Partnership"> <xs:annotation><xs:documentation>Zum Dank für die Rettung schließt der Teufel mit dem Mann einen Vertrag: Er fährt in eine Prinzessin und läßt sich nur von seinem Partner austreiben, so daß dieser bald weithin als Exorzist oder Wunderheiler gilt, reich belohnt wird oder auch die Hand der Prinzessin erhält. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1862C Die einfältige Diagnose"/>
          <xs:enumeration value="a1862C"/>
          <xs:enumeration value="a1875 Junge am Bären(Wolfsschwanz"/>

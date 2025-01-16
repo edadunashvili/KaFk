@@ -16,39 +16,43 @@
    <xs:enumeration value="zsa"/>
    <xs:enumeration value="zt"/>
    <xs:enumeration value="zta"/>
-   <xs:enumeration value="zv"/>
-   <xs:enumeration value="zva"/>
+   <xs:enumeration value="zf"/>
+   <xs:enumeration value="zfa"/>
   
 <xs:enumeration value="zs_zs"/>
    <xs:enumeration value="zs_zsa"/>
    <xs:enumeration value="zs_zt"/>
    <xs:enumeration value="zs_zta"/>
-   <xs:enumeration value="zs_zv"/>
-   <xs:enumeration value="zs_zva"/>
+   <xs:enumeration value="zs_zf"/>
+   <xs:enumeration value="zs_zfa"/>
    
 <xs:enumeration value="zt_zt"/>
    <xs:enumeration value="zt_zsa"/>
    <xs:enumeration value="zt_zta"/>
-   <xs:enumeration value="zt_zv"/>
-   <xs:enumeration value="zt_zva"/>
+   <xs:enumeration value="zt_zf"/>
+   <xs:enumeration value="zt_zfa"/>
 
-   <xs:enumeration value="zv_zva"/>
-   <xs:enumeration value="zv_zsa"/>
+   <xs:enumeration value="zf_zfa"/>
+   <xs:enumeration value="zf_zsa"/>
    
    <xs:enumeration value="zsa_zta"/>
-   <xs:enumeration value="zsa_zva"/>
-   <xs:enumeration value="zta_zva"/>
+   <xs:enumeration value="zsa_zfa"/>
+   <xs:enumeration value="zta_zfa"/>
   
-   <xs:enumeration value="zs_zt_zv"/>
-   <xs:enumeration value="zs_zt_zva"/>
+   <xs:enumeration value="zs_zt_zf"/>
+   <xs:enumeration value="zs_zt_zfa"/>
    <xs:enumeration value="zs_zt_zta"/>
    <xs:enumeration value="zs_zt_zsa"/>
-   <xs:enumeration value="zs_zv_zsa"/>
-   <xs:enumeration value="zs_zv_zva"/>
+   <xs:enumeration value="zs_zf_zsa"/>
+   <xs:enumeration value="zs_zf_zfa"/>
    
-   <xs:enumeration value="zt_zv_zta"/>
-   <xs:enumeration value="zt_zv_zva"/>
-   <xs:enumeration value="zt_zv_zsa"/>
+   <xs:enumeration value="zt_zf_zta"/>
+   <xs:enumeration value="zt_zf_zfa"/>
+   <xs:enumeration value="zt_zf_zsa"/>
+   
+   <xs:enumeration value="zs_zsa_zta"/>
+   <xs:enumeration value="zt_zsa_zta"/>
+   <xs:enumeration value="zta_zta"/>
    
  
 <xs:enumeration value="rHD"/>
