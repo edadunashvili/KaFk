@@ -8,21 +8,21 @@
    <xs:simpleType name="ana">
       <xs:restriction base="xs:normalizedString">
          
-         <xs:enumeration value="N Nullwert (0)"><xs:annotation><xs:documentation>Nullwert. Noch nicht annotierte Eigenschaft. </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="N Nullwert (0)"> <xs:annotation><xs:documentation>Nullwert. Noch nicht annotierte Eigenschaft. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="N"/>
-         <xs:enumeration value="aEu Epos: unklar welches"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="aEu Epos: unklar welches"> <xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aEu"/>
-         <xs:enumeration value="aE1 Epos: Der Recke im Tigerfell"><xs:annotation><xs:documentation>Nationalepos Georgiens, 12. Jahrhundert</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="aE1 Epos: Der Recke im Tigerfell"> <xs:annotation><xs:documentation>Nationalepos Georgiens, 12. Jahrhundert</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aE1"/>
-         <xs:enumeration value="aE2 Epos: Rostam (Schāhnāme)"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="aE2 Epos: Rostam (Schāhnāme)"> <xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aE2"/>
-         <xs:enumeration value="fEn Endformel"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="fEn Endformel"> <xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="fEn"/>
-         <xs:enumeration value="fAn Anfangsformel"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="fAn Anfangsformel"> <xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="fAn"/>
-         <xs:enumeration value="fIn Innenformel"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="fIn Innenformel"> <xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="fIn"/>
-         <xs:enumeration value="aU ATU Typ: unklar welcher"><xs:annotation><xs:documentation>Der betroffene Inhalt lässt sich nicht nach bekannten Typen definieren. </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="aU ATU Typ: unklar welcher"> <xs:annotation><xs:documentation>Der betroffene Inhalt lässt sich nicht nach bekannten Typen definieren. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aU"/>
          <xs:enumeration value="a1 Fischdiebstahl"/>
          <xs:enumeration value="a1"/>
@@ -334,21 +334,21 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a298A*"/>
          <xs:enumeration value="a298C* Baum und Rohr"/>
          <xs:enumeration value="a298C*"/>        
-         <xs:enumeration value="a300 Der Drachentöter"><xs:annotation><xs:documentation>Ein junger Mann gelangt in eine Stadt, in deren Brunnen ein Drache haust. Der Drache gibt jeweils nur für den Preis einer jungen Frau Wasser her. Der Held tötet den Drachen und befreit die Königstochter, die dem Drachen geopfert werden sollte. Die Heldentat des jungen Mannes wird erkannt. Er wird belohnt.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a300 Der Drachentöter"> <xs:annotation><xs:documentation>Ein junger Mann gelangt in eine Stadt, in deren Brunnen ein Drache haust. Der Drache gibt jeweils nur für den Preis einer jungen Frau Wasser her. Der Held tötet den Drachen und befreit die Königstochter, die dem Drachen geopfert werden sollte. Die Heldentat des jungen Mannes wird erkannt. Er wird belohnt.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a300"/>
          <xs:enumeration value="a300A The Fight on the Bridge"/>
          <xs:enumeration value="a300A"/>
-         <xs:enumeration value="a301 Die drei geraubten Prinzesinnen"><xs:annotation><xs:documentation>Der Held unternimmt eine Fahrt in die Unterwelt, besiegt dort ein Ungeheuer und befreit eine junge Frau aus der Gefangenschaft des Ungeheuers. Er wird von seinen Gefährten verraten und zurückgelassen, gelangt dennoch auf die Erde zurück und am Hochzeitstag der Prinzessin werden die Übel-täter bestraft.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a301 Die drei geraubten Prinzessinnen"> <xs:annotation><xs:documentation>Der Held unternimmt eine Fahrt in die Unterwelt, besiegt dort ein Ungeheuer und befreit eine junge Frau aus der Gefangenschaft des Ungeheuers. Er wird von seinen Gefährten verraten und zurückgelassen, gelangt dennoch auf die Erde zurück und am Hochzeitstag der Prinzessin werden die Übel-täter bestraft.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a301"/>
-         <xs:enumeration value="a302 Herz des Unholds im Ei"><xs:annotation><xs:documentation>Als ein homogener Erzählkomplex tritt dieser Typ meist in Gestalt einer Episode und seltener als selbständiges Märchen auf. Der allgemeine Kern für beide Einheiten (Episode und Märchentext) ist das versteckte Herz (die Seele, das Leben) eines übernatürlichen Wesens und der Versuch des Helden, es zu vernichten.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a302 Herz des Unholds im Ei"> <xs:annotation><xs:documentation>Als ein homogener Erzählkomplex tritt dieser Typ meist in Gestalt einer Episode und seltener als selbständiges Märchen auf. Der allgemeine Kern für beide Einheiten (Episode und Märchentext) ist das versteckte Herz (die Seele, das Leben) eines übernatürlichen Wesens und der Versuch des Helden, es zu vernichten.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a302"/>
-         <xs:enumeration value="a302B Life Dependet on a Sword"><xs:annotation><xs:documentation>Eine Frau, von deren Schönheit Kunde zu einem Herrscher dringt, wird gegen ihren Willen entführt und zum Herrscher gegeben. Ein durch Verlust seines Lebensamuletts entmachteter und von seinen Freunden wieder zum Leben gebrachter Held gewinnt die Frau zurück.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a302B Life Dependet on a Sword"> <xs:annotation><xs:documentation>Eine Frau, von deren Schönheit Kunde zu einem Herrscher dringt, wird gegen ihren Willen entführt und zum Herrscher gegeben. Ein durch Verlust seines Lebensamuletts entmachteter und von seinen Freunden wieder zum Leben gebrachter Held gewinnt die Frau zurück.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a302B"/>
-         <xs:enumeration value="a302C* The Magic Horse"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a302C* The Magic Horse"> <xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a302C*"/>
-         <xs:enumeration value="a303 Die zwei Brueder"><xs:annotation><xs:documentation>Der Kern des Typs ist die äußere Ähnlichkeit zwischen zwei Brüdern. Dieser Kern entwickelt sich in folgender Motivreihe: Trennung der Brüder – ihr verschiedener Familienstand (verheiratet, unverheiratet) – Hilferuf des in Not geratenen verheirateten Bruders – Reaktion auf die Herausforderung – in der Nacht vertauschter Ehemann – Symbolum castitatis – Rettung – Eifersucht – Unschuldsbeweise.</xs:documentation></xs:annotation></xs:enumeration> 
+         <xs:enumeration value="a303 Die zwei Brüder"> <xs:annotation><xs:documentation>Der Kern des Typs ist die äußere Ähnlichkeit zwischen zwei Brüdern. Dieser Kern entwickelt sich in folgender Motivreihe: Trennung der Brüder – ihr verschiedener Familienstand (verheiratet, unverheiratet) – Hilferuf des in Not geratenen verheirateten Bruders – Reaktion auf die Herausforderung – in der Nacht vertauschter Ehemann – Symbolum castitatis – Rettung – Eifersucht – Unschuldsbeweise.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a303"/>
-         <xs:enumeration value="a303A Brueder suchen Schwestern"><xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a303A Brüder suchen Schwestern"> <xs:annotation><xs:documentation> </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a303A"/>
          <xs:enumeration value="a304 Der gelernte Jäger"/>
          <xs:enumeration value="a304"/>        
@@ -366,21 +366,21 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a312"/>
          <xs:enumeration value="a312D Erbsensohn"/>
          <xs:enumeration value="a312D"/>
-         <xs:enumeration value="a313 Magische Flucht"><xs:annotation><xs:documentation>Unter Todesandrohung flieht Liebespaar oder Jüngling vor unheiligen Wesen und rettet sich durch Verwandlung oder durch hinter sich geworfene Gegenstände.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a313 Magische Flucht"> <xs:annotation><xs:documentation>Unter Todesandrohung flieht Liebespaar oder Jüngling vor unheiligen Wesen und rettet sich durch Verwandlung oder durch hinter sich geworfene Gegenstände.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a313"/>
-         <xs:enumeration value="a314 Goldener"><xs:annotation><xs:documentation>Ein goldhaariger junger Mann mit einem Zauberpferd tritt bei einem Königshof als Tagelöhner in den Dienst. Die jüngste Prinzessin sieht zufällig seine verborgene Schönheit und heiratet den Jüngling. Der unscheinbare Jüngling wird nach Heldentaten anerkannt. Als Heldentat kann der Held allein gegen das feindliche Heer kämpfen, oder Heilmitel beschaffen. Durch die letzte Heldentat ähnelt der Typ der Geschichte 551 Das Wasser des Lebens. Unterschied liegt daran, dass in 314 die Schwippschweger gegen das Mittel sich brandmarken lassen.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a314 Goldener"> <xs:annotation><xs:documentation>Ein goldhaariger junger Mann mit einem Zauberpferd tritt bei einem Königshof als Tagelöhner in den Dienst. Die jüngste Prinzessin sieht zufällig seine verborgene Schönheit und heiratet den Jüngling. Der unscheinbare Jüngling wird nach Heldentaten anerkannt. Als Heldentat kann der Held allein gegen das feindliche Heer kämpfen, oder Heilmitel beschaffen. Durch die letzte Heldentat ähnelt der Typ der Geschichte 551 Das Wasser des Lebens. Unterschied liegt daran, dass in 314 die Schwippschweger gegen das Mittel sich brandmarken lassen.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a314"/>
          <xs:enumeration value="a314A Hirt und die drei Riesen"/>
          <xs:enumeration value="a314A"/>
          <xs:enumeration value="a315 Die treulose Schwester"/>
          <xs:enumeration value="a315"/>
-         <xs:enumeration value="a315A Die menschenfressende Schwester"><xs:annotation><xs:documentation>Der Bruder entfernt sich von seiner menschenfressenden Schwester. Als er zurückkehrt, versucht die Schwester, ihn zu fressen. Er rettet sich, indem er auf einen Baum klettert. Herbeigerufene Hunde fressen die Schwester, der Bruder nimmt ein Tröpfchen Blut von der Schwester, das ihn reich macht.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a315A Die menschenfressende Schwester"> <xs:annotation><xs:documentation>Der Bruder entfernt sich von seiner menschenfressenden Schwester. Als er zurückkehrt, versucht die Schwester, ihn zu fressen. Er rettet sich, indem er auf einen Baum klettert. Herbeigerufene Hunde fressen die Schwester, der Bruder nimmt ein Tröpfchen Blut von der Schwester, das ihn reich macht.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a315A"/>
          <xs:enumeration value="a316 Nixe im Teich"/>
          <xs:enumeration value="a316"/>
          <xs:enumeration value="a317 Der himmelhohe Baum"/>
          <xs:enumeration value="a317"/>
-         <xs:enumeration value="a318 Das aegyptische Bruedermaerchen"/>
+         <xs:enumeration value="a318 Das aegyptische Brüdermaerchen"/>
          <xs:enumeration value="a318"/>
          <xs:enumeration value="a321 Augen der Blinden zurueckgebracht"/>
          <xs:enumeration value="a321"/>
@@ -406,7 +406,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a330"/>
          <xs:enumeration value="a331 Geist im Glas"/>
          <xs:enumeration value="a331"/>
-         <xs:enumeration value="a332 Gevatter Tod"><xs:annotation><xs:documentation> (1) Ein kinderreicher Armer begegnet auf der Suche nach einem Paten für seinen neugeborenen Sohn nacheinander Gott, Teufel (Heiligem) und  Tod ; er erwählt den Tod, weil nur dieser sich allen Mensehen gegenüber gerecht verhalte. (2) Als Taufgeschenk erhält der Vater (Sohn) die Gabe, die Überlebenschancen eines Kranken zu bestimmen, indem sich ihm der Tod am Kopf- oder Fußende des Bettes zeigt; dies bringt ihm ärztlichen Ruhm und Reichtum ein. (3.1) In einem bes. gewinnversprechenden Fall hält sich der Arzt nicht an die Abmachung: Er kehrt das Bett um und erreicht so die Heilung des Todgeweihten; (3.2) in der ihm selbst angekündigten Sterbestunde versucht er dem Tod zu entgehen, indem er das ihm gewährte letzte Vaterunser nicht zu Ende betet (AaTh 1199: Gebet ohne Ende). (4.1) Der Tod zeigt ihm in einer Lichterhöhle sein beinahe abgebranntes Lebenslicht und löscht es kurzerhand aus; (4.2) er bringt ihn mit List dazu, das Amen auszusprechen (EM). </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a332 Gevatter Tod"> <xs:annotation><xs:documentation> (1) Ein kinderreicher Armer begegnet auf der Suche nach einem Paten für seinen neugeborenen Sohn nacheinander Gott, Teufel (Heiligem) und  Tod ; er erwählt den Tod, weil nur dieser sich allen Mensehen gegenüber gerecht verhalte. (2) Als Taufgeschenk erhält der Vater (Sohn) die Gabe, die Überlebenschancen eines Kranken zu bestimmen, indem sich ihm der Tod am Kopf- oder Fußende des Bettes zeigt; dies bringt ihm ärztlichen Ruhm und Reichtum ein. (3.1) In einem bes. gewinnversprechenden Fall hält sich der Arzt nicht an die Abmachung: Er kehrt das Bett um und erreicht so die Heilung des Todgeweihten; (3.2) in der ihm selbst angekündigten Sterbestunde versucht er dem Tod zu entgehen, indem er das ihm gewährte letzte Vaterunser nicht zu Ende betet (AaTh 1199: Gebet ohne Ende). (4.1) Der Tod zeigt ihm in einer Lichterhöhle sein beinahe abgebranntes Lebenslicht und löscht es kurzerhand aus; (4.2) er bringt ihn mit List dazu, das Amen auszusprechen (EM). </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a332"/>
          <xs:enumeration value="a333 Rotkaeppchen"/>
          <xs:enumeration value="a333"/>
@@ -432,9 +432,9 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a401"/>
          <xs:enumeration value="a402 Maus als Braut"/>
          <xs:enumeration value="a402"/>
-         <xs:enumeration value="a403 Die schwarze und die weisse Braut"><xs:annotation><xs:documentation>Der Kern des Typs basiert auf der Vertauschung einer weißen (schönen) und schwarzen (hässlichen) Braut und der Entlarvung der Übeltäter.</xs:documentation></xs:annotation></xs:enumeration> 
+         <xs:enumeration value="a403 Die schwarze und die weisse Braut"> <xs:annotation><xs:documentation>Der Kern des Typs basiert auf der Vertauschung einer weißen (schönen) und schwarzen (hässlichen) Braut und der Entlarvung der Übeltäter.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a403"/>
-         <xs:enumeration value="a404 Die geblendete Braut"><xs:annotation><xs:documentation>Die mit Rosenlachen und Perlenweinen begabte junge Frau wird auf dem Weg zum Bräutigam geblendet und ins Wasser gestoßen. Sie wird gefunden und gerettet. Mit ihren Wundergaben kauft sie die Augen zurück. Der König findet die richtige Braut, die Betrügerin wird bestraft. </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a404 Die geblendete Braut"> <xs:annotation><xs:documentation>Die mit Rosenlachen und Perlenweinen begabte junge Frau wird auf dem Weg zum Bräutigam geblendet und ins Wasser gestoßen. Sie wird gefunden und gerettet. Mit ihren Wundergaben kauft sie die Augen zurück. Der König findet die richtige Braut, die Betrügerin wird bestraft. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a404"/>
          <xs:enumeration value="a405 Jorinde und Joringel"/>
          <xs:enumeration value="a405"/>
@@ -470,20 +470,20 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a440"/>
          <xs:enumeration value="a441 Hans mein Igel"/>
          <xs:enumeration value="a441"/>
-         <xs:enumeration value="a449 Sidi Numan"><xs:annotation><xs:documentation>Ein erjagtes Tier erwacht wieder zum Leben und sagt dem überraschten Jäger, dass er noch Unglaublicheres von einem anderen Jäger hören könne. Die Geschichte lautet, dass eine treulose Frau ihren Mann, der ihr und ihrem Liebhaber heimlich folgt, in verschiedene Tiere verwandelt. Endlich findet der Mann eine Zauberrute, wird Mensch und verwandelt die Frau und ihren Liebhaber in Esel. </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a449 Sidi Numan"> <xs:annotation><xs:documentation>Ein erjagtes Tier erwacht wieder zum Leben und sagt dem überraschten Jäger, dass er noch Unglaublicheres von einem anderen Jäger hören könne. Die Geschichte lautet, dass eine treulose Frau ihren Mann, der ihr und ihrem Liebhaber heimlich folgt, in verschiedene Tiere verwandelt. Endlich findet der Mann eine Zauberrute, wird Mensch und verwandelt die Frau und ihren Liebhaber in Esel. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a449"/>
-         <xs:enumeration value="a450 Bruederchen und Schwesterchen"/>
+         <xs:enumeration value="a450 Brüderchen und Schwesterchen"/>
          <xs:enumeration value="a450"/>
-         <xs:enumeration value="a451 Maedchen sucht seine Brueder"/>
+         <xs:enumeration value="a451 Maedchen sucht seine Brüder"/>
          <xs:enumeration value="a451"/>
          <xs:enumeration value="a460A Reise zu Gott"/>
          <xs:enumeration value="a460A"/>
          <xs:enumeration value="a461 Drei Haare vom Bart des Teufels"/>
          <xs:enumeration value="a461"/>
-         <xs:enumeration value="a465 Mann wird wegen seiner schoenen Frau verfolgt"><xs:annotation><xs:documentation>Der Held heiratet eine Frau mit übernatürlicher Fähigkeit. Ein König beneidet ihn um seine schöne Frau, und um sie in seinen Besitz zu bringen, denkt er sich schwere Aufgaben aus. Der Held löst diese Aufgaben mit Hilfe seiner Frau. Meistens führt die letzte Aufgabe zur Vernichtung des Königs.</xs:documentation></xs:annotation></xs:enumeration> 
+         <xs:enumeration value="a465 Mann wird wegen seiner schoenen Frau verfolgt"> <xs:annotation><xs:documentation>Der Held heiratet eine Frau mit übernatürlicher Fähigkeit. Ein König beneidet ihn um seine schöne Frau, und um sie in seinen Besitz zu bringen, denkt er sich schwere Aufgaben aus. Der Held löst diese Aufgaben mit Hilfe seiner Frau. Meistens führt die letzte Aufgabe zur Vernichtung des Königs.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a465"/>
-         <xs:enumeration value="a467Kau Die drei Zauberinnenschwestern"/>
-         <xs:enumeration value="a467Kau"><xs:annotation><xs:documentation>Ein mit Räubern befreundeter Jüngling bekommt von einem wunderbaren Wesen einen golderzeugenden Becher. Ein Kaufmann gibt vor, dass der Becher ihm gehöre. Der Jüngling lässt seinen Freund als Pfand beim König zurück und macht sich auf die Suche nach einem anderen Becher. Unterwegs bekommt er noch andere Zauberdinge von wunderbaren Wesen. Endlich trifft er in einem geheimnisvollen Haus drei Schwestern, die Zauberinnen sind und die einander von den Heldentaten des Jünglings erzählen. Der Jüngling heiratet die jüngste Schwester, bringt das gesuchte Objekt zum König, befreit seine Freunde und bestraft den Lügner.</xs:documentation></xs:annotation></xs:enumeration> 
+         <xs:enumeration value="a467Kau Die drei Zauberinnenschwestern"> <xs:annotation><xs:documentation>Ein mit Räubern befreundeter Jüngling bekommt von einem wunderbaren Wesen einen golderzeugenden Becher. Ein Kaufmann gibt vor, dass der Becher ihm gehöre. Der Jüngling lässt seinen Freund als Pfand beim König zurück und macht sich auf die Suche nach einem anderen Becher. Unterwegs bekommt er noch andere Zauberdinge von wunderbaren Wesen. Endlich trifft er in einem geheimnisvollen Haus drei Schwestern, die Zauberinnen sind und die einander von den Heldentaten des Jünglings erzählen. Der Jüngling heiratet die jüngste Schwester, bringt das gesuchte Objekt zum König, befreit seine Freunde und bestraft den Lügner.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a467Kau"/> 
          <xs:enumeration value="a461 Der himmelshohe Baum"/>
          <xs:enumeration value="a468"/>
          <xs:enumeration value="a470 Freunde in Leben und Tod"/>
@@ -526,7 +526,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a514"/>
          <xs:enumeration value="a514** Frau in Männerkleidung"/>
          <xs:enumeration value="a514**"/>
-         <xs:enumeration value="a516 Der treue Johannes"><xs:annotation><xs:documentation>Der Typ wird durch folgende Episoden konstituiert: Werben um die Frau – Belauschen der Schicksalskünder – Vermeidung der Gefahr – Versteinerung – Belebung durch Tötung der Kinder.</xs:documentation></xs:annotation></xs:enumeration> 
+         <xs:enumeration value="a516 Der treue Johannes"> <xs:annotation><xs:documentation>Der Typ wird durch folgende Episoden konstituiert: Werben um die Frau – Belauschen der Schicksalskünder – Vermeidung der Gefahr – Versteinerung – Belebung durch Tötung der Kinder.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a516"/>
          <xs:enumeration value="a516C Amicus und Amelius"/>
          <xs:enumeration value="a516C"/>
@@ -536,9 +536,9 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a518"/>
          <xs:enumeration value="a519 Heldenjungfrau"/>
          <xs:enumeration value="a519"/>
-         <xs:enumeration value="a530 Prinzessin auf dem Glasberg"><xs:annotation><xs:documentation>Erwerb von Zauberpferden während einer Wache; Gewinnen der Freierprobe in Form eines Rittes; Erkennen des unscheinbaren Helden.</xs:documentation></xs:annotation></xs:enumeration> 
+         <xs:enumeration value="a530 Prinzessin auf dem Glasberg"> <xs:annotation><xs:documentation>Erwerb von Zauberpferden während einer Wache; Gewinnen der Freierprobe in Form eines Rittes; Erkennen des unscheinbaren Helden.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a530"/>
-         <xs:enumeration value="a531 Sohn des Jaegers/Ferdinand der treue..."><xs:annotation><xs:documentation>1. Der Held, sein Pate, das Pferd und der glänzende Gegenstand: Ein Junge wird bei armen Eltern geboren. Niemand will Pate sein, bis ein Unbekannter (König, Gott, Maria oder Fee) sich anbietet. Alternativ ist der Held der uneheliche Sohn eines Königs. Der Pate kehrt zurück, um das Kind zu holen, oder gibt ihm einen Brief mit. Der Held reitet auf einem Pferd, das ihm sein Vater oder Pate gab. Das Pferd spricht und warnt ihn, doch der Held nimmt einen glänzenden Gegenstand (z. B. eine goldene Feder) auf. 2. Der untreue Begleiter (Rollentausch): Der Held wird von einem Gefährten begleitet, der ihn zwingt, die Rollen zu tauschen, und er muss Stillschweigen schwören. Am Königshof arbeitet der Held als Diener und sorgt für die Pferde, während sein glänzender Gegenstand Licht bringt. 3. Die dankbaren Tiere: Der Held hilft auf seinem Weg verschiedenen Tieren, die ihm später bei den Aufgaben des Königs beistehen. 4. Die Aufgaben: Neidische Berater oder Brüder überreden den König, dem Helden schwierige Aufgaben aufzutragen, wie z. B. das Finden eines Vogels, der zu einer goldenen Feder gehört, oder das Bringen einer goldhaarigen Prinzessin. Der Held löst diese Aufgaben dank seines Reittiers und der dankbaren Tiere. Er besiegt andere Pferde, erhält Schiffe beladen mit Nahrungsmitteln und entführt die Prinzessin. 5. Der Ausgang: Die Prinzessin verlangt, dass der Held gefährliche Prüfungen besteht, wie in kochender Milch zu baden. Der Held wird gerettet, indem sein Pferd oder ein anderes Wesen eingreift. Der König stirbt, als er dasselbe versucht. Der Betrüger wird entlarvt, das Pferd verwandelt sich in einen Menschen, und der Held heiratet die Prinzessin oder das Mädchen, das ihm als Pferd geholfen hat.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a531 Sohn des Jaegers/Ferdinand der treue..."> <xs:annotation><xs:documentation>1. Der Held, sein Pate, das Pferd und der glänzende Gegenstand: Ein Junge wird bei armen Eltern geboren. Niemand will Pate sein, bis ein Unbekannter (König, Gott, Maria oder Fee) sich anbietet. Alternativ ist der Held der uneheliche Sohn eines Königs. Der Pate kehrt zurück, um das Kind zu holen, oder gibt ihm einen Brief mit. Der Held reitet auf einem Pferd, das ihm sein Vater oder Pate gab. Das Pferd spricht und warnt ihn, doch der Held nimmt einen glänzenden Gegenstand (z. B. eine goldene Feder) auf. 2. Der untreue Begleiter (Rollentausch): Der Held wird von einem Gefährten begleitet, der ihn zwingt, die Rollen zu tauschen, und er muss Stillschweigen schwören. Am Königshof arbeitet der Held als Diener und sorgt für die Pferde, während sein glänzender Gegenstand Licht bringt. 3. Die dankbaren Tiere: Der Held hilft auf seinem Weg verschiedenen Tieren, die ihm später bei den Aufgaben des Königs beistehen. 4. Die Aufgaben: Neidische Berater oder Brüder überreden den König, dem Helden schwierige Aufgaben aufzutragen, wie z. B. das Finden eines Vogels, der zu einer goldenen Feder gehört, oder das Bringen einer goldhaarigen Prinzessin. Der Held löst diese Aufgaben dank seines Reittiers und der dankbaren Tiere. Er besiegt andere Pferde, erhält Schiffe beladen mit Nahrungsmitteln und entführt die Prinzessin. 5. Der Ausgang: Die Prinzessin verlangt, dass der Held gefährliche Prüfungen besteht, wie in kochender Milch zu baden. Der Held wird gerettet, indem sein Pferd oder ein anderes Wesen eingreift. Der König stirbt, als er dasselbe versucht. Der Betrüger wird entlarvt, das Pferd verwandelt sich in einen Menschen, und der Held heiratet die Prinzessin oder das Mädchen, das ihm als Pferd geholfen hat.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a531"/>
          <xs:enumeration value="a532 Das hilfreiche Pferd"/>
          <xs:enumeration value="a532"/>
@@ -548,11 +548,11 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a537"/>
          <xs:enumeration value="a540 Hund im Meer"/>
          <xs:enumeration value="a540"/>
-         <xs:enumeration value="a545B Der gestiefelte Kater"><xs:annotation><xs:documentation>Ein armer Jüngling gibt seine letzte Mahlzeit einem hungrigen Fuchs. Das dankbare Tier gibt den Jüngling für einen Prinz aus und bewirkt, dass der König ihm seine Tochter zur Frau gibt. Der Fuchs beschafft für den Jüngling und seine Frau einen Palast aus dem Besitz von Ungeheuerbrüdern, die er tötet. Der Fuchs stellt die Dankbarkeit des Jünglings auf die Probe. Der behandelt ihn zunächst schlecht, schämt sich dann aber und lässt dem Fuchs die verdiente Ehre zukommen.</xs:documentation></xs:annotation></xs:enumeration> 
+         <xs:enumeration value="a545B Der gestiefelte Kater"> <xs:annotation><xs:documentation>Ein armer Jüngling gibt seine letzte Mahlzeit einem hungrigen Fuchs. Das dankbare Tier gibt den Jüngling für einen Prinz aus und bewirkt, dass der König ihm seine Tochter zur Frau gibt. Der Fuchs beschafft für den Jüngling und seine Frau einen Palast aus dem Besitz von Ungeheuerbrüdern, die er tötet. Der Fuchs stellt die Dankbarkeit des Jünglings auf die Probe. Der behandelt ihn zunächst schlecht, schämt sich dann aber und lässt dem Fuchs die verdiente Ehre zukommen.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a545B"/>
-         <xs:enumeration value="a550 Vogel Pferd und Koenigstochter"/>
+         <xs:enumeration value="a550 Vogel Pferd und Königstochter"/>
          <xs:enumeration value="a550"/>
-         <xs:enumeration value="a551 Wasser des Lebens"><xs:annotation><xs:documentation>Es besteht einen Gefaht der Typ mit dem 314 gewechselt zu werden, siehe a314 Der Goldenere. Für den Typ ATU 551 ist wichtig dass der BZ Kontakts aufnimmt und die Wahrheit ans Tageslicht bringt.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a551 Wasser des Lebens"> <xs:annotation><xs:documentation>Es besteht einen Gefaht der Typ mit dem 314 gewechselt zu werden, siehe a314 Der Goldenere. Für den Typ ATU 551 ist wichtig dass der BZ Kontakts aufnimmt und die Wahrheit ans Tageslicht bringt.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a551"/>
          <xs:enumeration value="a552 Tierschwäger"/>
          <xs:enumeration value="a552"/>
@@ -566,7 +566,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a556F*"/>
          <xs:enumeration value="a559 Mistkäfer"/>
          <xs:enumeration value="a559"/>
-         <xs:enumeration value="a560 Zauberring"><xs:annotation><xs:documentation>Ein Jüngling wird mit einem Wunschstein belohnt. Der Stein wird gestohlen, aber die dankbaren Tiere schaffen ihn wieder herbei. </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a560 Zauberring"> <xs:annotation><xs:documentation>Ein Jüngling wird mit einem Wunschstein belohnt. Der Stein wird gestohlen, aber die dankbaren Tiere schaffen ihn wieder herbei. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a560"/>
          <xs:enumeration value="a561 Aladdin"/>
          <xs:enumeration value="a561"/>
@@ -596,7 +596,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a577"/>
          <xs:enumeration value="a580 Beliebt bei den Frauen"/>
          <xs:enumeration value="a580"/>
-         <xs:enumeration value="a590 Die treulose Mutter"><xs:annotation><xs:documentation>Der Sohn besiegt Ungeheuerbrüder und bringt seine Mutter in deren Haus. Die Mutter umsorgt ein verwundetes Ungeheuer und nimmt es zum Geliebten. Beide zusammen versuchen, den Helden umzubringen. Schließ-lich wird der Held machtlos. Er wird gerettet. Der Held rächt sich an den Verrätern.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a590 Die treulose Mutter"> <xs:annotation><xs:documentation>Der Sohn besiegt Ungeheuerbrüder und bringt seine Mutter in deren Haus. Die Mutter umsorgt ein verwundetes Ungeheuer und nimmt es zum Geliebten. Beide zusammen versuchen, den Helden umzubringen. Schließ-lich wird der Held machtlos. Er wird gerettet. Der Held rächt sich an den Verrätern.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a590"/>
          <xs:enumeration value="a591 Der stehlende Topf"/>
          <xs:enumeration value="a591"/>
@@ -614,7 +614,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a613"/>
          <xs:enumeration value="a621 Lausfell erraten"/>
          <xs:enumeration value="a621"/>
-         <xs:enumeration value="a650A Starker Hans"><xs:annotation><xs:documentation>Ein riesenhaft starker und unersättlicher Bursche dient an einem Königshof. Alle Versuche des Königs, den Helden aus dem Weg zu räumen, scheitern. Am Schluß übernimmt der Held den gesamten Besitz des Herrn.</xs:documentation></xs:annotation></xs:enumeration> 
+         <xs:enumeration value="a650A Starker Hans"> <xs:annotation><xs:documentation>Ein riesenhaft starker und unersättlicher Bursche dient an einem Königshof. Alle Versuche des Königs, den Helden aus dem Weg zu räumen, scheitern. Am Schluß übernimmt der Held den gesamten Besitz des Herrn.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a650A"/>
          <xs:enumeration value="a652 Prinz dessen Wünsche in Erfüllung gingen"/>
          <xs:enumeration value="a652"/>
@@ -622,8 +622,8 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a652A"/>
          <xs:enumeration value="a653 Die vier kunstreichen Brüder"/>
          <xs:enumeration value="a653"/>
-         <xs:enumeration value="a654 Die behenden Brüder"/>
-         <xs:enumeration value="a654"><xs:annotation><xs:documentation>Drei Freunde, Brüder oder Männer, die den Wunschvorstellungen einer Prinzessin nach bes. Fähigkeiten entsprechen, freien um sie. Sie erwerben oder besitzen wunderbare Dinge: einen Spiegel, ein Fernrohr oder eine Brille, vermittels derer man alles auf der Welt zu sehen vermag, einen Flugmantel oder -teppich und eine Lebensfrucht (Apfel, Zitrone etc.) oder -salbe, die heilen bzw. vom Tode erwecken können. Bei ihrer Zusammenkunft erkennen sie, daß die Begehrte tot ist, fliegen auf dem Teppich zu ihr und machen sie mit dem Wundermittel wieder leben- dig. Es folgt der auch der ersten Redaktion eigene Streit, wer sie zur Frau bekommen soll.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a654 Die behenden Brüder"> <xs:annotation><xs:documentation>Drei Freunde, Brüder oder Männer, die den Wunschvorstellungen einer Prinzessin nach bes. Fähigkeiten entsprechen, freien um sie. Sie erwerben oder besitzen wunderbare Dinge: einen Spiegel, ein Fernrohr oder eine Brille, vermittels derer man alles auf der Welt zu sehen vermag, einen Flugmantel oder -teppich und eine Lebensfrucht (Apfel, Zitrone etc.) oder -salbe, die heilen bzw. vom Tode erwecken können. Bei ihrer Zusammenkunft erkennen sie, daß die Begehrte tot ist, fliegen auf dem Teppich zu ihr und machen sie mit dem Wundermittel wieder leben- dig. Es folgt der auch der ersten Redaktion eigene Streit, wer sie zur Frau bekommen soll.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a654"/>
          <xs:enumeration value="a655 Die scharfsinnigen Brüder"/>
          <xs:enumeration value="a655"/>
          <xs:enumeration value="a660 Die drei Doktoren"/>
@@ -650,9 +650,9 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a704"/>
          <xs:enumeration value="a705 Vom Fisch geboren"/>
          <xs:enumeration value="a705"/>
-         <xs:enumeration value="a706 Mädchen ohne Hände"><xs:annotation><xs:documentation>Der Kern über die unschuldig verfolgte und verleumdete Frau wird in verschiedenen Erzählkomplexen dargestellt. Einer von ihnen ist die Ver-leumdung wegen Kindsmordes und die Vertreibung, nachdem ihr die Hände abgehackt worden sind. </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a706 Mädchen ohne Hände"> <xs:annotation><xs:documentation>Der Kern über die unschuldig verfolgte und verleumdete Frau wird in verschiedenen Erzählkomplexen dargestellt. Einer von ihnen ist die Ver-leumdung wegen Kindsmordes und die Vertreibung, nachdem ihr die Hände abgehackt worden sind. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a706"/>
-         <xs:enumeration value="a707 Die drei goldenen Söhne"><xs:annotation><xs:documentation>Nur die jüngere von drei Schwestern hält ihr Versprechen gegenüber dem König und gebiert goldhaarige Kinder. Die neugeborenen Kinder werden von ihren neidischen Schwestern gegen Hundejunge vertauscht und auf dem Wasser ausgesetzt. Der von den Schwestern fehlinformierte König bestraft seine Frau. Die Kinder werden gerettet. Die neidischen Schwestern kommen zu der goldhaarigen Tochter und verleiten sie dazu, den Bruder um verschiedene wunderbare Dinge zu bitten. Der Bruder bewältigt alles und heiratet die allwissende Zauberin. Die Wahrheit kommt zum Vorschein, die Schadensstifter werden bestraft.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a707 Die drei goldenen Söhne"> <xs:annotation><xs:documentation>Nur die jüngere von drei Schwestern hält ihr Versprechen gegenüber dem König und gebiert goldhaarige Kinder. Die neugeborenen Kinder werden von ihren neidischen Schwestern gegen Hundejunge vertauscht und auf dem Wasser ausgesetzt. Der von den Schwestern fehlinformierte König bestraft seine Frau. Die Kinder werden gerettet. Die neidischen Schwestern kommen zu der goldhaarigen Tochter und verleiten sie dazu, den Bruder um verschiedene wunderbare Dinge zu bitten. Der Bruder bewältigt alles und heiratet die allwissende Zauberin. Die Wahrheit kommt zum Vorschein, die Schadensstifter werden bestraft.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a707"/>
          <xs:enumeration value="a708 Wunderkind"/>
          <xs:enumeration value="a708"/>
@@ -946,7 +946,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a910B"/>
          <xs:enumeration value="a910D Schatz hinter dem Nagel"/>
          <xs:enumeration value="a910D"/>
-         <xs:enumeration value="a910E Schatz im Weinberg"><xs:annotation><xs:documentation>Auf dem Sterbebett erzählt der Vaten ihnen Söhnen, dass in seinem Weinberg ein Schatz vergraben sei, gibt allerdings nicht die genaue Stelle an. Nach sei nem Tod graben die Söhne den gesamten Weinberg um, finden jedoch nichts; dafür fallt die nächste Ernte besonders reichlich aus. Die Söhne erkennen, daß der versprochene Schatz in dem durch harte Arbeit erwirtschafteten Ertrag des Weinbergs besteht.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a910E Schatz im Weinberg"> <xs:annotation><xs:documentation>Auf dem Sterbebett erzählt der Vaten ihnen Söhnen, dass in seinem Weinberg ein Schatz vergraben sei, gibt allerdings nicht die genaue Stelle an. Nach sei nem Tod graben die Söhne den gesamten Weinberg um, finden jedoch nichts; dafür fallt die nächste Ernte besonders reichlich aus. Die Söhne erkennen, daß der versprochene Schatz in dem durch harte Arbeit erwirtschafteten Ertrag des Weinbergs besteht.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a910E"/>
          <xs:enumeration value="a910F Einigkeit macht stark"/>
          <xs:enumeration value="a910F"/>
@@ -1018,11 +1018,11 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a927D"/>
          <xs:enumeration value="a928 Bäume für die nächste Generation"/>
          <xs:enumeration value="a928"/>
-         <xs:enumeration value="a930 Uriasbrief"/>
-         <xs:enumeration value="a930"><xs:annotation><xs:documentation>Ein Mann höheren Standes hört die Weissagung über die Zukunft eines neugeborenen Knaben: Er soll einst sein Erbe antreten. Der Mann versucht Schicksalserzählungen das Kind zu töten, aber es überlebt den Mordanschlag. Als er dem Schicksalskind wieder begegnet, versucht er es mit einem — Brief in den Tod zu schicken, was durch Vertauschung oder Abänderung des Briefes abermals miß- lingt. Der Jüngling heiratet die Tochter des Reichen (vielfach kontaminiert mit AaTh 910 K: Gang zum Eisenhammer [Kalkofen]).</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a930 Uriasbrief"> <xs:annotation><xs:documentation>Ein Mann höheren Standes hört die Weissagung über die Zukunft eines neugeborenen Knaben: Er soll einst sein Erbe antreten. Der Mann versucht Schicksalserzählungen das Kind zu töten, aber es überlebt den Mordanschlag. Als er dem Schicksalskind wieder begegnet, versucht er es mit einem — Brief in den Tod zu schicken, was durch Vertauschung oder Abänderung des Briefes abermals miß- lingt. Der Jüngling heiratet die Tochter des Reichen (vielfach kontaminiert mit AaTh 910 K: Gang zum Eisenhammer [Kalkofen]).</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a930"/>
          
-         <xs:enumeration value="a930A Die vorbestimmte Frau"/>
-         <xs:enumeration value="a930A"><xs:annotation><xs:documentation>Die vorbestimmte Frau wird einem Mann hohen Standes ein neugeborenes Mädchen niederen Ranges als Ehepartnerin bestimmt. Sein Versuch, das Mädchen umzubringen, ist vergeblich, und ein Erkennungszeichen führt den Mann bei der Hochzeit zu der Einsicht, daß die Voraussage sich erfüllt hat.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a930A Die vorbestimmte Frau"> <xs:annotation><xs:documentation>Die vorbestimmte Frau wird einem Mann hohen Standes ein neugeborenes Mädchen niederen Ranges als Ehepartnerin bestimmt. Sein Versuch, das Mädchen umzubringen, ist vergeblich, und ein Erkennungszeichen führt den Mann bei der Hochzeit zu der Einsicht, daß die Voraussage sich erfüllt hat.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a930A"/>
          <xs:enumeration value="a931 oedipus"/>
          <xs:enumeration value="a931"/>
          <xs:enumeration value="a931A Elternmörder"/>
@@ -1107,7 +1107,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a992"/>
          <xs:enumeration value="a992A Buße der Ehebrecherin"/>
          <xs:enumeration value="a992A"/>        
-         <xs:enumeration value="a1000 Zornwette"><xs:annotation><xs:documentation>Ein listiger Knecht schließt mit einem Bauern (Teufel, Oger, Pfarrer) einen Vertrag (Wette), gemäß dem derjenige, der zuerst wütend wird, eine drastische physische Bestrafung erhalten soll. Indem der Knecht die Aufträge wörtlich nimmt (die Arbeiten mutwillig falsch ausführt), fügt er seinem Herrn so eklatante Schädigungen zu, daß dieser schließlich die Beherrschung verliert. Der Herr versucht zu entkommen, entgeht jedoch der vereinbarten Strafe nicht.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a1000 Zornwette"> <xs:annotation><xs:documentation>Ein listiger Knecht schließt mit einem Bauern (Teufel, Oger, Pfarrer) einen Vertrag (Wette), gemäß dem derjenige, der zuerst wütend wird, eine drastische physische Bestrafung erhalten soll. Indem der Knecht die Aufträge wörtlich nimmt (die Arbeiten mutwillig falsch ausführt), fügt er seinem Herrn so eklatante Schädigungen zu, daß dieser schließlich die Beherrschung verliert. Der Herr versucht zu entkommen, entgeht jedoch der vereinbarten Strafe nicht.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1000"/>
          <xs:enumeration value="a1001 Holz hacken"/>
          <xs:enumeration value="a1001"/>
@@ -1160,7 +1160,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a1162"/>
          <xs:enumeration value="a1163 Schmied lernt vom Teufel Sand zu verwenden"/>
          <xs:enumeration value="a1163"/>
-         <xs:enumeration value="a1164 Belfagor"><xs:annotation><xs:documentation>Ein geplagter Ehemann wirft sein zänkisches, widerspenstiges Weib in einen Brunnen oder eine tiefe Grube. Als er sie später aus Mitleid, Reue oder der unversorgten Kinder wegen wieder herausholen will, zieht er statt ihrer einen dort hausenden Teufel oder Dämon heraus, dem die Frau gleichermaßen zur Qual geworden ist (AaTh 1164). Zum Dank für die Rettung schließt der Teufel mit dem Mann einen Vertrag: Er fährt in eine Prinzessin und läßt sich nur von seinem Partner austreiben, so daß dieser bald weithin als Exorzist oder Wunderheiler gilt, reich belohnt wird oder auch die Hand der Prinzessin erhält (cf. auch AaTh 1862B: The Sham Physician and the Devil in Partnership). Als der Teufel in einem anderen Fall nicht weichen will, droht der Mann mit der Rückkehr der bösen Frau, worauf der Dämon sogleich die Flucht ergreift (AaTh 1164 D)</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a1164 Belfagor"> <xs:annotation><xs:documentation>Ein geplagter Ehemann wirft sein zänkisches, widerspenstiges Weib in einen Brunnen oder eine tiefe Grube. Als er sie später aus Mitleid, Reue oder der unversorgten Kinder wegen wieder herausholen will, zieht er statt ihrer einen dort hausenden Teufel oder Dämon heraus, dem die Frau gleichermaßen zur Qual geworden ist (AaTh 1164). Zum Dank für die Rettung schließt der Teufel mit dem Mann einen Vertrag: Er fährt in eine Prinzessin und läßt sich nur von seinem Partner austreiben, so daß dieser bald weithin als Exorzist oder Wunderheiler gilt, reich belohnt wird oder auch die Hand der Prinzessin erhält (cf. auch AaTh 1862B: The Sham Physician and the Devil in Partnership). Als der Teufel in einem anderen Fall nicht weichen will, droht der Mann mit der Rückkehr der bösen Frau, worauf der Dämon sogleich die Flucht ergreift (AaTh 1164 D)</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1164"/>
          <xs:enumeration value="a1165 Troll und Taufe"/>
          <xs:enumeration value="a1165"/>
@@ -1184,7 +1184,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a1188"/>
          <xs:enumeration value="a1191 Brückenopfer"/>
          <xs:enumeration value="a1191"/>
-         <xs:enumeration value="a1199 Gebet ohne Ende"><xs:annotation><xs:documentation> In einer modernen Aufzeichnung aus Israel sendet Gott den Todesengel aus, einen Menschen zu holen, weil er sein Vertrauen in Gott verloren habe. Der Mensch erreicht einen Aufschub, indem er darum bittet, ein letztes Mal das G. ,Schma, Israel' (Höre, Israel) beten zu dürfen, es aber nicht beendet. Nach einiger Zeit besucht der Todesengel erneut diesen Menschen, nimmt bei ihm Quartier und stellt sich sterbend. Der Gastgeber muß nunmehr das besagte G. über dem Sterbenden sprechen und ist nach dessen Vollendung dem Todesengel verfallen. In einem syr. Märchen erfährt ein Jüngling, daß der Todesengel ihn in seiner Hochzeitsnacht holen will (AaTh 934-934E: Todesprophezeiungen). Er heiratet erst nach Ablauf von 400 Jahren und überlistet dann den Todesengel ein zweites Mal durch ein unvollendetes Vaterunser. Nach weiteren 20 Jahren beendet er beim Essen versehentlich das G. und wird vom Tod ereilt (EM). </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a1199 Gebet ohne Ende"> <xs:annotation><xs:documentation> In einer modernen Aufzeichnung aus Israel sendet Gott den Todesengel aus, einen Menschen zu holen, weil er sein Vertrauen in Gott verloren habe. Der Mensch erreicht einen Aufschub, indem er darum bittet, ein letztes Mal das G. ,Schma, Israel' (Höre, Israel) beten zu dürfen, es aber nicht beendet. Nach einiger Zeit besucht der Todesengel erneut diesen Menschen, nimmt bei ihm Quartier und stellt sich sterbend. Der Gastgeber muß nunmehr das besagte G. über dem Sterbenden sprechen und ist nach dessen Vollendung dem Todesengel verfallen. In einem syr. Märchen erfährt ein Jüngling, daß der Todesengel ihn in seiner Hochzeitsnacht holen will (AaTh 934-934E: Todesprophezeiungen). Er heiratet erst nach Ablauf von 400 Jahren und überlistet dann den Todesengel ein zweites Mal durch ein unvollendetes Vaterunser. Nach weiteren 20 Jahren beendet er beim Essen versehentlich das G. und wird vom Tod ereilt (EM). </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1199"/>
          <xs:enumeration value="a1199A Qual des Brotes (Flachses"/>
          <xs:enumeration value="a1199A"/>
@@ -1275,9 +1275,9 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a1310"/>
          <xs:enumeration value="a1311 Verwechslung der Tiere"/>
          <xs:enumeration value="a1311"/>
-         <xs:enumeration value="a1313 Mann glaubt sich tot"><xs:annotation><xs:documentation>Handelt von einem Mann, der vermeintlich vergiftetes Essen aus einem Gefäß zu sich nimmt, um Selbstmord zu begehen. </xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a1313 Mann glaubt sich tot"> <xs:annotation><xs:documentation>Handelt von einem Mann, der vermeintlich vergiftetes Essen aus einem Gefäß zu sich nimmt, um Selbstmord zu begehen. </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1313"/>
-         <xs:enumeration value="a1313A Die Todesankündigung ernst nehmen"><xs:annotation><xs:documentation>Mann glaubt sich tot angeführt werden: Das zentrale Motiv (Mot. J 2311.1) assoziiert die Prophezeiung
+         <xs:enumeration value="a1313A Die Todesankündigung ernst nehmen"> <xs:annotation><xs:documentation>Mann glaubt sich tot angeführt werden: Das zentrale Motiv (Mot. J 2311.1) assoziiert die Prophezeiung
 mit unterschiedlichen Körperemissionen (Rülpsen, Wiehern, Furzen) des Reittieres (Esel,Pferd). </xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1313A"/>
          <xs:enumeration value="a1319 Eselsei ausbrüten"/>
@@ -1490,7 +1490,7 @@ mit unterschiedlichen Körperemissionen (Rülpsen, Wiehern, Furzen) des Reittier
          <xs:enumeration value="a1535"/>
          <xs:enumeration value="a1536A Die Alte in der Kiste"/>
          <xs:enumeration value="a1536A"/>
-         <xs:enumeration value="a1536B Die drei Buckligen"><xs:annotation><xs:documentation>Typ (a) Drei bucklige Musikanten werden von der Frau eines B.n gebeten, für sie zu musizieren. Der Ehemann kehrt unerwartet heim. Die B.n werden in einer Kiste (im Ofen, Keller) versteckt, wo sie umkommen (sich gegenseitig töten). 
+         <xs:enumeration value="a1536B Die drei Buckligen"> <xs:annotation><xs:documentation>Typ (a) Drei bucklige Musikanten werden von der Frau eines B.n gebeten, für sie zu musizieren. Der Ehemann kehrt unerwartet heim. Die B.n werden in einer Kiste (im Ofen, Keller) versteckt, wo sie umkommen (sich gegenseitig töten). 
 Typ (b) Drei Mönche (Pfarrer, Priester, Ritter, Studenten) machen einer schönen Frau Liebesanträge. Sie geht auf Anraten ihres Mannes zum Schein darauf ein und bestellt sie zu sich. Der erste Liebhaber wird nach einer Stunde durch die Ankunft des zweiten, dieser durch die des dritten gestört und versteckt sich in einer Kiste (im Ofen, Keller); der dritte Liebhaber muß sich wegen der Ankunft des Mannes verstecken. In ihrem Versteck werden die drei durch den Mann erschlagen (verbrüht, ertränkt, erstickt, verbrannt). 
 Zu (a) und (b): Ein Betrunkener (dummer Knecht, Bauer, Lastträger, Leichenträger, Bettler, Soldat, der Teufel) wird angeheuert, eine Leiche in den Fluß zu werfen (zu verscharren) ; als er zurückkehrt, liegt schon die zweite Leiche als Wiedergänger' an der gleichen Stelle, nach ihrer Beseitigung später dann die dritte. Nach dem Fortschaffen auch dieser Leiche trifft er auf dem Rückweg den buckligen Ehemann (einen Mönch, Pfarrer, Ritter), tötet diesen als vermeintlichen Wiedergänger und wirft ihn in den Fluß (vergräbt ihn); v. Mot. Κ 2322.</xs:documentation></xs:annotation></xs:enumeration>  
          <xs:enumeration value="a1536B"/>
@@ -1686,7 +1686,7 @@ Zu (a) und (b): Ein Betrunkener (dummer Knecht, Bauer, Lastträger, Leichenträg
          <xs:enumeration value="a1706D"/>
          <xs:enumeration value="a1725 Ehebruch belauscht"/>
          <xs:enumeration value="a1725"/>
-         <xs:enumeration value="a1730 Liebhaber bloßgestellt"><xs:annotation><xs:documentation>Die bildhübsche, treue Ehefrau wird von drei Möchtegernliebhabern (bes. Geistliche) bedrängt. In
+         <xs:enumeration value="a1730 Liebhaber bloßgestellt"> <xs:annotation><xs:documentation>Die bildhübsche, treue Ehefrau wird von drei Möchtegernliebhabern (bes. Geistliche) bedrängt. In
 Absprache mit ihrem Mann lädt sie die L. (meist) im Stundentakt zu einem intimen Tete-a-tete ein. Kurz vor Erfüllung ihrer Bett-Träume klopft dann jeweils der nächste, worauf der gerade präsente Anbeter in
 ein sehr unangenehmes Versteck flüchten muß. Wenn alle L. schließlich in diskriminierenden Lagen festgesetzt sind, werden sie getötet, anderweitig bestraft, lächerlich gemacht oder finanziell zur Ader
 gelassen.</xs:documentation></xs:annotation></xs:enumeration> 
@@ -1838,13 +1838,13 @@ gelassen.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aTMJ1545_4"/>
          <xs:enumeration value="aTMJ1392_1 Dem Dieb gefolgt, der alle seine Sachen gestohlen hat: Ich dachte, wir ziehen um"/>
          <xs:enumeration value="aTMJ1392_1"/>
-<xs:enumeration value="aTMJ1522_1 Nur mit Schuhen auf Baum klettern: Vielleicht gibt es dort oben einen Weg"><xs:annotation><xs:documentation>vgl. anh397</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="aTMJ1522_1 Nur mit Schuhen auf Baum klettern: Vielleicht gibt es dort oben einen Weg"> <xs:annotation><xs:documentation>vgl. anh397</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aTMJ1522_1"/>
          <xs:enumeration value="aEB279 Gute Frauen - böse Frauen"/>
          <xs:enumeration value="aEB279"/>
-         <xs:enumeration value="aTMJ2672 Zwei Streitende stehlen seine Decke"><xs:annotation><xs:documentation>vgl. anh357</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="aTMJ2672 Zwei Streitende stehlen seine Decke"> <xs:annotation><xs:documentation>vgl. anh357</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aTMJ2672"/>
-<xs:enumeration value="aTMJ1863 Ochse geprügelt, weil er dem Kalb keine guten Sitten beigebracht hat"><xs:annotation><xs:documentation>vgl. anh566</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="aTMJ1863 Ochse geprügelt, weil er dem Kalb keine guten Sitten beigebracht hat"> <xs:annotation><xs:documentation>vgl. anh566</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aTMJ1863"/>
 <xs:enumeration value="anh1"/>
 <xs:enumeration value="anh1 Упрямый ходжа"/>
@@ -2559,7 +2559,7 @@ gelassen.</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="anh356"/>
 <xs:enumeration value="anh356 Потерянный кошелек"/>
 <xs:enumeration value="anh357"/>
-<xs:enumeration value="anh357 Шум из-за чапана"><xs:annotation><xs:documentation>siehe aTMJ2672</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="anh357 Шум из-за чапана"> <xs:annotation><xs:documentation>siehe aTMJ2672</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="anh358"/>
 <xs:enumeration value="anh358 Афанди ждет вора"/>
 <xs:enumeration value="anh359"/>
@@ -2639,7 +2639,7 @@ gelassen.</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="anh396"/>
 <xs:enumeration value="anh396 Не упрекай"/>
 <xs:enumeration value="anh397"/>
-<xs:enumeration value="anh397 Перехитрил"><xs:annotation><xs:documentation>siehe aMZJ1521_1</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="anh397 Перехитрил"> <xs:annotation><xs:documentation>siehe aMZJ1521_1</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="anh398"/>
 <xs:enumeration value="anh398 Черная кость"/>
 <xs:enumeration value="anh399"/>
@@ -2977,7 +2977,7 @@ gelassen.</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="anh565"/>
 <xs:enumeration value="anh565 Научил на свою голову"/>
 <xs:enumeration value="anh566"/>
-<xs:enumeration value="anh566 Всему учат матери"><xs:annotation><xs:documentation>siehe aTMJ1863</xs:documentation></xs:annotation></xs:enumeration>
+<xs:enumeration value="anh566 Всему учат матери"> <xs:annotation><xs:documentation>siehe aTMJ1863</xs:documentation></xs:annotation></xs:enumeration>
 <xs:enumeration value="anh567"/>
 <xs:enumeration value="anh567 Еспи развяжется"/>
 <xs:enumeration value="anh568"/>
