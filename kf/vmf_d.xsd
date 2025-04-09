@@ -3,7 +3,7 @@
    
 <xs:attribute name="ana" type="d:ana">
 <xs:annotation>
-<xs:documentation><p>Die Reihefolge der Figuren:</p><p>Zaubermährchen:</p><p>rHD - rHH - rHF - rRE - rST - rVB - rBZ - rZO - rHP - rPP - rAN - rZM - fHD - fHH - fHF - fRE - fST - fVB - fBZ - fZO - fHP - fPP - fAN - fZM </p><p>Tiermärchen, Novellenartige Erzählungen und Schwänke:</p><p>zs - zsa - zt - zta - zv - zva</p></xs:documentation>
+<xs:documentation><p>Die Reihefolge der Figuren:</p><p>Zaubermährchen:</p><p>rHD - rHH - rHF - rRE - rST - rVB - rBZ - rZO - rHP - rPP - rAN - rZM - fHD - fHH - fHF - fRE - fST - fVB - fBZ - fZO - fHP - fPP - fAN - fZM </p><p>Tiermärchen, Novellenartige Erzählungen und Schwänke:</p><p>zs - zsa - zt - zta - zf - zfa - zv - zva</p></xs:documentation>
 </xs:annotation>
 </xs:attribute>
 <xs:simpleType name="ana">
@@ -18,7 +18,9 @@
    <xs:enumeration value="zta"/>
    <xs:enumeration value="zf"/>
    <xs:enumeration value="zfa"/>
-  
+   <xs:enumeration value="zv"/>
+   <xs:enumeration value="zva"/>
+   
 <xs:enumeration value="zs_zs"/>
    <xs:enumeration value="zs_zsa"/>
    <xs:enumeration value="zs_zt"/>
@@ -53,6 +55,7 @@
    <xs:enumeration value="zs_zsa_zta"/>
    <xs:enumeration value="zt_zsa_zta"/>
    <xs:enumeration value="zta_zta"/>
+   <xs:enumeration value="zv_zv"/>
    
  
 <xs:enumeration value="rHD"/>

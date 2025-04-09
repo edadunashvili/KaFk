@@ -538,7 +538,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a519"/>
          <xs:enumeration value="a530 Prinzessin auf dem Glasberg"> <xs:annotation><xs:documentation>Erwerb von Zauberpferden während einer Wache; Gewinnen der Freierprobe in Form eines Rittes; Erkennen des unscheinbaren Helden.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a530"/>
-         <xs:enumeration value="a531 Sohn des Jaegers/Ferdinand der treue..."> <xs:annotation><xs:documentation>1. Der Held, sein Pate, das Pferd und der glänzende Gegenstand: Ein Junge wird bei armen Eltern geboren. Niemand will Pate sein, bis ein Unbekannter (König, Gott, Maria oder Fee) sich anbietet. Alternativ ist der Held der uneheliche Sohn eines Königs. Der Pate kehrt zurück, um das Kind zu holen, oder gibt ihm einen Brief mit. Der Held reitet auf einem Pferd, das ihm sein Vater oder Pate gab. Das Pferd spricht und warnt ihn, doch der Held nimmt einen glänzenden Gegenstand (z. B. eine goldene Feder) auf. 2. Der untreue Begleiter (Rollentausch): Der Held wird von einem Gefährten begleitet, der ihn zwingt, die Rollen zu tauschen, und er muss Stillschweigen schwören. Am Königshof arbeitet der Held als Diener und sorgt für die Pferde, während sein glänzender Gegenstand Licht bringt. 3. Die dankbaren Tiere: Der Held hilft auf seinem Weg verschiedenen Tieren, die ihm später bei den Aufgaben des Königs beistehen. 4. Die Aufgaben: Neidische Berater oder Brüder überreden den König, dem Helden schwierige Aufgaben aufzutragen, wie z. B. das Finden eines Vogels, der zu einer goldenen Feder gehört, oder das Bringen einer goldhaarigen Prinzessin. Der Held löst diese Aufgaben dank seines Reittiers und der dankbaren Tiere. Er besiegt andere Pferde, erhält Schiffe beladen mit Nahrungsmitteln und entführt die Prinzessin. 5. Der Ausgang: Die Prinzessin verlangt, dass der Held gefährliche Prüfungen besteht, wie in kochender Milch zu baden. Der Held wird gerettet, indem sein Pferd oder ein anderes Wesen eingreift. Der König stirbt, als er dasselbe versucht. Der Betrüger wird entlarvt, das Pferd verwandelt sich in einen Menschen, und der Held heiratet die Prinzessin oder das Mädchen, das ihm als Pferd geholfen hat.</xs:documentation></xs:annotation></xs:enumeration>
+         <xs:enumeration value="a531 Sohn des Jägers/Ferdinand der treue..."> <xs:annotation><xs:documentation>1. Der Held, sein Pate, das Pferd und der glänzende Gegenstand: Ein Junge wird bei armen Eltern geboren. Niemand will Pate sein, bis ein Unbekannter (König, Gott, Maria oder Fee) sich anbietet. Alternativ ist der Held der uneheliche Sohn eines Königs. Der Pate kehrt zurück, um das Kind zu holen, oder gibt ihm einen Brief mit. Der Held reitet auf einem Pferd, das ihm sein Vater oder Pate gab. Das Pferd spricht und warnt ihn, doch der Held nimmt einen glänzenden Gegenstand (z. B. eine goldene Feder) auf. 2. Der untreue Begleiter (Rollentausch): Der Held wird von einem Gefährten begleitet, der ihn zwingt, die Rollen zu tauschen, und er muss Stillschweigen schwören. Am Königshof arbeitet der Held als Diener und sorgt für die Pferde, während sein glänzender Gegenstand Licht bringt. 3. Die dankbaren Tiere: Der Held hilft auf seinem Weg verschiedenen Tieren, die ihm später bei den Aufgaben des Königs beistehen. 4. Die Aufgaben: Neidische Berater oder Brüder überreden den König, dem Helden schwierige Aufgaben aufzutragen, wie z. B. das Finden eines Vogels, der zu einer goldenen Feder gehört, oder das Bringen einer goldhaarigen Prinzessin. Der Held löst diese Aufgaben dank seines Reittiers und der dankbaren Tiere. Er besiegt andere Pferde, erhält Schiffe beladen mit Nahrungsmitteln und entführt die Prinzessin. 5. Der Ausgang: Die Prinzessin verlangt, dass der Held gefährliche Prüfungen besteht, wie in kochender Milch zu baden. Der Held wird gerettet, indem sein Pferd oder ein anderes Wesen eingreift. Der König stirbt, als er dasselbe versucht. Der Betrüger wird entlarvt, das Pferd verwandelt sich in einen Menschen, und der Held heiratet die Prinzessin oder das Mädchen, das ihm als Pferd geholfen hat.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a531"/>
          <xs:enumeration value="a532 Das hilfreiche Pferd"/>
          <xs:enumeration value="a532"/>
@@ -550,7 +550,7 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a540"/>
          <xs:enumeration value="a545B Der gestiefelte Kater"> <xs:annotation><xs:documentation>Ein armer Jüngling gibt seine letzte Mahlzeit einem hungrigen Fuchs. Das dankbare Tier gibt den Jüngling für einen Prinz aus und bewirkt, dass der König ihm seine Tochter zur Frau gibt. Der Fuchs beschafft für den Jüngling und seine Frau einen Palast aus dem Besitz von Ungeheuerbrüdern, die er tötet. Der Fuchs stellt die Dankbarkeit des Jünglings auf die Probe. Der behandelt ihn zunächst schlecht, schämt sich dann aber und lässt dem Fuchs die verdiente Ehre zukommen.</xs:documentation></xs:annotation></xs:enumeration> 
          <xs:enumeration value="a545B"/>
-         <xs:enumeration value="a550 Vogel Pferd und Königstochter"/>
+         <xs:enumeration value="a550 Vogel Pferd und Königstochter"> <xs:annotation> <xs:documentation>(1) Ein goldener Vogel stiehlt die Äpfel des Königs. Die Söhne sollen ihn fangen. Nur der Jüngste bleibt wach und sichert eine Feder. Alternativ braucht ein kranker König den Gesang des Vogels zur Heilung. (2) Die drei Brüder machen sich auf die Suche. Die Älteren missachten die Warnung eines Fuchses (Wolf) und scheitern. Der Jüngste hilft dem Tier, das ihn zum Vogel führt. Trotz Warnung nimmt er auch den Käfig mit, wird ertappt und muss als Ausgleich ein Zauberpferd beschaffen. Erneut missachtet er den Rat, wird gefasst und soll nun eine Prinzessin holen. Der Fuchs übernimmt die Aufgabe und hilft bei der Flucht mit Prinzessin, Pferd und Vogel. Der Held rettet später seine Brüder, obwohl der Helfer davor warnt. Diese verraten ihn und nehmen die Beute. Der Fuchs rettet und belebt ihn. Am Ende wird der Prinz als wahrer Held erkannt, heiratet die Prinzessin, die Brüder werden bestraft, der verzauberte Helfer erlöst.</xs:documentation> </xs:annotation> </xs:enumeration> 
          <xs:enumeration value="a550"/>
          <xs:enumeration value="a551 Wasser des Lebens"> <xs:annotation><xs:documentation>Es besteht einen Gefaht der Typ mit dem 314 gewechselt zu werden, siehe a314 Der Goldenere. Für den Typ ATU 551 ist wichtig dass der BZ Kontakts aufnimmt und die Wahrheit ans Tageslicht bringt.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a551"/>
@@ -688,6 +688,8 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a750A"/>
          <xs:enumeration value="a750B Gastfreundschaft wird belohnt"/>
          <xs:enumeration value="a750B"/>
+         <xs:enumeration value="a750D God and the Three Brothers"/>
+         <xs:enumeration value="a750D"/>
          <xs:enumeration value="a751A Bäuerin als Specht"/>
          <xs:enumeration value="a751A"/>
          <xs:enumeration value="a751E* Mann im Mond"/>
@@ -912,6 +914,8 @@ zwischen Tieren und Mensch"> <xs:annotation><xs:documentation>(1) Ein armer Mann
          <xs:enumeration value="a887"/>
          <xs:enumeration value="a888 Die treue Frau"/>
          <xs:enumeration value="a888"/>
+         <xs:enumeration value="a888A* The Basket Maker"/>
+         <xs:enumeration value="a888A*"/>
          <xs:enumeration value="a889 Der treue Diener"/>
          <xs:enumeration value="a889"/>
          <xs:enumeration value="a890 Fleischpfand"/>
@@ -1470,10 +1474,12 @@ mit unterschiedlichen Körperemissionen (Rülpsen, Wiehern, Furzen) des Reittier
          <xs:enumeration value="a1526"/>
          <xs:enumeration value="a1527 Räuber betrogen"/>
          <xs:enumeration value="a1527"/>
-         <xs:enumeration value="a1528 Neidhart mit dem Veilchen"/>
+         <xs:enumeration value="a1528 Den Hut bewachen"/>
          <xs:enumeration value="a1528"/>
          <xs:enumeration value="a1529 Dieb als Esel"/>
          <xs:enumeration value="a1529"/>
+         <xs:enumeration value="a1530 Den Felsen halten"/>
+         <xs:enumeration value="a1530"/>
          <xs:enumeration value="a1531 Bauer wird König für einen Tag"/>
          <xs:enumeration value="a1531"/>
          <xs:enumeration value="a1532 Stimme aus dem Grab"/>
@@ -1829,6 +1835,8 @@ gelassen.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="a1950A"/>
          <xs:enumeration value="a1960 Die ungewöhnliche Größe"/>
          <xs:enumeration value="a1960"/>
+         <xs:enumeration value="a1960M Das große Insekt"/>
+         <xs:enumeration value="a1960M"/>
          <xs:enumeration value="a1965 Die schadhaften Gesellen"/>
          <xs:enumeration value="a1965"/>
          <xs:enumeration value="a2031 Stärkste Dinge"/>
@@ -1844,6 +1852,8 @@ gelassen.</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aTMJ1392_1"/>
 <xs:enumeration value="aTMJ1522_1 Nur mit Schuhen auf Baum klettern: Vielleicht gibt es dort oben einen Weg"> <xs:annotation><xs:documentation>vgl. anh397</xs:documentation></xs:annotation></xs:enumeration>
          <xs:enumeration value="aTMJ1522_1"/>
+         <xs:enumeration value="aEB144 Geschichtenerzähler"/>
+         <xs:enumeration value="aEB144"/>
          <xs:enumeration value="aEB279 Gute Frauen - böse Frauen"/>
          <xs:enumeration value="aEB279"/>
          <xs:enumeration value="aTMJ2672 Zwei Streitende stehlen seine Decke"> <xs:annotation><xs:documentation>vgl. anh357</xs:documentation></xs:annotation></xs:enumeration>

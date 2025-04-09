@@ -16,6 +16,8 @@
 <xs:enumeration value="HF"/>
 <xs:enumeration value="Hh"/>
 
+
+
 <xs:enumeration value="N"/>
 
 </xs:restriction>
