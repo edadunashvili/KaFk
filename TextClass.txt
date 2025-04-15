@@ -1,1 +1,1 @@
-['zyx_cc_ddo_rus_55', 'zyx_cr_ava_rus_110', 'zyx_cr_ava_rus_176', 'zyx_cr_ava_rus_179', 'zyx_cr_ava_rus_2', 'zyx_cr_dar_rus_2', 'zyx_cr_dar_rus_7', 'zyx_cr_khv_rus_17', 'zyx_cr_kum_rus_1', 'zyx_cr_lez_rus_1', 'zyx_cr_lez_rus_2', 'zyx_cr_lez_rus_29', 'zyx_cr_tab_rus_23']
+['zyx_cr_nog_rus_30', 'zyx_cr_ttt_rus_31']
